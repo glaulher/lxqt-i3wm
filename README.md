@@ -2,7 +2,8 @@
 xbps-install -Suv
 xbps-install -S dbus elogind gvfs 
 xbps-install -Sy void-repo-nonfree void-repo-multilib
-xbps-install  xorg-minimal mesa-intel-dri xf86-video-intel dbus elogind gvfs ntfs-3g linux-firmware-intel  intel-ucode
+xbps-install xorg-minimal mesa-intel-dri xf86-video-intel dbus elogind gvfs 
+xbps-install setxkbmap ntfs-3g linux-firmware-intel  intel-ucode
 xbps-reconfigure -f linux
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/elogind /var/service
