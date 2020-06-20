@@ -10,3 +10,7 @@ ln -s /etc/sv/elogind /var/service
 xbps-install -S lxqt nano Adapta papirus-icon-theme breeze-cursors qt5-styleplugins picom font-firacode 
 xbps-install -S pulseaudio pavucontrol-qt alsa-plugins-pulseaudio alsa-utils 
 xbps-install -S geany firefox-i18n-pt-BR
+
+# add tray icon weather
+
+# https://github.com/dglent/meteo-qt
