@@ -129,39 +129,39 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Keybinding for Volume management 
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10%
-bindsym XF86AudioMute exec pactl set-sink-mute 0  toggle
+#bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10%
+#bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10%
+#bindsym XF86AudioMute exec pactl set-sink-mute 0  toggle
 # End Keybinding for Volume management
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
 
 #bindsym XF86MonBrightnessUp exec xbacklight -inc 10 && notify-send --expire-time=50 "LCD Backlight $(printf %.0f%% $(xbacklight -get))
 #bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'Brightness up'" 
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; ~/.config/scripts/controlbright.sh --popup"
 bindsym XF86MonBrightnessDown exec " xbacklight -dec 10; ~/.config/scripts/controlbright.sh --popup"
 
-bindsym $mod+b bar hidden_state toggle
-bindsym $alt+b bar hidden_state toggle
+#bindsym $mod+b bar hidden_state toggle
+#bindsym $alt+b bar hidden_state toggle
  
-bindsym Print exec xfce4-screenshooter
+#bindsym Print exec xfce4-screenshooter
 
 #bindsym $mod+f2 exec rifle "$(find -type f | fzf -e --reverse --prompt="Enter string > " --header="ESC to quit. ")"
 
 # Rofi
-bindsym $mod+m exec /home/glaulher/.config/scripts/scriptrofi.sh
+#bindsym $mod+m exec /home/glaulher/.config/scripts/scriptrofi.sh
 #bindsym $mod+m exec xfce4-appfinder
-bindsym $alt+ctrl+t exec xterm
+#bindsym $alt+ctrl+t exec xterm
 #bindsym $mod+n exec wicd-client -n
 
-bindsym $mod+g exec google-chrome
-bindsym $mod+c exec chromium
+#bindsym $mod+g exec google-chrome
+#bindsym $mod+c exec chromium
 
-bindsym control+$mod+c exec --no-startup-id ~/.config/scripts/popup-calendar.sh --popup;focus
-bindsym --whole-window control+$mod+button1 exec --no-startup-id ~/.config/scripts/popup-calendar.sh --popup;focus
+#bindsym control+$mod+c exec --no-startup-id ~/.config/scripts/popup-calendar.sh --popup;focus
+#bindsym --whole-window control+$mod+button1 exec --no-startup-id ~/.config/scripts/popup-calendar.sh --popup;focus
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -261,14 +261,14 @@ for_window [class="Wicd-client"] floating enable
 ################
 
 #exec --no-startup-id polybar -r mybar 
-exec --no-startup-id $HOME/.config/scripts/wallpapers.sh
+#exec --no-startup-id $HOME/.config/scripts/wallpapers.sh
 #exec_always --no-startup-id $HOME/.config/scripts/launch.sh
-exec --no-startup-id compton --backend glx --paint-on-overlay --vsync opengl-swc &
-exec_always --no-startup-id $HOME/.config/scripts/conky/FileConkyi3/startconky.sh
+#exec --no-startup-id compton --backend glx --paint-on-overlay --vsync opengl-swc &
+#exec_always --no-startup-id $HOME/.config/scripts/conky/FileConkyi3/startconky.sh
 #exec_always --no-startup-id $HOME/.config/scripts/conky/FileConkyi3/startconkyi3simple.sh
 
 #exec xfce4-power-manager --no-daemon &
-exec --no-startup-id lxpolkit &  
+#exec --no-startup-id lxpolkit &  
 #exec_always --no-startup-id nm-applet
 #exec --no-startup-id wicd-client --tray 
 #exec --no-startup-id /opt/extras.ubuntu.com/my-weather-indicator/bin/my-weather-indicator

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/home/glaulher/.config/scripts/wallpapers.sh
+Name=wallpapers
+Type=Application
+Version=1.0
