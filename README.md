@@ -8,9 +8,9 @@ xbps-reconfigure -f linux
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/elogind /var/service
 
-xbps-install -S lxqt nano Adapta papirus-icon-theme breeze-cursors qt5-styleplugins picom font-firacode 
-xbps-install -S pulseaudio pavucontrol-qt alsa-plugins-pulseaudio alsa-utils 
-xbps-install -S geany firefox-i18n-pt-BR wicd-gtk
+xbps-install -S lxqt nano Adapta papirus-icon-theme breeze-cursors qt5-styleplugins picom font-firacode font-awesome5
+xbps-install -S pulseaudio pavucontrol-qt alsa-plugins-pulseaudio alsa-utils squashfs-tools 
+xbps-install -S geany firefox-i18n-pt-BR ranger trash-cli mpv feh lrzip unzip zip p7zip-unrar p7zip wicd-gtk
 
 > add tray icon weather
 
