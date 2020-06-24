@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+notify-send --icon=geany --app-name=Geany "Olá"
+geany
+	
+	

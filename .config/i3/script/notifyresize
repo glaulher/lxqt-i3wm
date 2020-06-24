@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+notify-send --expire-time=300000 --icon=preferences-desktop-display --urgency=critical --app-name=RESIZE "Redimensionar a janela"
+
+
+
+	
+	

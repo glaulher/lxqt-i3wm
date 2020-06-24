@@ -57,8 +57,10 @@ bindsym --whole-window button2 exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#
 #########################
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2'  
-bindsym $alt+d exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2'
+#bindsym $mod+d exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2'  
+#bindsym $alt+d exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2'
+bindsym $mod+d exec lxqt-runner
+bindsym $alt+d exec lxqt-runner
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -144,6 +146,10 @@ bindsym $mod+Shift+r restart
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; ~/.config/scripts/controlbright.sh --popup"
 bindsym XF86MonBrightnessDown exec " xbacklight -dec 10; ~/.config/scripts/controlbright.sh --popup"
 
+bindsym Escape exec --no-startup-id ~/.config/i3/script/notifyesc
+#bindsym $mod+r exec --no-startup-id ~/.config/i3/script/notifyresize
+#bindsym $alt+r exec --no-startup-id ~/.config/i3/script/notifyresize
+
 #bindsym $mod+b bar hidden_state toggle
 #bindsym $alt+b bar hidden_state toggle
  
@@ -166,7 +172,7 @@ bindsym XF86MonBrightnessDown exec " xbacklight -dec 10; ~/.config/scripts/contr
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
-
+      
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
@@ -185,10 +191,11 @@ mode "resize" {
         # back to normal: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
+       
 }
  
-bindsym $mod+r mode "resize"
-
+bindsym $mod+r mode "resize"; exec --no-startup-id ~/.config/i3/script/notifyresize
+#bindsym $alt+r mode "resize"; exec --no-startup-id ~/.config/i3/script/notifyresize
 #############
 # Workspace #
 #############

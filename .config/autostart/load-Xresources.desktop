@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=xrdb -load ~/.Xresources
+Name=load-Xresources
+Type=Application
+Version=1.0

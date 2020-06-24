@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pkill -f lxqt-notificationd
+sleep 1
+notify-send --icon=system-log-out --app-name=ESC "esc sair"
+
+	
+	
