@@ -66,7 +66,7 @@ LXQtPanelPlugin > QToolButton:pressed {
 #DesktopSwitch QToolButton:on {
     background: rgb(98,114,164);
     border: 1px solid rgb(39, 44, 53);
-    font: bold;
+    font: normal;
 }
 
 #DesktopSwitch QToolButton:hover {
