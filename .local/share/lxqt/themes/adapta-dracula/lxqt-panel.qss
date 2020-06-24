@@ -310,7 +310,7 @@ TrayIcon {
     border: 0px;
 }
 #KbIndicator > QLabel:disabled {
-    color: #242f35;    
+    color: #383a59;    
 }
 
 #KbIndicator > QLabel:enabled {
