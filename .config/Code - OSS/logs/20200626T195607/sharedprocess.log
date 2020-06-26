@@ -1,0 +1,33 @@
+[2020-06-26 19:56:11.942] [sharedprocess] [info] main {"machineId":"15ca4dbb3fc2ad93d80e7da0470b5570f213298efdb138ee8a17336fa593b476","windowId":2}
+[2020-06-26 19:56:12.007] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/glaulher/.config/Code - OSS/User/snippets'
+[2020-06-26 19:56:15.109] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2020-06-26 19:56:15.110] [sharedprocess] [info] Installing extension: editorconfig.editorconfig
+[2020-06-26 19:56:15.111] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-06-26 19:56:15.111] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2020-06-26 19:56:15.673] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /tmp/e7bc699b-47d4-4806-9b3b-fc852023d997
+[2020-06-26 19:56:15.749] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.dracula-theme.theme-dracula-2.22.1: dracula-theme.theme-dracula
+[2020-06-26 19:56:15.749] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/dracula-theme.theme-dracula-2.22.1
+[2020-06-26 19:56:15.753] [sharedprocess] [info] Installation completed. dracula-theme.theme-dracula
+[2020-06-26 19:56:15.806] [sharedprocess] [info] Downloaded extension: editorconfig.editorconfig /tmp/06724f9d-71c0-4b1e-be1c-ab048cbc3f8a
+[2020-06-26 19:56:15.809] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /tmp/eae04447-b2d6-45bc-a11e-7af9111ce500
+[2020-06-26 19:56:15.847] [sharedprocess] [info] Extensions installed successfully: dracula-theme.theme-dracula
+[2020-06-26 19:56:16.127] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.editorconfig.editorconfig-0.15.1: editorconfig.editorconfig
+[2020-06-26 19:56:16.129] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/editorconfig.editorconfig-0.15.1
+[2020-06-26 19:56:16.131] [sharedprocess] [info] Installation completed. editorconfig.editorconfig
+[2020-06-26 19:56:16.336] [sharedprocess] [info] Extensions installed successfully: editorconfig.editorconfig
+[2020-06-26 19:56:16.846] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /tmp/69fd2e42-8379-4f01-8eb6-eb659fbe7820
+[2020-06-26 19:56:17.548] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.esbenp.prettier-vscode-5.1.0: esbenp.prettier-vscode
+[2020-06-26 19:56:17.549] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.1.0
+[2020-06-26 19:56:17.560] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-06-26 19:56:17.676] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2020-06-26 19:56:18.082] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.pkief.material-icon-theme-4.2.0: pkief.material-icon-theme
+[2020-06-26 19:56:18.083] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/pkief.material-icon-theme-4.2.0
+[2020-06-26 19:56:18.085] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2020-06-26 19:56:18.175] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2020-06-26 19:56:51.982] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-26 19:57:29.420] [sharedprocess] [info] Installing extension: rocketseat.theme-omni
+[2020-06-26 19:57:30.104] [sharedprocess] [info] Downloaded extension: rocketseat.theme-omni /tmp/c7996792-4600-4d2f-b1fe-02f97665c127
+[2020-06-26 19:57:30.198] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.rocketseat.theme-omni-1.0.8: rocketseat.theme-omni
+[2020-06-26 19:57:30.199] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/rocketseat.theme-omni-1.0.8
+[2020-06-26 19:57:30.202] [sharedprocess] [info] Installation completed. rocketseat.theme-omni
+[2020-06-26 19:57:30.252] [sharedprocess] [info] Extensions installed successfully: rocketseat.theme-omni

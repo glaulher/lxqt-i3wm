@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Application;Network;
+Comment=Display network connection status in the system tray
+Comment[en_US]=Display network connection status in the system tray
+Comment[he]=הצגת מצב חיבור רשת במגש מערכת
+Exec=wicd-gtk --tray
+GenericName=Network Manager
+Hidden=true
+Icon=wicd-gtk
+Icon[en_US]=wicd-gtk
+Name=Wicd Network Manager Tray
+Name[en_US]=Wicd Network Manager Tray
+Terminal=false
+Type=Application
+Version=1.0
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel

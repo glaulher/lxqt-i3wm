@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=xrandr --output LVDS1 --gamma .7:.7:.8
+
+Name=xrandr gama 
+Type=Application
+Version=1.0

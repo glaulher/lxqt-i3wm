@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=xbacklight -set 35
+Name=xbacklight
+Type=Application
+Version=1.0

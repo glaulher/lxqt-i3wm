@@ -550,3 +550,367 @@ Error:
 2020/06/23 23:37:54 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
 2020/06/23 23:37:54 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
 2020/06/23 23:37:54 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Cannot find wind name: Setting- 1533: meteo_qt
+2020/06/24 00:07:53 INFO: Set wind name to None- 1534: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:07:53 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Cannot find wind name: Setting- 1533: meteo_qt
+2020/06/24 00:37:53 INFO: Set wind name to None- 1534: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 00:37:53 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:27 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:11:33 CRASH:
+--------------------------------------------------------------------------------
+<class 'socket.timeout'>	 
+timed out
+--------------------------------------------------------------------------------
+  File "/usr/lib/python3.8/site-packages/meteo_qt/meteo_qt.py", line 2791, in run
+    req = urllib.request.urlopen(url, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1379, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.8/urllib/request.py", line 1354, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1332, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:32 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 11:41:38 CRASH:
+--------------------------------------------------------------------------------
+<class 'socket.timeout'>	 
+timed out
+--------------------------------------------------------------------------------
+  File "/usr/lib/python3.8/site-packages/meteo_qt/meteo_qt.py", line 2791, in run
+    req = urllib.request.urlopen(url, timeout=5)
+  File "/usr/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.8/urllib/request.py", line 1379, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.8/urllib/request.py", line 1354, in do_open
+    r = h.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1332, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:11:27 INFO: Actual weather status for: Rio de Janeiro BR 26.1°<br/>Feels like 26.25 °C<br/>broken clouds- 2362: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 12:41:22 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:00:13 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:11:11 INFO: Actual weather status for: Rio de Janeiro BR 25.9°<br/>Feels like 25.61 °C<br/>broken clouds- 2362: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:30:13 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:34:55 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:38:36 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:51:01 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 13:56:59 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:27:02 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 14:56:50 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:26:50 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:56:54 WARNING: 5 secondes timeout, new tentative: 1- 2721: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:57:13 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 15:58:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:02:41 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 16:32:40 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:11:39 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 17:41:36 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:11:42 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 18:41:31 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:11:33 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 19:41:31 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:11:33 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 20:41:32 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:11:31 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 21:41:31 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/24 22:11:31 INFO: Actual weather status for: Rio de Janeiro BR 20.6°<br/>Feels like 22.59 °C<br/>clear sky- 2362: meteo_qt
+2020/06/25 19:45:28 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:45:28 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:45:28 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:45:28 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:45:28 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:56:24 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:56:24 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:56:24 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:56:24 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 19:56:24 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:07:30 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:07:30 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:07:30 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:07:30 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:07:30 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:37:30 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:37:30 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:37:30 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:37:30 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 20:37:30 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:07:39 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:07:39 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:07:39 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:07:39 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:37:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:37:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:37:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 21:37:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:07:31 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:07:31 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:07:31 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:07:31 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:07:31 INFO: Actual weather status for: Rio de Janeiro BR 23.1°<br/>Feels like 23.33 °C<br/>clear sky- 2362: meteo_qt
+2020/06/25 22:37:34 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:37:34 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:37:34 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:37:34 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 22:37:34 INFO: Actual weather status for: Rio de Janeiro BR 23.1°<br/>Feels like 23.22 °C<br/>broken clouds- 2362: meteo_qt
+2020/06/25 23:07:29 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:07:29 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:07:29 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:07:29 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:07:29 INFO: Actual weather status for: Rio de Janeiro BR 23.1°<br/>Feels like 23.22 °C<br/>broken clouds- 2362: meteo_qt
+2020/06/25 23:37:32 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:37:32 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:37:32 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/25 23:37:32 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:07:29 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:07:29 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:07:29 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:07:29 INFO: Actual weather status for: Rio de Janeiro BR 22.6°<br/>Feels like 22.26 °C<br/>broken clouds- 2362: meteo_qt
+2020/06/26 00:37:29 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:37:29 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 00:37:29 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 16:37:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:07:08 INFO: Actual weather status for: Rio de Janeiro BR 24.4°<br/>Feels like 23.47 °C<br/>scattered clouds- 2362: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 17:37:11 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:07:09 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 18:37:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:07:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 19:37:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:07:08 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:35 WARNING: 5 secondes timeout, new tentative: 1- 2721: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:38:50 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 1 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 2 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 3 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 4 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 5 : No precipitation info provided- 1619: meteo_qt
+2020/06/26 20:46:23 WARNING: Actual day forcast n° 6 : No precipitation info provided- 1619: meteo_qt

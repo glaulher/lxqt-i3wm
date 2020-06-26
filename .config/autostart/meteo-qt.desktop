@@ -3,3 +3,4 @@ Exec=/usr/bin/meteo-qt
 Name=meteo-qt
 Type=Application
 Version=1.0
+X-LXQt-Need-Tray=true
