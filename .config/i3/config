@@ -262,6 +262,11 @@ for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Yad" title="yad-brilho"] floating enable
 for_window [class="Xfce4-appfinder"] floating enable
 for_window [class="Wicd-client"] floating enable
+for_window [title="Abrir arquivos"] resize set 640 480
+for_window [title="Abrir arquivos"] move down 50 px
+
+# for see titlte, open terminal: sleep 2 && xprop -id $(xprop -root 32x '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) _NET_WM_NAME
+# for see class, open terminal: xprop | grep 'CLASS'
 
 ################
 # Auto start   #
