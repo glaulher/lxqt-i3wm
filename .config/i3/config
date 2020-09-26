@@ -152,6 +152,7 @@ bindsym Escape exec --no-startup-id ~/.config/i3/script/notifyesc
 
 #bindsym $mod+b bar hidden_state toggle
 #bindsym $alt+b bar hidden_state toggle
+bindsym $alt+b bar mode toggle
  
 #bindsym Print exec xfce4-screenshooter
 
@@ -313,6 +314,29 @@ for_window [title="Abrir arquivos"] move down 50 px
 #		status_command ~/.config/i3status/keylock
 #		status_command i3status -c ~/.config/i3status/config_color 
 #}
+
+bar {
+
+    status_command    i3status
+    position          bottom
+    font pango:Noto Sans 9
+    workspace_buttons no
+    colors {
+        background #1e272b
+        statusline  background #bcc2cd
+#       #separator #4b5262
+		separator  #1e272b
+#		colour of border, background, and text
+        focused_workspace  #44475A #6272A4 #F8F8F2
+    	active_workspace   #263238 #6272A4 #F8F8F2
+    	inactive_workspace #263238 #263238 #BFBFBF
+    	urgent_workspace   #FF5555 #FF5555 #F8F8F2
+    	binding_mode       #FF5555 #FF5555 #F8F8F2
+    }
+   
+}
+
+
 
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
