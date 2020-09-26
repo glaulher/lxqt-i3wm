@@ -316,13 +316,16 @@ for_window [title="Abrir arquivos"] move down 50 px
 #}
 
 bar {
-
+    
+    i3bar_command     i3bar -t
     status_command    i3status
+    tray_output 	  none
     position          bottom
     font pango:Noto Sans 9
     workspace_buttons no
+    
     colors {
-        background #1e272b
+        background #1e272bE6
         statusline  background #bcc2cd
 #       #separator #4b5262
 		separator  #1e272b
