@@ -22,9 +22,10 @@ order += "wireless wlp2s0"
 #order += "battery 0"
 
 memory {
-        format = "<span foreground='#ce63f3'> MEM Usado %used - Livre %available </span>"
-        threshold_degraded = "1G"
-        format_degraded = "MEMORY < %available"
+#        format = "<span foreground='#ce63f3'> MEM Usado %used - Livre %free - Disponível %available </span>"
+		 format = "<span foreground='#ce63f3'> MEM Usado %used - Total %total </span>"
+         threshold_degraded = "300M"
+         format_degraded = "MEMORY < %available"
 }
 
 #tztime local {
@@ -86,7 +87,7 @@ wireless wlp2s0 {
 #        low_threshold = 10
 #}
 
-tztime local {
-		format = "<span foreground='#81a1c1'> %time </span>"
-		format_time = "%a %-d %b %H:%M"
-}
+#tztime local {
+#		format = "<span foreground='#81a1c1'> %time </span>"
+#		format_time = "%a %-d %b %H:%M"
+#}
