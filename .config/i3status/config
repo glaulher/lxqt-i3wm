@@ -49,7 +49,7 @@ cpu_usage {
 }
 
 disk "/" {
-         format = "<span foreground='#EEE8AA'> Disco %used / %free  </span>"
+         format = "<span foreground='#EEE8AA'> Disco Usado %used - Livre %free (%avail)/ Total %total  </span>"      
 #		 format = "<span foreground='#EEE8AA'>  %free  </span>"
 }
 
