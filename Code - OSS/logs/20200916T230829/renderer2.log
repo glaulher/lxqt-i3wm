@@ -1,0 +1,2 @@
+[2020-09-16 23:08:33.890] [renderer2] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/glaulher/Documentos/javascript/project/gobarber/src/app/controllers/UserController.js'
+[2020-09-16 23:08:33.891] [renderer2] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/glaulher/Documentos/javascript/project/gobarber/src/app/controllers/UserController.js'

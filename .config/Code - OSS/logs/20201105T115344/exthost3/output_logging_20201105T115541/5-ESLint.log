@@ -1,0 +1,9 @@
+[Info  - 11:55:41] ESLint server is starting
+node[15936]: pthread_create: Invalid argument
+[Info  - 11:55:42] ESLint server running in node v12.14.1
+[Info  - 11:55:42] ESLint server is running.
+node[15970]: pthread_create: Invalid argument
+node[16080]: pthread_create: Invalid argument
+node[17719]: pthread_create: Invalid argument
+node[18194]: pthread_create: Invalid argument
+node[18222]: pthread_create: Invalid argument

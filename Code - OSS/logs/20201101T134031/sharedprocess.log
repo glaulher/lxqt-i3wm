@@ -1,0 +1,20 @@
+[2020-11-01 13:40:39.478] [sharedprocess] [info] main {"machineId":"15ca4dbb3fc2ad93d80e7da0470b5570f213298efdb138ee8a17336fa593b476","windowId":2}
+[2020-11-01 13:40:48.060] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2020-11-01 13:40:48.067] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-11-01 13:40:48.067] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2020-11-01 13:40:49.209] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint undefined
+[2020-11-01 13:40:49.475] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.dbaeumer.vscode-eslint-2.1.13: dbaeumer.vscode-eslint
+[2020-11-01 13:40:49.476] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.13
+[2020-11-01 13:40:49.479] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2020-11-01 13:40:49.668] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2020-11-01 13:40:49.782] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme undefined
+[2020-11-01 13:40:50.257] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode undefined
+[2020-11-01 13:40:51.657] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.esbenp.prettier-vscode-5.7.1: esbenp.prettier-vscode
+[2020-11-01 13:40:51.657] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.7.1
+[2020-11-01 13:40:51.662] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-11-01 13:40:51.799] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2020-11-01 13:40:53.528] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.pkief.material-icon-theme-4.4.0: pkief.material-icon-theme
+[2020-11-01 13:40:53.528] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/pkief.material-icon-theme-4.4.0
+[2020-11-01 13:40:53.531] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2020-11-01 13:40:53.654] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2020-11-01 13:41:19.546] [sharedprocess] [info] Starting to clean up unused language packs.

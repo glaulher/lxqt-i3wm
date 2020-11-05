@@ -1,0 +1,15 @@
+[2020-11-02 17:06:18.849] [info] Running version 2020.4.2
+[2020-11-02 17:06:19.485] [info] [fix] Running database repairs
+[2020-11-02 17:06:19.926] [info] [db] Initialized DB at /home/glaulher/.config/Insomnia/insomnia.$TYPE.db
+[2020-11-02 17:06:19.927] [info] Init responses DB
+[2020-11-02 17:06:19.929] [info] [localstorage] Initialized at /home/glaulher/.config/Insomnia/localStorage
+[2020-11-02 17:06:20.387] [info] [main] Loading file:///tmp/.mount_InsomnL55xYe/resources/app.asar/renderer.html
+[2020-11-02 17:06:20.430] [info] [ga] Non-interactive General, Launched, 2020.4.2
+[2020-11-02 17:06:20.465] [info] [ga] Queued event [
+  { name: 't', value: 'event' },
+  { name: 'ec', value: 'General' },
+  { name: 'ea', value: 'Launched' },
+  { name: 'ni', value: '1' },
+  { name: 'el', value: '2020.4.2' }
+]
+[2020-11-02 17:06:20.933] [info] [updater] Updater not running platform=linux dev=false

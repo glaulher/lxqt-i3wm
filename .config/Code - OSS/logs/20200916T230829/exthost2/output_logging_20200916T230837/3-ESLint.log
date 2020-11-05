@@ -1,0 +1,14 @@
+[Info  - 23:08:37] ESLint server stopped.
+node[9177]: pthread_create: Invalid argument
+[Info  - 23:08:38] ESLint server running in node v12.8.1
+[Info  - 23:08:38] ESLint server is running.
+Uncaught exception received.
+Error: spawn /usr/lib/electron7/electron ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+[Info  - 23:08:38] Failed to load the ESLint library for the document /home/glaulher/Documentos/javascript/project/gobarber/src/app/controllers/UserController.js
+To use ESLint for single JavaScript file install eslint globally using 'npm install -g eslint'.
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+You need to reopen VS Code after installing eslint.
+[Info  - 23:08:49] ESLint server stopped.

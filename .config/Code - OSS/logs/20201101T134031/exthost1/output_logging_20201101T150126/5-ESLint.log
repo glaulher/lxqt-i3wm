@@ -1,0 +1,14 @@
+[Info  - 15:01:26] ESLint server stopped.
+node[25897]: pthread_create: Invalid argument
+[Info  - 15:01:30] ESLint server running in node v12.14.1
+[Info  - 15:01:30] ESLint server is running.
+node[25934]: pthread_create: Invalid argument
+[Info  - 15:01:31] 
+Failed to load the ESLint library for the document /home/glaulher/Documentos/javascript/project/Site-Search/.pnp.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder Site-Search
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder Site-Search by executing the 'Disable ESLint' command.
+[Info  - 15:16:44] ESLint server stopped.

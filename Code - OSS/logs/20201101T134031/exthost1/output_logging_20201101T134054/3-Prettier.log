@@ -1,0 +1,47 @@
+["INFO" - 13:40:54] Extension Name: esbenp.prettier-vscode.
+["INFO" - 13:40:55] Extension Version: 5.6.0.
+["ERROR" - 13:40:55] Failed to load local module prettier.
+["ERROR" - 13:40:55] Cannot find module 'prettier' from '/home/glaulher/Documentos/javascript/project/Site-Search'
+Error: Cannot find module 'prettier' from '/home/glaulher/Documentos/javascript/project/Site-Search'
+	at Function.e.exports [as sync] (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:45073)
+	at t.ModuleResolver.findPkg (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:31207)
+	at t.ModuleResolver.findPkg [as findPkgMem] (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:34440)
+	at t.ModuleResolver.requireLocalPkg (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:29555)
+	at t.ModuleResolver.getPrettierInstance (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:28286)
+	at t.LanguageResolver.getSupportLanguages (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:26393)
+	at t.LanguageResolver.getSupportedLanguages (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:25932)
+	at t.default.selectors (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:55731)
+	at t.default.registerFormatter (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:54947)
+	at t.activate (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:22308)
+	at Function._callActivateOptional (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:841)
+	at Function._callActivate (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:492)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:841
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 0)
+["ERROR" - 13:40:55] Failed to load local module prettier.
+["ERROR" - 13:40:55] Cannot find module 'prettier' from '/home/glaulher/Documentos/javascript/project/Site-Search'
+Error: Cannot find module 'prettier' from '/home/glaulher/Documentos/javascript/project/Site-Search'
+	at Function.e.exports [as sync] (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:45073)
+	at t.ModuleResolver.findPkg (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:31207)
+	at t.ModuleResolver.findPkg [as findPkgMem] (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:34440)
+	at t.ModuleResolver.requireLocalPkg (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:29555)
+	at t.ModuleResolver.getPrettierInstance (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:28286)
+	at t.LanguageResolver.getSupportLanguages (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:26393)
+	at t.LanguageResolver.getSupportedFileExtensions (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:26229)
+	at t.default.selectors (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:55978)
+	at t.default.registerFormatter (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:54947)
+	at t.activate (/home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.6.0/dist/extension.js:1:22308)
+	at Function._callActivateOptional (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:841)
+	at Function._callActivate (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:492)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:841
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 0)
+["INFO" - 13:40:55] Enabling prettier for languages: ansible, css, graphql, home-assistant, html, javascript, javascriptreact, json, json5, jsonc, less, markdown, mdx, mongo, postcss, scss, typescript, typescriptreact, vue, yaml
+["INFO" - 13:40:55] Enabling prettier for file extensions: .JSON-tmLanguage, ._js, .avsc, .bones, .cjs, .component.html, .css, .es, .es6, .frag, .geojson, .gltf, .gql, .graphql, .graphqls, .gs, .har, .htm, .html, .html.hl, .ice, .inc, .jake, .js, .js.flow, .jsb, .jscad, .jsfl, .jsm, .json, .json5, .jsonc, .jsonl, .jss, .jsx, .less, .markdown, .mcmeta, .md, .mdown, .mdwn, .mdx, .mir, .mjml, .mjs, .mkd, .mkdn, .mkdown, .njs, .pac, .pcss, .postcss, .reek, .ronn, .rviz, .scss, .sjs, .ssjs, .st, .sublime-build, .sublime-commands, .sublime-completions, .sublime-keymap, .sublime-macro, .sublime-menu, .sublime-mousemap, .sublime-project, .sublime-settings, .sublime-syntax, .sublime-theme, .sublime-workspace, .sublime_metrics, .sublime_session, .syntax, .tfstate, .tfstate.backup, .topojson, .ts, .tsx, .vue, .webapp, .webmanifest, .workbook, .xht, .xhtml, .xsjs, .xsjslib, .yaml, .yaml-tmlanguage, .yaml.sed, .yml, .yml.mysql, .yy, .yyp
+["INFO" - 13:40:55] Enabling prettier for range supported languages: graphql, javascript, javascriptreact, json, typescript, typescriptreact
+["INFO" - 15:12:07] Enabling prettier for languages: ansible, css, graphql, home-assistant, html, javascript, javascriptreact, json, json5, jsonc, less, markdown, mdx, mongo, postcss, scss, typescript, typescriptreact, vue, yaml
+["INFO" - 15:12:07] Enabling prettier for file extensions: .JSON-tmLanguage, ._js, .avsc, .bones, .cjs, .component.html, .css, .es, .es6, .frag, .geojson, .gltf, .gql, .graphql, .graphqls, .gs, .har, .htm, .html, .html.hl, .ice, .inc, .jake, .js, .js.flow, .jsb, .jscad, .jsfl, .jsm, .json, .json5, .jsonc, .jsonl, .jss, .jsx, .less, .markdown, .mcmeta, .md, .mdown, .mdwn, .mdx, .mir, .mjml, .mjs, .mkd, .mkdn, .mkdown, .njs, .pac, .pcss, .postcss, .reek, .ronn, .rviz, .scss, .sjs, .ssjs, .st, .sublime-build, .sublime-commands, .sublime-completions, .sublime-keymap, .sublime-macro, .sublime-menu, .sublime-mousemap, .sublime-project, .sublime-settings, .sublime-syntax, .sublime-theme, .sublime-workspace, .sublime_metrics, .sublime_session, .syntax, .tfstate, .tfstate.backup, .topojson, .ts, .tsx, .vue, .webapp, .webmanifest, .workbook, .xht, .xhtml, .xsjs, .xsjslib, .yaml, .yaml-tmlanguage, .yaml.sed, .yml, .yml.mysql, .yy, .yyp
+["INFO" - 15:12:07] Enabling prettier for range supported languages: graphql, javascript, javascriptreact, json, typescript, typescriptreact
+["INFO" - 15:12:07] Enabling prettier for languages: ansible, css, graphql, home-assistant, html, javascript, javascriptreact, json, json5, jsonc, less, markdown, mdx, mongo, postcss, scss, typescript, typescriptreact, vue, yaml
+["INFO" - 15:12:07] Enabling prettier for file extensions: .JSON-tmLanguage, ._js, .avsc, .bones, .cjs, .component.html, .css, .es, .es6, .frag, .geojson, .gltf, .gql, .graphql, .graphqls, .gs, .har, .htm, .html, .html.hl, .ice, .inc, .jake, .js, .js.flow, .jsb, .jscad, .jsfl, .jsm, .json, .json5, .jsonc, .jsonl, .jss, .jsx, .less, .markdown, .mcmeta, .md, .mdown, .mdwn, .mdx, .mir, .mjml, .mjs, .mkd, .mkdn, .mkdown, .njs, .pac, .pcss, .postcss, .reek, .ronn, .rviz, .scss, .sjs, .ssjs, .st, .sublime-build, .sublime-commands, .sublime-completions, .sublime-keymap, .sublime-macro, .sublime-menu, .sublime-mousemap, .sublime-project, .sublime-settings, .sublime-syntax, .sublime-theme, .sublime-workspace, .sublime_metrics, .sublime_session, .syntax, .tfstate, .tfstate.backup, .topojson, .ts, .tsx, .vue, .webapp, .webmanifest, .workbook, .xht, .xhtml, .xsjs, .xsjslib, .yaml, .yaml-tmlanguage, .yaml.sed, .yml, .yml.mysql, .yy, .yyp
+["INFO" - 15:12:07] Enabling prettier for range supported languages: graphql, javascript, javascriptreact, json, typescript, typescriptreact

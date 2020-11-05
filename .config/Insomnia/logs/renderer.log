@@ -1,0 +1,591 @@
+[2020-11-05 13:00:53.856] [info] [db] Initialized DB client
+[2020-11-05 13:00:54.521] [info] [FileSystemDriver] Initialized in "/home/glaulher/.config/Insomnia/version-control"
+[2020-11-05 13:00:54.580] [info] [ga] Event Activity, Change, insomnia
+[2020-11-05 13:00:54.581] [info] [ga] Page /insomnia
+[2020-11-05 13:00:56.100] [info] [sync] Initialized
+[2020-11-05 13:01:50.423] [info] [ga] Event Modals, Show, SettingsModal
+[2020-11-05 13:02:30.695] [info] [plugins] Fetching module info from npm
+[2020-11-05 13:04:04.407] [info] [plugins] Fetching module info from npm
+[2020-11-05 13:04:30.125] [info] [plugins] Fetching module info from npm
+[2020-11-05 13:04:55.885] [info] [plugins] Fetching module info from npm
+[2020-11-05 13:09:21.088] [info] [plugin] Loaded /home/glaulher/.config/Insomnia/plugins/dracula
+[2020-11-05 13:17:28.472] [info] [ga] Event Modals, Show, WorkspaceEnvironmentsEditModal
+[2020-11-05 13:17:33.541] [info] [App] Forcing update from environment change [
+  'insert',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593053518,
+    created: 1604593053518,
+    name: 'New Environment',
+    data: {},
+    dataPropertyOrder: null,
+    color: null,
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:17:44.142] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593064131,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: null,
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:17:47.668] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593067652,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#7d69cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:19.122] [info] [ga] Event Modals, Show, WorkspaceEnvironmentsEditModal
+[2020-11-05 13:18:28.712] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593108684,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: null,
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:30.586] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593110575,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#7d69cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:38.338] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593118325,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#3300ff',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:39.379] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593119367,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#302c3f',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:40.446] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593120437,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#3e336b',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:41.263] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593121254,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#2d215f',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:42.052] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593122045,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#2e2749',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:42.494] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593122486,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#5b5478',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:43.062] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593123054,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#6a5ca3',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:43.999] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593123990,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#5e4ca9',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:44.559] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593124551,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#413573',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:18:45.343] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593125335,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#3e3758',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:43.535] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593183524,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: null,
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:45.135] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593185127,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#7d69cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:48.408] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593188399,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#0969cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:48.583] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593188576,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#6269cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:52.100] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593192084,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#620bcb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:52.615] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593192607,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#6272cb',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:55.059] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593195052,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#627201',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:55.748] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593195740,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#627210',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:19:56.748] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593196739,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: null,
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:20:27.599] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593227593,
+    created: 1604593053518,
+    name: 'Dev',
+    data: {},
+    dataPropertyOrder: {},
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:21.294] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593281284,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: '' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:32.157] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593292148,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:33.842] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593293834,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http:' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:35.462] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593295454,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:36.853] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593296844,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://local' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:38.084] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593298075,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://localhost' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:39.814] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593299807,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://localhost:' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:40.973] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593300966,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://localhost:333' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
+[2020-11-05 13:21:42.127] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_0c088dade2af4754b0717e438f30da64',
+    type: 'Environment',
+    parentId: 'env_24047877a66dfc2cca5976236a37546893f2b7ce',
+    modified: 1604593302117,
+    created: 1604593053518,
+    name: 'Dev',
+    data: { base_url: 'http://localhost:3333' },
+    dataPropertyOrder: { '&': [ 'base_url' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1604593053518
+  },
+  false
+]
