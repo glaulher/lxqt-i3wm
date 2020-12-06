@@ -5,6 +5,11 @@ x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 text/plain=geany.desktop
+x-scheme-handler/insomnia=Insomnia.desktop
 
 [Added Associations]
 text/plain=geany.desktop;
+inode/directory=pcmanfm-qt.desktop;
+text/markdown=typora.desktop;
+application/x-executable=featherpad.desktop;
+application/x-trash=featherpad.desktop;

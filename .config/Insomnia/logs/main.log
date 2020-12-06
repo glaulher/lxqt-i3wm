@@ -1,15 +1,15 @@
-[2020-11-05 13:00:44.018] [info] Running version 2020.4.2
-[2020-11-05 13:00:44.988] [info] [fix] Running database repairs
-[2020-11-05 13:00:45.571] [info] [db] Initialized DB at /home/glaulher/.config/Insomnia/insomnia.$TYPE.db
-[2020-11-05 13:00:45.572] [info] Init responses DB
-[2020-11-05 13:00:45.574] [info] [localstorage] Initialized at /home/glaulher/.config/Insomnia/localStorage
-[2020-11-05 13:00:46.486] [info] [main] Loading file:///tmp/.mount_Insomnn0kwAu/resources/app.asar/renderer.html
-[2020-11-05 13:00:46.530] [info] [ga] Non-interactive General, Launched, 2020.4.2
-[2020-11-05 13:00:46.573] [info] [ga] Queued event [
+[2020-12-02 18:09:12.613] [info] Running version 2020.4.2
+[2020-12-02 18:09:14.402] [info] [fix] Running database repairs
+[2020-12-02 18:09:15.106] [info] [db] Initialized DB at /home/glaulher/.config/Insomnia/insomnia.$TYPE.db
+[2020-12-02 18:09:15.108] [info] Init responses DB
+[2020-12-02 18:09:15.110] [info] [localstorage] Initialized at /home/glaulher/.config/Insomnia/localStorage
+[2020-12-02 18:09:16.071] [info] [main] Loading file:///tmp/.mount_InsomnGH4Jai/resources/app.asar/renderer.html
+[2020-12-02 18:09:16.216] [info] [ga] Non-interactive General, Launched, 2020.4.2
+[2020-12-02 18:09:16.312] [info] [ga] Queued event [
   { name: 't', value: 'event' },
   { name: 'ec', value: 'General' },
   { name: 'ea', value: 'Launched' },
   { name: 'ni', value: '1' },
   { name: 'el', value: '2020.4.2' }
 ]
-[2020-11-05 13:00:47.032] [info] [updater] Updater not running platform=linux dev=false
+[2020-12-02 18:09:16.717] [info] [updater] Updater not running platform=linux dev=false

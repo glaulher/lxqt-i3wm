@@ -2,12 +2,30 @@
     "telemetry.machineId": "15ca4dbb3fc2ad93d80e7da0470b5570f213298efdb138ee8a17336fa593b476",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/glaulher/Documentos/javascript/bootcamp/backend",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/github.search",
+            "file:///home/glaulher/Documentos/javascript/test",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/Github.Search.Repository",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/primeiro_projeto_node",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/typescriptExemplo",
+            "file:///home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react/SheetJS",
+            "file:///home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/mobotest",
+            "file:///home/glaulher/.local/share/Trash/files",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/moboTest",
+            "file:///home/glaulher/Documentos/javascript/bootcamp",
+            "file:///home/glaulher/Documentos/javascript/bootcamp/mobile",
+            "file:///home/glaulher/Documentos/SheetJS",
+            "file:///home/glaulher/Documentos/Site-Search",
             "file:///home/glaulher/Documentos/javascript/exemplo/sheet/SheetJS",
             "file:///home/glaulher/.config/Typora/themes",
             "file:///home/glaulher/Documentos/javascript/project/Site-Search"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/glaulher/.rvm/README.md",
+            "file:///home/glaulher/.bashrc",
+            "file:///home/glaulher/.xinitrc",
+            "file:///home/glaulher/Downloads/Ubuntu_Mono/UFL.txt"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -43,7 +61,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -52,46 +71,159 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/glaulher/Documentos/javascript/bootcamp/backend",
-                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/backend",
-                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/backend",
+                                        "fsPath": "/home/glaulher/Documentos/javascript/bootcamp/github.search",
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/github.search",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/github.search",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documentos/javascript/bootcamp/backend"
+                                    "label": "~/Documentos/javascript/bootcamp/github.search"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/glaulher/Documentos/javascript/exemplo/sheet/SheetJS",
-                                        "path": "/home/glaulher/Documentos/javascript/exemplo/sheet/SheetJS",
+                                        "external": "file:///home/glaulher/Documentos/javascript/test",
+                                        "path": "/home/glaulher/Documentos/javascript/test",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documentos/javascript/exemplo/sheet/SheetJS"
+                                    "label": "~/Documentos/javascript/test"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/glaulher/.config/Typora/themes",
-                                        "path": "/home/glaulher/.config/Typora/themes",
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/Github.Search.Repository",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/Github.Search.Repository",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes"
+                                    "label": "~/Documentos/javascript/bootcamp/Github.Search.Repository"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/glaulher/Documentos/javascript/project/Site-Search",
-                                        "path": "/home/glaulher/Documentos/javascript/project/Site-Search",
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/primeiro_projeto_node",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/primeiro_projeto_node",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documentos/javascript/project/Site-Search"
+                                    "label": "~/Documentos/javascript/bootcamp/primeiro_projeto_node"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/typescriptExemplo",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/typescriptExemplo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documentos/javascript/bootcamp/typescriptExemplo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react/SheetJS",
+                                        "path": "/home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react/SheetJS",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documentos/javascript/planilha/sheetjs/demos/react/SheetJS"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react",
+                                        "path": "/home/glaulher/Documentos/javascript/planilha/sheetjs/demos/react",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documentos/javascript/planilha/sheetjs/demos/react"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/mobotest",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/mobotest",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documentos/javascript/bootcamp/mobotest"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/.local/share/Trash/files",
+                                        "path": "/home/glaulher/.local/share/Trash/files",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/Trash/files"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Documentos/javascript/bootcamp/moboTest",
+                                        "path": "/home/glaulher/Documentos/javascript/bootcamp/moboTest",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documentos/javascript/bootcamp/moboTest"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/.rvm/README.md",
+                                        "path": "/home/glaulher/.rvm/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.rvm/README.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/.bashrc",
+                                        "path": "/home/glaulher/.bashrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.bashrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/.xinitrc",
+                                        "path": "/home/glaulher/.xinitrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.xinitrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/glaulher/Downloads/Ubuntu_Mono/UFL.txt",
+                                        "path": "/home/glaulher/Downloads/Ubuntu_Mono/UFL.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Ubuntu_Mono/UFL.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -406,7 +538,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -610,7 +743,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -751,23 +885,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1247,8 +1386,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1275,11 +1415,6 @@
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
-            },
-            "workbench.action.navigateBack": {
-                "label": "Ctrl+Alt+-",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+alt+-"
             },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
@@ -1456,16 +1591,17 @@
     "themeBackground": "#282a36",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/glaulher/Documentos/javascript/bootcamp/backend",
-            "backupPath": "/home/glaulher/.config/Code - OSS/Backups/2c2b688cdb5cfb10327ca2e1eb10680b",
+            "folder": "file:///home/glaulher/Documentos/javascript/bootcamp/github.search",
+            "backupPath": "/home/glaulher/.config/Code - OSS/Backups/68d25f03a512635ffc36ee0ddca7d16b",
             "uiState": {
                 "mode": 1,
                 "x": 1,
-                "y": 27,
+                "y": 24,
                 "width": 1364,
-                "height": 740
+                "height": 720
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/glaulher/Documentos/javascript/bootcamp"
 }

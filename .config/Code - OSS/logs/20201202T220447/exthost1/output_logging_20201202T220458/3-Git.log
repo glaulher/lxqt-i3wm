@@ -1,0 +1,68 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/glaulher/Documentos/javascript/bootcamp/github.search
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/ListIssue/index.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/components/ListIssue/index.tsx
+> git show --textconv :src/pages/Dashboard/index.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+> git cat-file -s 1542e140f4a958fd846447e53682048ff698d987
+> git show --textconv :src/pages/Repository/index.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Repository/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse infinite_scroll
+> git rev-parse --symbolic-full-name infinite_scroll@{u}
+fatal: no upstream configured for branch 'infinite_scroll'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Repository/index.tsx
+> git show --textconv :src/pages/Repository/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse infinite_scroll
+> git rev-parse --symbolic-full-name infinite_scroll@{u}
+fatal: no upstream configured for branch 'infinite_scroll'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Repository/index.tsx
+> git cat-file -s cd2b5b6d68ab8c0623adbf82e5b06fe409e607d5
+> git show --textconv :src/pages/Repository/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse infinite_scroll
+> git rev-parse --symbolic-full-name infinite_scroll@{u}
+fatal: no upstream configured for branch 'infinite_scroll'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse infinite_scroll
+> git rev-parse --symbolic-full-name infinite_scroll@{u}
+fatal: no upstream configured for branch 'infinite_scroll'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Repository/index.tsx
+> git cat-file -s cd2b5b6d68ab8c0623adbf82e5b06fe409e607d5
+> git show --textconv :src/pages/Repository/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse infinite_scroll
+> git rev-parse --symbolic-full-name infinite_scroll@{u}
+fatal: no upstream configured for branch 'infinite_scroll'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

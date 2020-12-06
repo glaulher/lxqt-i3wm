@@ -1,0 +1,7 @@
+[Info  - 11:47:37] ESLint server is starting
+[Info  - 11:47:41] ESLint server running in node v12.14.1
+[Info  - 11:47:41] ESLint server is running.
+[Info  - 11:47:49] ESLint library loaded from: /home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/eslint/lib/api.js
+The prop value with an expression type of JSXEmptyExpression could not be resolved. Please file issue to get this fixed immediately.
+The prop value with an expression type of JSXEmptyExpression could not be resolved. Please file issue to get this fixed immediately.
+[Info  - 15:03:40] ESLint server stopped.

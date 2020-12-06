@@ -1,13 +1,41 @@
 [org/gtk/settings/file-chooser]
-window-position=(1, -222)
-window-size=(1231, 902)
+window-position=(298, 133)
+window-size=(768, 478)
 date-format='regular'
 location-mode='path-bar'
 show-hidden=false
 show-size-column=true
 show-type-column=true
-sidebar-width=185
+sidebar-width=166
 sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
+
+[com/github/wwmm/pulseeffects/sinkinputs/limiter]
+release=1000.0
+limit=-11.0
+state=false
+
+[com/github/wwmm/pulseeffects/sourceoutputs/limiter]
+release=1000.0
+limit=-11.0
+
+[com/github/wwmm/pulseeffects]
+show-spectrum=true
+spectrum-n-points=200
+buffer-out=100000
+latency-out=10000
+
+[com/github/wwmm/pulseeffects/sinkinputs/compressor]
+state=false
+
+[com/github/wwmm/pulseeffects/sinkinputs/equalizer]
+state=true
+
+[com/github/wwmm/pulseeffects/sinkinputs/highpass]
+state=false
+
+[com/github/wwmm/pulseeffects/sinkinputs/bassenhancer]
+state=true
+input-gain=0.0

@@ -1,0 +1,137 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3333/users/avatar",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-20T18:02:17.350Z",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1605895337350
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1605895337354
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 17 seems to be dead!\n",
+		"timestamp": 1605895337367
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 17\n",
+		"timestamp": 1605895337367
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3333...\n",
+		"timestamp": 1605895337368
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3333 (#18)\n",
+		"timestamp": 1605895337369
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "PATCH /users/avatar HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2020.4.2\r\nContent-Type: multipart/form-data; boundary=X-INSOMNIA-BOUNDARY\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDU4OTA1MDgsImV4cCI6MTYwNTk3NjkwOCwic3ViIjoiM2FlMjJmYjgtN2E3YS00NTg5LThjZjYtMjgzYTQ2M2UxZDJkIn0.NLKPGVydQR5wRbvXS4vW67r9F1J4sc7VG1tpe7i8ksY\r\nAccept: */*\r\nContent-Length: 43728\r\n\r\n",
+		"timestamp": 1605895337369
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "(42.7 KB hidden)",
+		"timestamp": 1605895337370
+	},
+	{
+		"name": "TEXT",
+		"value": "We are completely uploaded and fine\n",
+		"timestamp": 1605895337370
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 11\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"b-Ai2R8hgEarLmHKwesT1qcY913ys\"\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Fri, 20 Nov 2020 18:02:17 GMT\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 11 B chunk",
+		"timestamp": 1605895337385
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #18 to host localhost left intact\n",
+		"timestamp": 1605895337386
+	}
+]

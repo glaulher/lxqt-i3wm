@@ -1,0 +1,165 @@
+Info 0    [17:54:43.355] Starting TS Server
+Info 1    [17:54:43.356] Version: 4.0.3
+Info 2    [17:54:43.356] Arguments: /usr/lib/electron9/electron /usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/bd9da5e8b11746c1e61e/tscancellation-bb5045bb78b766d6f695.tmp* --logVerbosity verbose --logFile /home/glaulher/.config/Code - OSS/logs/20201124T174218/exthost2/vscode.typescript-language-features/tsserver-log-6hDlFT/tsserver.log --globalPlugins typescript-vscode-sh-plugin --pluginProbeLocations /usr/lib/code-oss/resources/app/extensions/typescript-language-features --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation
+Info 3    [17:54:43.356] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [17:54:43.357] ServerMode: 1 syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [17:54:43.389] request:
+    {"seq":0,"type":"request","command":"configure","arguments":{"hostInfo":"vscode","preferences":{"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includePackageJsonAutoImports":"auto"},"watchOptions":{}}}
+Info 6    [17:54:43.390] Host information vscode
+Info 7    [17:54:43.390] Host watch options changed to undefined, it will be take effect for next watches.
+Info 8    [17:54:43.391] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":0,"success":true}
+Perf 9    [17:54:43.396] 0::configure: async elapsed time (in milliseconds) 6.8047
+Info 10   [17:54:43.396] request:
+    {"seq":1,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","fileContent":"import React from 'react';\nimport logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.tsx</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 11   [17:54:43.407] Loading global plugin typescript-vscode-sh-plugin
+Info 12   [17:54:43.407] Enabling plugin typescript-vscode-sh-plugin from candidate paths: /usr/lib/code-oss/resources/app/extensions/typescript-language-features,/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js/../../..
+Info 13   [17:54:43.407] Loading typescript-vscode-sh-plugin from /usr/lib/code-oss/resources/app/extensions/typescript-language-features (resolved to /usr/lib/code-oss/resources/app/extensions/typescript-language-features/node_modules)
+Info 14   [17:54:43.473] typescript-vscode-sh-plugin initialized. Intercepting getEncodedSemanticClassifications and getEncodedSyntacticClassifications.
+Info 15   [17:54:43.473] Plugin validation succeded
+Info 16   [17:54:43.481] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [17:54:50.759] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 7277ms
+Info 18   [17:54:50.759] Project '/dev/null/inferredProject1*' (Inferred)
+Info 19   [17:54:50.759] 	Files (6)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/test/src/App.tsx
+
+Info 20   [17:54:50.760] -----------------------------------------------
+Info 21   [17:54:51.157] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 22   [17:54:54.167] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 3009ms
+Info 23   [17:54:54.167] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 24   [17:54:54.167] 	Files (8)
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/testing-library__jest-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/react/types/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/user-event/typings/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/react-scripts/lib/react-app.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/typescript/lib/typescript.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/index.d.ts
+
+Info 25   [17:54:54.167] -----------------------------------------------
+Info 26   [17:54:54.168] Project '/dev/null/inferredProject1*' (Inferred)
+Info 26   [17:54:54.168] 	Files (6)
+
+Info 26   [17:54:54.168] -----------------------------------------------
+Info 26   [17:54:54.168] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 26   [17:54:54.168] 	Files (8)
+
+Info 26   [17:54:54.169] -----------------------------------------------
+Info 26   [17:54:54.169] Open files: 
+Info 26   [17:54:54.169] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 26   [17:54:54.169] 		Projects: /dev/null/inferredProject1*
+Perf 26   [17:54:54.169] 1::updateOpen: elapsed time (in milliseconds) 10773.1849
+Info 27   [17:54:54.169] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":1,"success":true,"performanceData":{"updateGraphDurationMs":10286},"body":true}
+Info 28   [17:54:54.171] request:
+    {"seq":4,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx"}}
+Perf 29   [17:54:54.190] 4::navtree: elapsed time (in milliseconds) 18.9922
+Info 30   [17:54:54.190] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":4,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":26,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":5,"offset":1},"end":{"line":24,"offset":2}}],"nameSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":26,"offset":1},"end":{"line":26,"offset":20}}]},{"text":"logo","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":12}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":12}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 31   [18:6:23.508] request:
+    {"seq":18,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":["/home/glaulher/Documentos/javascript/test/src/App.tsx"],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","fileContent":"import { StrictMode } from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\nimport reportWebVitals from './reportWebVitals';\n\nReactDOM.render(\n  <StrictMode>\n    <App />\n  </StrictMode>,\n  document.getElementById('root')\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 32   [18:6:23.519] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 33   [18:6:23.596] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 77ms
+Info 34   [18:6:23.596] Project '/dev/null/inferredProject1*' (Inferred)
+Info 35   [18:6:23.596] 	Files (6)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/test/src/index.tsx
+
+Info 36   [18:6:23.596] -----------------------------------------------
+Info 37   [18:6:23.596] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 38   [18:6:23.596] 	Files (8)
+
+Info 39   [18:6:23.596] -----------------------------------------------
+Info 40   [18:6:23.597] Project '/dev/null/inferredProject1*' (Inferred)
+Info 40   [18:6:23.597] 	Files (6)
+
+Info 40   [18:6:23.597] -----------------------------------------------
+Info 40   [18:6:23.597] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 40   [18:6:23.597] 	Files (8)
+
+Info 40   [18:6:23.597] -----------------------------------------------
+Info 40   [18:6:23.597] Open files: 
+Info 40   [18:6:23.597] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 40   [18:6:23.598] 		Projects: /dev/null/inferredProject1*
+Perf 40   [18:6:23.598] 18::updateOpen: elapsed time (in milliseconds) 89.6608
+Info 41   [18:6:23.598] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":18,"success":true,"performanceData":{"updateGraphDurationMs":77},"body":true}
+Info 42   [18:6:23.627] request:
+    {"seq":19,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx"}}
+Perf 43   [18:6:23.643] 19::navtree: elapsed time (in milliseconds) 15.2004
+Info 44   [18:6:23.643] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":19,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":17,"offset":20}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}},{"text":"reportWebVitals","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":23}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":23}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":10},"end":{"line":1,"offset":20}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":20}}}]}}
+Info 45   [18:6:23.710] request:
+    {"seq":20,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx"}}
+Perf 46   [18:6:23.718] 20::getOutliningSpans: elapsed time (in milliseconds) 8.6492
+Info 47   [18:6:23.718] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":20,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":5,"offset":49}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":5,"offset":49}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 48   [18:6:24.799] request:
+    {"seq":21,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 49   [18:6:24.800] Host configuration update for file /home/glaulher/Documentos/javascript/test/src/index.tsx
+Info 50   [18:6:24.800] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":21,"success":true}
+Perf 51   [18:6:24.801] 21::configure: async elapsed time (in milliseconds) 2.0051
+Info 52   [18:21:3.909] request:
+    {"seq":22,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":["/home/glaulher/Documentos/javascript/test/src/index.tsx"],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","fileContent":"import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.tsx</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 53   [18:21:3.918] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [18:21:3.981] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 63ms
+Info 55   [18:21:3.981] Project '/dev/null/inferredProject1*' (Inferred)
+Info 56   [18:21:3.981] 	Files (6)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/test/src/App.tsx
+
+Info 57   [18:21:3.981] -----------------------------------------------
+Info 58   [18:21:3.981] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 59   [18:21:3.981] 	Files (8)
+
+Info 60   [18:21:3.981] -----------------------------------------------
+Info 61   [18:21:3.982] Project '/dev/null/inferredProject1*' (Inferred)
+Info 61   [18:21:3.982] 	Files (6)
+
+Info 61   [18:21:3.982] -----------------------------------------------
+Info 61   [18:21:3.982] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 61   [18:21:3.982] 	Files (8)
+
+Info 61   [18:21:3.982] -----------------------------------------------
+Info 61   [18:21:3.982] Open files: 
+Info 61   [18:21:3.982] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 61   [18:21:3.982] 		Projects: /dev/null/inferredProject1*
+Perf 61   [18:21:3.982] 22::updateOpen: elapsed time (in milliseconds) 73.4880
+Info 62   [18:21:3.982] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":22,"success":true,"performanceData":{"updateGraphDurationMs":63},"body":true}
+Info 63   [18:21:3.985] request:
+    {"seq":23,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx"}}
+Perf 64   [18:21:3.992] 23::navtree: elapsed time (in milliseconds) 6.8886
+Info 65   [18:21:3.993] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":23,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":25,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":23,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":25,"offset":1},"end":{"line":25,"offset":20}}]},{"text":"logo","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":12}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":12}}}]}}
+Info 66   [18:21:4.80] request:
+    {"seq":24,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx"}}
+Perf 67   [18:21:4.84] 24::getOutliningSpans: elapsed time (in milliseconds) 4.2908
+Info 68   [18:21:4.84] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":24,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":20}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":20}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":4,"offset":15},"end":{"line":23,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":23,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":6,"offset":5},"end":{"line":21,"offset":11}},"hintSpan":{"start":{"line":6,"offset":5},"end":{"line":21,"offset":11}},"bannerText":"<div>...</div>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":6,"offset":10},"end":{"line":6,"offset":25}},"hintSpan":{"start":{"line":6,"offset":10},"end":{"line":6,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":7},"end":{"line":20,"offset":16}},"hintSpan":{"start":{"line":7,"offset":7},"end":{"line":20,"offset":16}},"bannerText":"<header>...</header>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":15},"end":{"line":7,"offset":37}},"hintSpan":{"start":{"line":7,"offset":15},"end":{"line":7,"offset":37}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":14},"end":{"line":8,"offset":56}},"hintSpan":{"start":{"line":8,"offset":14},"end":{"line":8,"offset":56}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":9},"end":{"line":11,"offset":13}},"hintSpan":{"start":{"line":9,"offset":9},"end":{"line":11,"offset":13}},"bannerText":"<p>...</p>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":10,"offset":16},"end":{"line":10,"offset":40}},"hintSpan":{"start":{"line":10,"offset":16},"end":{"line":10,"offset":40}},"bannerText":"<code>...</code>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":12,"offset":9},"end":{"line":19,"offset":13}},"hintSpan":{"start":{"line":12,"offset":9},"end":{"line":19,"offset":13}},"bannerText":"<a>...</a>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":13,"offset":11},"end":{"line":16,"offset":36}},"hintSpan":{"start":{"line":13,"offset":11},"end":{"line":16,"offset":36}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 69   [18:21:4.108] request:
+    {"seq":25,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 70   [18:21:4.109] Host configuration update for file /home/glaulher/Documentos/javascript/test/src/App.tsx
+Info 71   [18:21:4.109] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":25,"success":true}
+Perf 72   [18:21:4.109] 25::configure: async elapsed time (in milliseconds) 0.6424
+Info 73   [18:24:45.933] request:
+    {"seq":26,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx"}}
+Perf 74   [18:24:45.937] 26::getOutliningSpans: elapsed time (in milliseconds) 4.1223
+Info 75   [18:24:45.938] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":26,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":20}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":20}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":4,"offset":15},"end":{"line":23,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":23,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":6,"offset":5},"end":{"line":21,"offset":11}},"hintSpan":{"start":{"line":6,"offset":5},"end":{"line":21,"offset":11}},"bannerText":"<div>...</div>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":6,"offset":10},"end":{"line":6,"offset":25}},"hintSpan":{"start":{"line":6,"offset":10},"end":{"line":6,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":7},"end":{"line":20,"offset":16}},"hintSpan":{"start":{"line":7,"offset":7},"end":{"line":20,"offset":16}},"bannerText":"<header>...</header>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":15},"end":{"line":7,"offset":37}},"hintSpan":{"start":{"line":7,"offset":15},"end":{"line":7,"offset":37}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":14},"end":{"line":8,"offset":56}},"hintSpan":{"start":{"line":8,"offset":14},"end":{"line":8,"offset":56}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":9},"end":{"line":11,"offset":13}},"hintSpan":{"start":{"line":9,"offset":9},"end":{"line":11,"offset":13}},"bannerText":"<p>...</p>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":10,"offset":16},"end":{"line":10,"offset":40}},"hintSpan":{"start":{"line":10,"offset":16},"end":{"line":10,"offset":40}},"bannerText":"<code>...</code>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":12,"offset":9},"end":{"line":19,"offset":13}},"hintSpan":{"start":{"line":12,"offset":9},"end":{"line":19,"offset":13}},"bannerText":"<a>...</a>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":13,"offset":11},"end":{"line":16,"offset":36}},"hintSpan":{"start":{"line":13,"offset":11},"end":{"line":16,"offset":36}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}

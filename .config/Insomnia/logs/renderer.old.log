@@ -1,5 +1,63 @@
-[2020-11-02 17:06:26.212] [info] [db] Initialized DB client
-[2020-11-02 17:06:26.774] [info] [FileSystemDriver] Initialized in "/home/glaulher/.config/Insomnia/version-control"
-[2020-11-02 17:06:26.895] [info] [ga] Event Activity, Change, insomnia
-[2020-11-02 17:06:26.896] [info] [ga] Page /insomnia
-[2020-11-02 17:06:27.907] [info] [sync] Initialized
+[2020-11-21 13:48:41.431] [info] [db] Initialized DB client
+[2020-11-21 13:48:41.646] [info] [plugin] Loaded /home/glaulher/.config/Insomnia/plugins/dracula
+[2020-11-21 13:48:42.837] [info] [FileSystemDriver] Initialized in "/home/glaulher/.config/Insomnia/version-control"
+[2020-11-21 13:48:42.926] [info] [ga] Event Activity, Change, insomnia
+[2020-11-21 13:48:42.928] [info] [ga] Page /insomnia
+[2020-11-21 13:48:43.950] [info] [sync] Initialized
+[2020-11-21 13:49:03.207] [info] TYPE file
+[2020-11-21 13:49:10.607] [info] [network] Sending req=req_39d23bb14c534d6c8a95727caf279f37 env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 13:49:10.716] [info] [net] Set CA to /tmp/insomnia_2020.4.2/2017-09-20.pem
+[2020-11-21 13:49:10.892] [info] [network] Response succeeded req=req_39d23bb14c534d6c8a95727caf279f37 status=500
+[2020-11-21 13:49:25.315] [info] [network] Sending req=req_4fafd63914244d17a9314f872d3663ab env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 13:49:26.049] [info] [network] Response succeeded req=req_4fafd63914244d17a9314f872d3663ab status=200
+[2020-11-21 13:49:39.571] [info] [ga] Event Modals, Show, WorkspaceEnvironmentsEditModal
+[2020-11-21 13:49:44.629] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_eab41b6fe44848e995bb3d09bf5c7d9f',
+    type: 'Environment',
+    parentId: 'env_9bb39589510f0b60a8b75c39b071d974b499bd36',
+    modified: 1605977384594,
+    created: 1605724310532,
+    name: 'Dev',
+    data: {
+      base_url: 'http://localhost:3333',
+      token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDU5NzczNjYsImV4cCI6MTYwNjA2Mzc2Niwic3ViIjoiM2FlMjJmYjgtN2E3YS00NTg5LThjZjYtMjgzYTQ2M2UxZDJkIn0.lfr50xbkrz6lrST6MKAdUSuJPgzEtuU51aLXucGWq6w'
+    },
+    dataPropertyOrder: { '&': [ 'base_url', 'token' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1605724310533
+  },
+  false
+]
+[2020-11-21 13:49:52.104] [info] [network] Sending req=req_39d23bb14c534d6c8a95727caf279f37 env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 13:49:52.434] [info] [network] Response succeeded req=req_39d23bb14c534d6c8a95727caf279f37 status=200
+[2020-11-21 13:55:53.040] [info] [network] Sending req=req_4fafd63914244d17a9314f872d3663ab env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 13:55:53.310] [info] [network] Response succeeded req=req_4fafd63914244d17a9314f872d3663ab status=200
+[2020-11-21 13:56:19.874] [info] [ga] Event Modals, Show, WorkspaceEnvironmentsEditModal
+[2020-11-21 13:56:24.678] [info] [App] Forcing update from environment change [
+  'update',
+  {
+    _id: 'env_eab41b6fe44848e995bb3d09bf5c7d9f',
+    type: 'Environment',
+    parentId: 'env_9bb39589510f0b60a8b75c39b071d974b499bd36',
+    modified: 1605977784656,
+    created: 1605724310532,
+    name: 'Dev',
+    data: {
+      base_url: 'http://localhost:3333',
+      token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDU5Nzc3NTMsImV4cCI6MTYwNjA2NDE1Mywic3ViIjoiM2FlMjJmYjgtN2E3YS00NTg5LThjZjYtMjgzYTQ2M2UxZDJkIn0.ykvmzDoDkPrpnD5cztve3AN-zuFbUd2VsTjc2wZOsv0'
+    },
+    dataPropertyOrder: { '&': [ 'base_url', 'token' ] },
+    color: '#6272a4',
+    isPrivate: false,
+    metaSortKey: 1605724310533
+  },
+  false
+]
+[2020-11-21 13:57:53.378] [info] TYPE file
+[2020-11-21 13:58:00.208] [info] [network] Sending req=req_39d23bb14c534d6c8a95727caf279f37 env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 13:58:00.438] [info] [network] Response succeeded req=req_39d23bb14c534d6c8a95727caf279f37 status=200
+[2020-11-21 15:47:52.011] [info] [network] Sending req=req_4fafd63914244d17a9314f872d3663ab env=env_eab41b6fe44848e995bb3d09bf5c7d9f
+[2020-11-21 15:47:52.239] [info] [network] Response succeeded req=req_4fafd63914244d17a9314f872d3663ab status=401

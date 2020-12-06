@@ -1,0 +1,597 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.github.com/repos/void-linux/void-packages/issues",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-12-02T22:57:43.266Z",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1606949863266
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1606949863289
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (843 seconds), disconnect it\n",
+		"timestamp": 1606949863320
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 5 seems to be dead!\n",
+		"timestamp": 1606949863320
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 5\n",
+		"timestamp": 1606949863320
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS alert, close notify (256):\n",
+		"timestamp": 1606949863325
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 140.82.113.6:443...\n",
+		"timestamp": 1606949863368
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.github.com (140.82.113.6) port 443 (#6)\n",
+		"timestamp": 1606949863982
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1606949863982
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1606949863982
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1606949864015
+	},
+	{
+		"name": "TEXT",
+		"value": "  CAfile: /tmp/insomnia_2020.4.2/2017-09-20.pem\n  CApath: none\n",
+		"timestamp": 1606949864015
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1606949864016
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1606949864153
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1606949864154
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1606949864165
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1606949864166
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1606949864167
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1606949864167
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1606949864167
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use http/1.1\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=*.github.com\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Jun 22 00:00:00 2020 GMT\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Aug 17 12:00:00 2022 GMT\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"api.github.com\" matched cert's \"*.github.com\"\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /repos/void-linux/void-packages/issues HTTP/1.1\r\nHost: api.github.com\r\nUser-Agent: insomnia/2020.4.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1606949864168
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1606949864313
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1606949864805
+	},
+	{
+		"name": "TEXT",
+		"value": "old SSL session ID is stale, removing\n",
+		"timestamp": 1606949864805
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1606949864805
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1606949864805
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "server: GitHub.com\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Wed, 02 Dec 2020 22:59:44 GMT\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json; charset=utf-8\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "status: 200 OK\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: public, max-age=60, s-maxage=60\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "vary: Accept, Accept-Encoding, Accept, X-Requested-With\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "etag: W/\"c36d5b502a7ef2030d44b36e514a19bbf27c136e784a77a27a568b439adf64fd\"\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-github-media-type: github.v3; format=json\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "link: <https://api.github.com/repositories/137503442/issues?page=2>; rel=\"next\", <https://api.github.com/repositories/137503442/issues?page=39>; rel=\"last\"\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000; includeSubdomains; preload\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: deny\r\n",
+		"timestamp": 1606949864806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-content-type-options: nosniff\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-xss-protection: 1; mode=block\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-security-policy: default-src 'none'\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Limit: 60\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Remaining: 59\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Reset: 1606953584\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Used: 1\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Accept-Ranges: bytes\r\n",
+		"timestamp": 1606949864807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1606949864808
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-GitHub-Request-Id: 7062:2DC7:BDDC2:1C1996:5FC81C60\r\n",
+		"timestamp": 1606949864808
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1606949864809
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 68 B chunk",
+		"timestamp": 1606949864809
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864810
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864811
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864812
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864812
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864938
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864940
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864940
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864941
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864942
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864943
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864943
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949864944
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865350
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865351
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865351
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865352
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865352
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865352
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865353
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865353
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865487
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865488
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865489
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1200 B chunk",
+		"timestamp": 1606949865489
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865625
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865625
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865626
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865626
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865626
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865760
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865761
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865761
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865762
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865763
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865898
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865899
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865899
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865899
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949865941
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866716
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866766
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866773
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866774
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866774
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866775
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866775
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866777
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866777
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866778
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1370 B chunk",
+		"timestamp": 1606949866811
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 347 B chunk",
+		"timestamp": 1606949866812
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #6 to host api.github.com left intact\n",
+		"timestamp": 1606949866812
+	}
+]

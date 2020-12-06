@@ -1,0 +1,884 @@
+Info 0    [17:54:43.835] Starting TS Server
+Info 1    [17:54:43.836] Version: 4.0.3
+Info 2    [17:54:43.836] Arguments: /usr/lib/electron9/electron /usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/bd9da5e8b11746c1e61e/tscancellation-84833aa041c33add8140.tmp* --logVerbosity verbose --logFile /home/glaulher/.config/Code - OSS/logs/20201124T174218/exthost2/vscode.typescript-language-features/tsserver-log-Pp7LDV/tsserver.log --globalPlugins typescript-vscode-sh-plugin --pluginProbeLocations /usr/lib/code-oss/resources/app/extensions/typescript-language-features --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation
+Info 3    [17:54:43.836] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [17:54:43.837] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [17:54:43.849] Binding...
+Info 6    [17:54:43.872] request:
+    {"seq":0,"type":"request","command":"configure","arguments":{"hostInfo":"vscode","preferences":{"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includePackageJsonAutoImports":"auto"},"watchOptions":{}}}
+Info 7    [17:54:43.873] Host information vscode
+Info 8    [17:54:43.873] Host watch options changed to undefined, it will be take effect for next watches.
+Info 9    [17:54:43.874] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":0,"success":true}
+Perf 10   [17:54:43.877] 0::configure: async elapsed time (in milliseconds) 4.8430
+Info 11   [17:54:43.877] request:
+    {"seq":1,"type":"request","command":"compilerOptionsForInferredProjects","arguments":{"options":{"module":"commonjs","target":"es2016","jsx":"preserve","sourceMap":true,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"resolveJsonModule":true}}}
+Info 12   [17:54:43.879] Scheduled: *ensureProjectForOpenFiles*
+Perf 13   [17:54:43.879] 1::compilerOptionsForInferredProjects: elapsed time (in milliseconds) 2.7205
+Info 14   [17:54:43.880] response:
+    {"seq":0,"type":"response","command":"compilerOptionsForInferredProjects","request_seq":1,"success":true,"body":true}
+Info 15   [17:54:43.880] request:
+    {"seq":2,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","fileContent":"import React from 'react';\nimport logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.tsx</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 16   [17:54:43.885] Search path: /home/glaulher/Documentos/javascript/test/src
+Info 17   [17:54:43.887] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 18   [17:54:43.887] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 19   [17:54:43.888] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 20   [17:54:43.888] For info: /home/glaulher/Documentos/javascript/test/src/App.tsx :: Config file name: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 21   [17:54:43.889] Opened configuration file /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 22   [17:54:43.895] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/tsconfig.json 2000 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Config file
+Info 23   [17:54:43.898] event:
+    {"seq":0,"type":"event","event":"projectLoadingStart","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","reason":"Creating possible configured project for /home/glaulher/Documentos/javascript/test/src/App.tsx to open"}}
+Info 24   [17:54:43.949] Config: /home/glaulher/Documentos/javascript/test/tsconfig.json : {
+ "rootNames": [
+  "/home/glaulher/Documentos/javascript/test/src/App.test.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/App.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/index.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/react-app-env.d.ts",
+  "/home/glaulher/Documentos/javascript/test/src/reportWebVitals.ts",
+  "/home/glaulher/Documentos/javascript/test/src/setupTests.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "configFilePath": "/home/glaulher/Documentos/javascript/test/tsconfig.json"
+ }
+}
+Info 25   [17:54:43.952] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 26   [17:54:43.957] Elapsed:: 5ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 27   [17:54:43.958] Loading global plugin typescript-vscode-sh-plugin
+Info 28   [17:54:43.958] Enabling plugin typescript-vscode-sh-plugin from candidate paths: /usr/lib/code-oss/resources/app/extensions/typescript-language-features,/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js/../../..
+Info 29   [17:54:43.959] Loading typescript-vscode-sh-plugin from /usr/lib/code-oss/resources/app/extensions/typescript-language-features (resolved to /usr/lib/code-oss/resources/app/extensions/typescript-language-features/node_modules)
+Info 30   [17:54:43.975] typescript-vscode-sh-plugin initialized. Intercepting getEncodedSemanticClassifications and getEncodedSyntacticClassifications.
+Info 31   [17:54:43.975] Plugin validation succeded
+Info 32   [17:54:43.978] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/App.test.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 33   [17:54:43.981] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 34   [17:54:43.982] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/react-app-env.d.ts 500 undefined Project:  WatchType: Closed Script info
+Info 35   [17:54:43.983] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/reportWebVitals.ts 500 undefined Project:  WatchType: Closed Script info
+Info 36   [17:54:43.984] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/setupTests.ts 500 undefined Project:  WatchType: Closed Script info
+Info 37   [17:54:44.176] Starting updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 38   [17:54:44.263] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 39   [17:54:44.264] Elapsed:: 1ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 40   [17:54:44.267] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 41   [17:54:48.600] Elapsed:: 4333ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 42   [17:54:51.133] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 43   [17:54:51.134] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 44   [17:54:53.603] DirectoryWatcher:: Added:: WatchInfo: /usr/lib/code-oss/resources/app/extensions/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 45   [17:54:53.712] Elapsed:: 109ms DirectoryWatcher:: Added:: WatchInfo: /usr/lib/code-oss/resources/app/extensions/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 46   [17:54:58.213] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules/@types 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Type roots
+Info 47   [17:54:58.213] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/node_modules/@types 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Type roots
+Info 48   [17:54:58.214] DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/node_modules/@types 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Type roots
+Info 49   [17:54:58.225] Elapsed:: 11ms DirectoryWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/node_modules/@types 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Type roots
+Info 50   [17:54:58.226] Finishing updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Version: 1 structureChanged: true Elapsed: 14050ms
+Info 51   [17:54:58.226] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 52   [17:54:58.226] 	Files (181)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2016.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2019.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2019.array.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2019.object.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2019.string.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2019.symbol.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.promise.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.string.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es2020.intl.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.esnext.string.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react/global.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/csstype/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/prop-types/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/aria-query/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/matches.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/wait-for.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/query-helpers.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/queries.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/get-queries-for-element.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/pretty-format/build/types.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/pretty-format/build/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/screen.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/wait.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/wait-for-element.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/get-node-text.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/events.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/pretty-dom.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/role-helpers.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/config.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/suggestions.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/dom/types/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react-dom/test-utils/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/react/types/index.d.ts
+	/home/glaulher/Documentos/javascript/test/src/App.test.tsx
+	/home/glaulher/Documentos/javascript/test/src/App.tsx
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/react-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/types.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/getCLS.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/getFCP.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/getFID.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/getLCP.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/getTTFB.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/web-vitals/dist/index.d.ts
+	/home/glaulher/Documentos/javascript/test/src/reportWebVitals.ts
+	/home/glaulher/Documentos/javascript/test/src/index.tsx
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/globals.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/async_hooks.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/buffer.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/child_process.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/cluster.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/console.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/constants.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/crypto.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/dgram.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/dns.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/domain.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/events.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/fs.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/http.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/http2.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/https.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/inspector.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/module.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/net.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/os.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/path.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/perf_hooks.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/process.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/punycode.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/querystring.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/readline.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/repl.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/stream.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/string_decoder.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/timers.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/tls.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/trace_events.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/tty.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/url.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/util.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/v8.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/vm.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/worker_threads.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/zlib.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/ts3.3/base.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/globals.global.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/wasi.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/ts3.6/base.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/assert.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/base.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/node/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/react-scripts/lib/react-app.d.ts
+	/home/glaulher/Documentos/javascript/test/src/react-app-env.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/jest-diff/build/cleanupSemantic.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/jest-diff/build/types.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/jest-diff/build/diffLines.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/jest-diff/build/printDiffs.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/jest-diff/build/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/jest/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/testing-library__jest-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/test/src/setupTests.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/anymatch/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@babel/types/lib/index-ts3.7.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/babel__generator/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/babel__traverse/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/babel__template/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/babel__core/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/eslint/helpers.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/json-schema/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/estree/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/eslint/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/minimatch/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/glob/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/graceful-fs/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/html-minifier-terser/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/istanbul-reports/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/json5/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/normalize-package-data/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/parse-json/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/prettier/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/q/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/resolve/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/source-list-map/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/stack-utils/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/tapable/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/source-map/source-map.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/uglify-js/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/Source.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/CompatSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/ConcatSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/OriginalSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/PrefixSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/RawSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/ReplaceSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/SizeOnlySource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/SourceMapSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/lib/CachedSource.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack-sources/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/webpack/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/yargs-parser/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/@types/yargs/index.d.ts
+
+Info 53   [17:54:58.227] -----------------------------------------------
+Info 54   [17:54:58.235] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 55   [17:54:58.276] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 56   [17:54:58.990] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 714ms
+Info 57   [17:54:58.990] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 58   [17:54:58.990] 	Files (2)
+	/home/glaulher/Documentos/javascript/test/node_modules/@testing-library/user-event/typings/index.d.ts
+	/home/glaulher/Documentos/javascript/test/node_modules/typescript/lib/typescript.d.ts
+
+Info 59   [17:54:58.990] -----------------------------------------------
+Info 60   [17:54:58.991] event:
+    {"seq":0,"type":"event","event":"projectLoadingFinish","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}}
+Info 61   [17:54:58.995] event:
+    {"seq":0,"type":"event","event":"telemetry","body":{"telemetryEventName":"projectInfo","payload":{"projectId":"f2e4153a8d6adb0531359a2959db2dcbfcc716fb6f9b068fd0b73212373519cb","fileStats":{"js":0,"jsSize":0,"jsx":0,"jsxSize":0,"ts":2,"tsSize":666,"tsx":3,"tsxSize":1329,"dts":176,"dtsSize":3693314,"deferred":0,"deferredSize":0},"compilerOptions":{"target":"es5","lib":["dom","dom.iterable","esnext"],"allowJs":true,"skipLibCheck":true,"esModuleInterop":true,"allowSyntheticDefaultImports":true,"strict":true,"forceConsistentCasingInFileNames":true,"noFallthroughCasesInSwitch":true,"module":"esnext","moduleResolution":"node","resolveJsonModule":true,"isolatedModules":true,"noEmit":true},"typeAcquisition":{"enable":false,"include":false,"exclude":false},"extends":false,"files":false,"include":true,"exclude":false,"compileOnSave":false,"configFileName":"tsconfig.json","projectType":"configured","languageServiceEnabled":true,"version":"4.0.3"}}}
+Info 62   [17:54:59.14] event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/glaulher/Documentos/javascript/test/src/App.tsx","configFile":"/home/glaulher/Documentos/javascript/test/tsconfig.json","diagnostics":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"text":"Argument for '--jsx' option must be: 'preserve', 'react-native', 'react'.","code":6046,"category":"error","fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}]}}
+Info 63   [17:54:59.16] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 63   [17:54:59.17] 	Files (181)
+
+Info 63   [17:54:59.17] -----------------------------------------------
+Info 63   [17:54:59.17] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 63   [17:54:59.17] 	Files (2)
+
+Info 63   [17:54:59.17] -----------------------------------------------
+Info 63   [17:54:59.17] Open files: 
+Info 63   [17:54:59.17] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 63   [17:54:59.17] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Perf 63   [17:54:59.21] 2::updateOpen: elapsed time (in milliseconds) 15141.1888
+Info 64   [17:54:59.22] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":2,"success":true,"performanceData":{"updateGraphDurationMs":14764},"body":true}
+Info 65   [17:54:59.26] event:
+    {"seq":0,"type":"event","event":"typingsInstallerPid","body":{"pid":4100}}
+Info 66   [17:54:59.27] Running: *ensureProjectForOpenFiles*
+Info 67   [17:54:59.27] Before ensureProjectForOpenFiles:
+Info 68   [17:54:59.27] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 68   [17:54:59.27] 	Files (181)
+
+Info 68   [17:54:59.27] -----------------------------------------------
+Info 68   [17:54:59.28] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 68   [17:54:59.28] 	Files (2)
+
+Info 68   [17:54:59.28] -----------------------------------------------
+Info 68   [17:54:59.28] Open files: 
+Info 68   [17:54:59.28] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 68   [17:54:59.28] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 68   [17:54:59.28] After ensureProjectForOpenFiles:
+Info 69   [17:54:59.28] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 69   [17:54:59.28] 	Files (181)
+
+Info 69   [17:54:59.28] -----------------------------------------------
+Info 69   [17:54:59.28] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 69   [17:54:59.30] 	Files (2)
+
+Info 69   [17:54:59.30] -----------------------------------------------
+Info 69   [17:54:59.30] Open files: 
+Info 69   [17:54:59.31] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 69   [17:54:59.31] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 69   [17:54:59.31] got projects updated in background, updating diagnostics for /home/glaulher/Documentos/javascript/test/src/App.tsx
+Info 70   [17:54:59.31] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/glaulher/Documentos/javascript/test/src/App.tsx"]}}
+Info 71   [17:54:59.40] request:
+    {"seq":5,"type":"request","command":"getSupportedCodeFixes","arguments":null}
+Perf 72   [17:54:59.41] 5::getSupportedCodeFixes: elapsed time (in milliseconds) 0.6637
+Info 73   [17:54:59.41] response:
+    {"seq":0,"type":"response","command":"getSupportedCodeFixes","request_seq":5,"success":true,"body":["2352","1375","2345","2322","2678","2356","2362","2363","2736","2365","2367","2461","2495","2569","2549","2548","2488","2504","2339","2349","2351","2304","18004","2612","1329","7051","80004","80002","80006","80001","2713","1205","1371","2420","2720","2552","2663","2662","2503","2686","2693","2683","5086","5087","2551","2724","2769","2355","2741","2739","2740","2348","2307","7016","2515","2653","17009","2377","1219","17004","1378","1312","2689","18016","1382","1381","6133","6196","6138","6192","6198","6199","6205","7027","7028","8020","2774","1308","1103","2610","2611","7034","7005","7006","7019","7033","7010","7032","7008","7046","7043","7044","7047","7048","7050","7049","7045","1064","1002","1003","1005","1006","1007","1009","1010","1011","1012","1013","1014","1015","1016","1017","1018","1019","1020","1021","1022","1023","1024","1025","1028","1029","1030","1031","1034","1035","1036","1038","1039","1040","1041","1042","1043","1044","1045","1046","1047","1048","1049","1051","1052","1053","1054","1055","1056","1057","1058","1059","1060","1061","1062","1063","1066","1068","1069","1070","1071","1079","1084","1085","1089","1090","1091","1092","1093","1094","1095","1096","1097","1098","1099","1100","1101","1102","1104","1105","1107","1108","1109","1110","1113","1114","1115","1116","1117","1118","1119","1120","1121","1123","1124","1125","1126","1127","1128","1129","1130","1131","1132","1134","1135","1136","1137","1138","1139","1140","1141","1142","1144","1146","1147","1148","1149","1155","1156","1157","1160","1161","1162","1163","1164","1165","1166","1168","1169","1170","1171","1172","1173","1174","1175","1176","1177","1178","1179","1180","1181","1182","1183","1184","1185","1186","1187","1188","1189","1190","1191","1192","1193","1194","1195","1196","1197","1198","1199","1200","1202","1203","1206","1207","1208","1210","1211","1212","1213","1214","1215","1216","1218","1220","1221","1222","1223","1224","1225","1226","1227","1228","1229","1230","1231","1232","1233","1234","1235","1236","1237","1238","1239","1240","1241","1242","1243","1244","1245","1246","1247","1248","1249","1250","1251","1252","1253","1254","1255","1256","1257","1258","1259","1260","1261","1262","1300","1313","1314","1315","1316","1317","1318","1319","1320","1321","1322","1323","1324","1325","1326","1327","1328","1330","1331","1332","1333","1334","1335","1336","1337","1338","1339","1340","1342","1343","1344","1345","1346","1347","1348","1349","1351","1352","1353","1354","1355","1356","1357","1358","1359","1360","1361","1362","1363","1370","1379","1380","1383","1384","1385","1386","1387","1388","2200","2201","2202","2203","2204","2205","2300","2301","2302","2303","2305","2306","2308","2309","2310","2311","2312","2313","2314","2315","2316","2317","2318","2319","2320","2321","2323","2324","2325","2326","2327","2328","2329","2330","2331","2332","2333","2334","2335","2336","2337","2338","2340","2341","2342","2343","2344","2346","2347","2350","2353","2354","2357","2358","2359","2360","2361","2364","2366","2368","2369","2370","2371","2372","2373","2374","2375","2376","2378","2379","2380","2381","2382","2383","2384","2385","2386","2387","2388","2389","2390","2391","2392","2393","2394","2395","2396","2397","2398","2399","2400","2401","2402","2403","2404","2405","2406","2407","2408","2409","2410","2411","2412","2413","2414","2415","2416","2417","2418","2422","2423","2425","2426","2427","2428","2430","2431","2432","2433","2434","2435","2436","2437","2438","2439","2440","2441","2442","2443","2444","2445","2446","2447","2448","2449","2450","2451","2452","2453","2454","2455","2456","2457","2458","2459","2460","2462","2463","2464","2465","2466","2467","2468","2469","2470","2471","2472","2473","2474","2475","2476","2477","2478","2479","2480","2481","2483","2484","2487","2489","2490","2491","2492","2493","2494","2496","2497","2498","2499","2500","2501","2502","2505","2506","2507","2508","2509","2510","2511","2512","2513","2514","2516","2517","2518","2519","2520","2521","2522","2523","2524","2525","2526","2527","2528","2529","2530","2531","2532","2533","2534","2535","2536","2537","2538","2539","2540","2541","2542","2543","2544","2545","2547","2553","2554","2555","2556","2557","2558","2559","2560","2561","2562","2563","2564","2565","2566","2567","2571","2572","2573","2574","2575","2576","2577","2578","2580","2581","2582","2583","2584","2585","2586","2587","2588","2589","2590","2591","2592","2593","2594","2595","2596","2597","2598","2600","2601","2602","2603","2604","2605","2606","2607","2608","2609","2613","2614","2615","2616","2617","2618","2619","2620","2621","2622","2649","2651","2652","2654","2656","2657","2658","2659","2660","2661","2664","2665","2666","2667","2668","2669","2670","2671","2672","2673","2674","2675","2676","2677","2679","2680","2681","2682","2684","2685","2687","2688","2691","2692","2694","2695","2696","2697","2698","2699","2700","2701","2702","2703","2704","2705","2706","2707","2708","2709","2710","2711","2712","2714","2715","2716","2717","2718","2719","2721","2722","2723","2725","2726","2727","2729","2730","2731","2732","2733","2734","2735","2737","2742","2743","2744","2745","2746","2747","2748","2749","2750","2751","2752","2753","2754","2755","2756","2757","2758","2759","2760","2761","2762","2763","2764","2765","2766","2767","2768","2770","2771","2772","2773","2775","2776","2777","2778","2779","2780","2781","2783","2784","2785","2786","2787","2788","2789","2790","2791","2792","4000","4002","4004","4006","4008","4010","4012","4014","4016","4019","4020","4021","4022","4023","4024","4025","4026","4027","4028","4029","4030","4031","4032","4033","4034","4035","4036","4037","4038","4039","4040","4041","4042","4043","4044","4045","4046","4047","4048","4049","4050","4051","4052","4053","4054","4055","4056","4057","4058","4059","4060","4061","4062","4063","4064","4065","4066","4067","4068","4069","4070","4071","4072","4073","4074","4075","4076","4077","4078","4081","4082","4083","4090","4091","4092","4094","4095","4096","4097","4098","4099","4100","4101","4102","4103","4104","4105","4106","4107","4108","4109","4110","5001","5009","5010","5012","5014","5023","5024","5025","5033","5042","5047","5048","5051","5052","5053","5054","5055","5056","5057","5058","5059","5060","5061","5062","5063","5064","5065","5066","5067","5068","5069","5070","5071","5072","5073","5074","5075","5076","5077","5078","5079","5080","5081","5082","5083","5084","5085","5088","6044","6045","6046","6048","6049","6050","6051","6053","6054","6059","6064","6082","6103","6114","6131","6137","6140","6142","6188","6189","6200","6202","6229","6230","6231","6232","6233","6234","6236","6304","6305","6306","6307","6308","6309","6310","6369","6370","6377","6379","6504","7009","7011","7013","7014","7015","7017","7018","7020","7022","7023","7024","7025","7026","7029","7030","7031","7035","7036","7039","7040","7041","7042","7052","7053","7054","7055","8000","8001","8002","8003","8004","8005","8006","8008","8009","8010","8011","8012","8013","8016","8017","8018","8021","8022","8023","8024","8025","8026","8027","8028","8029","8030","8031","8032","8033","8034","9002","9003","9004","9005","9006","17000","17001","17002","17003","17005","17006","17007","17008","17010","17011","17012","17013","17014","17015","17016","17017","17018","18000","18001","18002","18003","18006","18007","18009","18010","18011","18012","18013","18014","18015","18017","18018","18019","18022","18023","18024","18026","18027","18028","18029","18030","18031","18032","18033","18035","80005","80003","80008","80007"]}
+Info 74   [18:2:6.604] FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/package.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 75   [18:2:6.604] Elapsed:: 0ms FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/package.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 76   [18:6:19.18] sysLog:: onTimerToUpdateChildWatches:: 1
+Info 77   [18:6:19.19] sysLog:: invokingWatchers:: 1ms:: 0
+Info 78   [18:6:19.19] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 0:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 79   [18:6:19.20] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484
+Info 80   [18:6:19.20] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 0:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 81   [18:6:19.20] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 82   [18:6:19.21] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484
+Info 83   [18:6:19.21] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 84   [18:6:19.21] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 2:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 85   [18:6:19.21] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 86   [18:6:19.22] Scheduled: *ensureProjectForOpenFiles*
+Info 87   [18:6:19.22] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 2:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 88   [18:6:19.22] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 3:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 89   [18:6:19.22] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519
+Info 90   [18:6:19.22] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 3:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 91   [18:6:19.22] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 4:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 92   [18:6:19.22] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932
+Info 93   [18:6:19.22] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 4:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 94   [18:6:19.22] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 5:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 95   [18:6:19.23] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932
+Info 96   [18:6:19.23] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 5:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 97   [18:6:19.23] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx 6:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 98   [18:6:19.23] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx 6:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 99   [18:6:19.23] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 7:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 100  [18:6:19.23] Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Detected file add/remove of non supported extension: /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519
+Info 101  [18:6:19.23] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 7:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 102  [18:6:19.23] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 8:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 103  [18:6:19.23] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json, Cancelled earlier one
+Info 104  [18:6:19.23] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 105  [18:6:19.24] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 8:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Wild card directory
+Info 106  [18:6:19.24] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 0:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 107  [18:6:19.24] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 0:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 108  [18:6:19.24] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 109  [18:6:19.24] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx.1615569484 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 110  [18:6:19.24] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 2:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 111  [18:6:19.25] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.jsonFailedLookupInvalidation
+Info 112  [18:6:19.25] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 2:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 113  [18:6:19.25] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 3:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 114  [18:6:19.25] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 3:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 115  [18:6:19.25] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 4:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 116  [18:6:19.25] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 4:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 117  [18:6:19.25] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 5:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 118  [18:6:19.25] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx.1104301932 5:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 119  [18:6:19.26] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx 6:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 120  [18:6:19.26] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.tsx 6:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 121  [18:6:19.26] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 7:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 122  [18:6:19.26] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx.2086316519 7:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 123  [18:6:19.26] DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 8:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 124  [18:6:19.26] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.jsonFailedLookupInvalidation, Cancelled earlier one
+Info 125  [18:6:19.26] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 8:: WatchInfo: /home/glaulher/Documentos/javascript/test/src 1 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Failed Lookup Locations
+Info 126  [18:6:19.26] sysLog:: Elapsed 8ms:: onTimerToUpdateChildWatches:: 0 undefined
+Info 127  [18:6:19.142] FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/App.test.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 128  [18:6:19.143] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json, Cancelled earlier one
+Info 129  [18:6:19.143] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 130  [18:6:19.144] Elapsed:: 2ms FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/App.test.tsx 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/App.test.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 131  [18:6:19.144] FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 132  [18:6:19.144] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json, Cancelled earlier one
+Info 133  [18:6:19.144] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 134  [18:6:19.144] Elapsed:: 0ms FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/src/index.tsx 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 135  [18:6:19.394] Running: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 136  [18:6:19.431] Starting updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 137  [18:6:19.592] Finishing updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Version: 2 structureChanged: true Elapsed: 161ms
+Info 138  [18:6:19.592] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 139  [18:6:21.644] Running: *ensureProjectForOpenFiles*
+Info 140  [18:6:21.644] Before ensureProjectForOpenFiles:
+Info 141  [18:6:21.644] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 141  [18:6:21.645] 	Files (181)
+
+Info 141  [18:6:21.645] -----------------------------------------------
+Info 141  [18:6:21.645] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 141  [18:6:21.645] 	Files (2)
+
+Info 141  [18:6:21.645] -----------------------------------------------
+Info 141  [18:6:21.645] Open files: 
+Info 141  [18:6:21.645] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 141  [18:6:21.645] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 141  [18:6:21.645] After ensureProjectForOpenFiles:
+Info 142  [18:6:21.645] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 142  [18:6:21.645] 	Files (181)
+
+Info 142  [18:6:21.645] -----------------------------------------------
+Info 142  [18:6:21.645] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 142  [18:6:21.645] 	Files (2)
+
+Info 142  [18:6:21.646] -----------------------------------------------
+Info 142  [18:6:21.646] Open files: 
+Info 142  [18:6:21.646] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 142  [18:6:21.646] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 142  [18:6:21.646] got projects updated in background, updating diagnostics for /home/glaulher/Documentos/javascript/test/src/App.tsx
+Info 143  [18:6:21.646] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/glaulher/Documentos/javascript/test/src/App.tsx"]}}
+Info 144  [18:6:23.508] request:
+    {"seq":33,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":["/home/glaulher/Documentos/javascript/test/src/App.tsx"],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","fileContent":"import { StrictMode } from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\nimport reportWebVitals from './reportWebVitals';\n\nReactDOM.render(\n  <StrictMode>\n    <App />\n  </StrictMode>,\n  document.getElementById('root')\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 145  [18:6:23.510] FileWatcher:: Close:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 146  [18:6:23.512] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 147  [18:6:23.512] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 148  [18:6:23.512] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 149  [18:6:23.512] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/App.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 150  [18:6:23.513] Search path: /home/glaulher/Documentos/javascript/test/src
+Info 151  [18:6:23.514] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/index.tsx Status: File added to open files impacted by this config file
+Info 152  [18:6:23.514] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/index.tsx Status: File added to open files impacted by this config file
+Info 153  [18:6:23.514] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/index.tsx Status: File added to open files impacted by this config file
+Info 154  [18:6:23.514] For info: /home/glaulher/Documentos/javascript/test/src/index.tsx :: Config file name: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 155  [18:6:23.514] Starting updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 156  [18:6:23.913] Finishing updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Version: 3 structureChanged: true Elapsed: 399ms
+Info 157  [18:6:23.913] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 158  [18:6:23.916] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 158  [18:6:23.916] 	Files (181)
+
+Info 158  [18:6:23.916] -----------------------------------------------
+Info 158  [18:6:23.916] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 158  [18:6:23.916] 	Files (2)
+
+Info 158  [18:6:23.916] -----------------------------------------------
+Info 158  [18:6:23.916] Open files: 
+Info 158  [18:6:23.916] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 158  [18:6:23.916] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Perf 158  [18:6:23.917] 33::updateOpen: elapsed time (in milliseconds) 408.5443
+Info 159  [18:6:23.917] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":33,"success":true,"performanceData":{"updateGraphDurationMs":399},"body":true}
+Info 160  [18:6:23.968] request:
+    {"seq":34,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","startLine":1,"startOffset":1,"endLine":1,"endOffset":1}}
+Perf 161  [18:6:24.169] 34::getApplicableRefactors: elapsed time (in milliseconds) 201.1109
+Info 162  [18:6:24.169] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":34,"success":true,"body":[]}
+Info 163  [18:6:24.170] request:
+    {"seq":35,"type":"request","command":"projectInfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","needFileNameList":false}}
+Perf 164  [18:6:24.171] 35::projectInfo: elapsed time (in milliseconds) 0.6274
+Info 165  [18:6:24.171] response:
+    {"seq":0,"type":"response","command":"projectInfo","request_seq":35,"success":true,"body":{"configFileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","languageServiceDisabled":false}}
+Info 166  [18:6:24.172] request:
+    {"seq":36,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","start":0,"length":497}}
+Perf 167  [18:6:24.234] 36::encodedSemanticClassifications-full: elapsed time (in milliseconds) 62.2931
+Info 168  [18:6:24.234] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":36,"success":true,"body":{"spans":[176,6,2824,230,8,2064,239,14,3088,478,15,2824],"endOfLineState":0}}
+Info 169  [18:6:24.235] request:
+    {"seq":37,"type":"request","command":"geterr","arguments":{"delay":0,"files":["/home/glaulher/Documentos/javascript/test/src/index.tsx"]}}
+Perf 170  [18:6:24.236] 37::geterr: async elapsed time (in milliseconds) 1.4945
+Info 171  [18:6:24.238] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","diagnostics":[]}}
+Info 172  [18:6:24.239] request:
+    {"seq":38,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","start":0,"length":497}}
+Perf 173  [18:6:24.240] 38::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.6169
+Info 174  [18:6:24.241] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":38,"success":true,"body":{"spans":[176,6,2824,230,8,2064,239,14,3088,478,15,2824],"endOfLineState":0}}
+Info 175  [18:6:24.478] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","diagnostics":[{"start":{"line":4,"offset":17},"end":{"line":4,"offset":24},"text":"Module './App' was resolved to '/home/glaulher/Documentos/javascript/test/src/App.tsx', but '--jsx' is not set.","code":6142,"category":"error"},{"start":{"line":8,"offset":3},"end":{"line":8,"offset":15},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":9,"offset":5},"end":{"line":9,"offset":12},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"}]}}
+Info 176  [18:6:24.484] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","diagnostics":[]}}
+Info 177  [18:6:24.485] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":37}}
+Info 178  [18:6:24.611] request:
+    {"seq":39,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","start":0,"length":497}}
+Perf 179  [18:6:24.613] 39::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.2900
+Info 180  [18:6:24.613] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":39,"success":true,"body":{"spans":[176,6,2824,230,8,2064,239,14,3088,478,15,2824],"endOfLineState":0}}
+Info 181  [18:6:24.799] request:
+    {"seq":40,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 182  [18:6:24.800] Host configuration update for file /home/glaulher/Documentos/javascript/test/src/index.tsx
+Info 183  [18:6:24.800] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":40,"success":true}
+Perf 184  [18:6:24.801] 40::configure: async elapsed time (in milliseconds) 1.7854
+Info 185  [18:6:24.801] request:
+    {"seq":41,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","startLine":1,"startOffset":1,"endLine":1,"endOffset":1}}
+Perf 186  [18:6:24.802] 41::getApplicableRefactors: elapsed time (in milliseconds) 1.4140
+Info 187  [18:6:24.802] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":41,"success":true,"body":[{"name":"Convert export","description":"Convert default export to named export","actions":[{"name":"Convert default export to named export","description":"Convert default export to named export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert export","description":"Convert named export to default export","actions":[{"name":"Convert named export to default export","description":"Convert named export to default export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert import","description":"Convert namespace import to named imports","actions":[{"name":"Convert namespace import to named imports","description":"Convert namespace import to named imports","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Convert import","description":"Convert named imports to namespace import","actions":[{"name":"Convert named imports to namespace import","description":"Convert named imports to namespace import","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Extract Symbol","description":"Extract function","actions":[{"description":"Extract function","name":"function_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract Symbol","description":"Extract constant","actions":[{"description":"Extract constant","name":"constant_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract type","description":"Extract type","actions":[{"name":"Extract to typedef","description":"Extract to typedef","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to type alias","description":"Extract to type alias","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to interface","description":"Extract to interface","notApplicableReason":"Selection is not a valid type node"}]},{"name":"Add or remove braces in an arrow function","description":"Add or remove braces in an arrow function","actions":[{"name":"Add braces to arrow function","description":"Add braces to arrow function","notApplicableReason":"Could not find a containing arrow function"},{"name":"Remove braces from arrow function","description":"Remove braces from arrow function","notApplicableReason":"Could not find a containing arrow function"}]}]}
+Info 188  [18:6:27.704] request:
+    {"seq":42,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","line":14,"offset":45}}
+Perf 189  [18:6:27.706] 42::quickinfo: elapsed time (in milliseconds) 2.0599
+Info 190  [18:6:27.706] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":42,"success":false,"message":"No content available."}
+Info 191  [18:6:28.703] request:
+    {"seq":43,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","line":8,"offset":9}}
+Perf 192  [18:6:28.774] 43::quickinfo: elapsed time (in milliseconds) 70.9926
+Info 193  [18:6:28.774] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":43,"success":true,"body":{"kind":"alias","kindModifiers":"","start":{"line":8,"offset":4},"end":{"line":8,"offset":14},"displayString":"(alias) const StrictMode: ExoticComponent<{\n    children?: ReactNode;\n}>\nimport StrictMode","documentation":"","tags":[]}}
+Info 194  [18:6:29.206] request:
+    {"seq":44,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","startLine":8,"startOffset":3,"endLine":8,"endOffset":15,"errorCodes":[17004]}}
+Perf 195  [18:6:29.227] 44::getCodeFixes: elapsed time (in milliseconds) 21.0121
+Info 196  [18:6:29.227] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":44,"success":true,"body":[{"fixName":"fixEnableJsxFlag","description":"Enable the '--jsx' flag in your configuration file","changes":[{"fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","textChanges":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"newText":"\"react\""}]}]}]}
+Info 197  [18:6:29.228] request:
+    {"seq":45,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","startLine":8,"startOffset":3,"endLine":8,"endOffset":15,"errorCodes":[17004]}}
+Perf 198  [18:6:29.231] 45::getCodeFixes: elapsed time (in milliseconds) 3.2387
+Info 199  [18:6:29.231] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":45,"success":true,"body":[{"fixName":"fixEnableJsxFlag","description":"Enable the '--jsx' flag in your configuration file","changes":[{"fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","textChanges":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"newText":"\"react\""}]}]}]}
+Info 200  [18:6:47.841] request:
+    {"seq":46,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","line":4,"offset":22}}
+Perf 201  [18:6:47.842] 46::quickinfo: elapsed time (in milliseconds) 0.5459
+Info 202  [18:6:47.842] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":46,"success":false,"message":"No content available."}
+Info 203  [18:6:48.4] request:
+    {"seq":47,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","startLine":4,"startOffset":17,"endLine":4,"endOffset":24,"errorCodes":[6142]}}
+Perf 204  [18:6:48.5] 47::getCodeFixes: elapsed time (in milliseconds) 1.3760
+Info 205  [18:6:48.5] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":47,"success":true,"body":[]}
+Info 206  [18:8:38.182] request:
+    {"seq":48,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/index.tsx","line":5,"offset":22}}
+Perf 207  [18:8:38.197] 48::quickinfo: elapsed time (in milliseconds) 15.4098
+Info 208  [18:8:38.198] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":48,"success":true,"body":{"kind":"alias","kindModifiers":"","start":{"line":5,"offset":8},"end":{"line":5,"offset":23},"displayString":"(alias) const reportWebVitals: (onPerfEntry?: ReportHandler | undefined) => void\nimport reportWebVitals","documentation":"","tags":[]}}
+Info 209  [18:19:21.795] FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/tsconfig.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/tsconfig.json 2000 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Config file
+Info 210  [18:19:21.795] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/index.tsx Status: Reloading configured projects for only inferred root files
+Info 211  [18:19:21.795] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 212  [18:19:21.796] Scheduled: *ensureProjectForOpenFiles*
+Info 213  [18:19:21.796] Elapsed:: 1ms FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/tsconfig.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/tsconfig.json 2000 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Config file
+Info 214  [18:19:22.46] Running: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 215  [18:19:22.47] Reloading configured project /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 216  [18:19:22.47] event:
+    {"seq":0,"type":"event","event":"projectLoadingStart","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","reason":"Change in config file detected"}}
+Info 217  [18:19:22.62] Config: /home/glaulher/Documentos/javascript/test/tsconfig.json : {
+ "rootNames": [
+  "/home/glaulher/Documentos/javascript/test/src/App.test.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/App.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/index.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/react-app-env.d.ts",
+  "/home/glaulher/Documentos/javascript/test/src/reportWebVitals.ts",
+  "/home/glaulher/Documentos/javascript/test/src/setupTests.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "configFilePath": "/home/glaulher/Documentos/javascript/test/tsconfig.json"
+ }
+}
+Info 218  [18:19:22.63] Loading global plugin typescript-vscode-sh-plugin
+Info 219  [18:19:22.64] Enabling plugin typescript-vscode-sh-plugin from candidate paths: /usr/lib/code-oss/resources/app/extensions/typescript-language-features,/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js/../../..
+Info 220  [18:19:22.64] Loading typescript-vscode-sh-plugin from /usr/lib/code-oss/resources/app/extensions/typescript-language-features (resolved to /usr/lib/code-oss/resources/app/extensions/typescript-language-features/node_modules)
+Info 221  [18:19:22.67] typescript-vscode-sh-plugin initialized. Intercepting getEncodedSemanticClassifications and getEncodedSyntacticClassifications.
+Info 222  [18:19:22.67] Plugin validation succeded
+Info 223  [18:19:22.127] Starting updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 224  [18:19:22.169] Finishing updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Version: 4 structureChanged: false Elapsed: 42ms
+Info 225  [18:19:22.169] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 226  [18:19:22.170] event:
+    {"seq":0,"type":"event","event":"projectLoadingFinish","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}}
+Info 227  [18:19:22.183] event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/glaulher/Documentos/javascript/test/tsconfig.json","configFile":"/home/glaulher/Documentos/javascript/test/tsconfig.json","diagnostics":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"text":"String literal with double quotes expected.","code":1327,"category":"error","fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"},{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"text":"Argument for '--jsx' option must be: 'preserve', 'react-native', 'react'.","code":6046,"category":"error","fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}]}}
+Info 228  [18:19:24.295] Running: *ensureProjectForOpenFiles*
+Info 229  [18:19:24.295] Before ensureProjectForOpenFiles:
+Info 230  [18:19:24.295] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 230  [18:19:24.296] 	Files (181)
+
+Info 230  [18:19:24.296] -----------------------------------------------
+Info 230  [18:19:24.296] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 230  [18:19:24.296] 	Files (2)
+
+Info 230  [18:19:24.296] -----------------------------------------------
+Info 230  [18:19:24.296] Open files: 
+Info 230  [18:19:24.296] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 230  [18:19:24.296] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 230  [18:19:24.296] After ensureProjectForOpenFiles:
+Info 231  [18:19:24.296] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 231  [18:19:24.296] 	Files (181)
+
+Info 231  [18:19:24.296] -----------------------------------------------
+Info 231  [18:19:24.296] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 231  [18:19:24.296] 	Files (2)
+
+Info 231  [18:19:24.296] -----------------------------------------------
+Info 231  [18:19:24.296] Open files: 
+Info 231  [18:19:24.296] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 231  [18:19:24.296] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 231  [18:19:24.296] got projects updated in background, updating diagnostics for /home/glaulher/Documentos/javascript/test/src/index.tsx
+Info 232  [18:19:24.296] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/glaulher/Documentos/javascript/test/src/index.tsx"]}}
+Info 233  [18:19:41.796] FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/tsconfig.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/tsconfig.json 2000 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Config file
+Info 234  [18:19:41.797] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/index.tsx Status: Reloading configured projects for only inferred root files
+Info 235  [18:19:41.797] Scheduled: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 236  [18:19:41.797] Scheduled: *ensureProjectForOpenFiles*
+Info 237  [18:19:41.797] Elapsed:: 0ms FileWatcher:: Triggered with /home/glaulher/Documentos/javascript/test/tsconfig.json 1:: WatchInfo: /home/glaulher/Documentos/javascript/test/tsconfig.json 2000 undefined Project: /home/glaulher/Documentos/javascript/test/tsconfig.json WatchType: Config file
+Info 238  [18:19:42.47] Running: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 239  [18:19:42.47] Reloading configured project /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 240  [18:19:42.48] event:
+    {"seq":0,"type":"event","event":"projectLoadingStart","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","reason":"Change in config file detected"}}
+Info 241  [18:19:42.57] Config: /home/glaulher/Documentos/javascript/test/tsconfig.json : {
+ "rootNames": [
+  "/home/glaulher/Documentos/javascript/test/src/App.test.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/App.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/index.tsx",
+  "/home/glaulher/Documentos/javascript/test/src/react-app-env.d.ts",
+  "/home/glaulher/Documentos/javascript/test/src/reportWebVitals.ts",
+  "/home/glaulher/Documentos/javascript/test/src/setupTests.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "configFilePath": "/home/glaulher/Documentos/javascript/test/tsconfig.json"
+ }
+}
+Info 242  [18:19:42.57] Loading global plugin typescript-vscode-sh-plugin
+Info 243  [18:19:42.58] Enabling plugin typescript-vscode-sh-plugin from candidate paths: /usr/lib/code-oss/resources/app/extensions/typescript-language-features,/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js/../../..
+Info 244  [18:19:42.58] Loading typescript-vscode-sh-plugin from /usr/lib/code-oss/resources/app/extensions/typescript-language-features (resolved to /usr/lib/code-oss/resources/app/extensions/typescript-language-features/node_modules)
+Info 245  [18:19:42.60] typescript-vscode-sh-plugin initialized. Intercepting getEncodedSemanticClassifications and getEncodedSyntacticClassifications.
+Info 246  [18:19:42.60] Plugin validation succeded
+Info 247  [18:19:42.95] Starting updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 248  [18:19:42.124] Finishing updateGraphWorker: Project: /home/glaulher/Documentos/javascript/test/tsconfig.json Version: 5 structureChanged: false Elapsed: 29ms
+Info 249  [18:19:42.124] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 250  [18:19:42.124] event:
+    {"seq":0,"type":"event","event":"projectLoadingFinish","body":{"projectName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}}
+Info 251  [18:19:42.135] event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/glaulher/Documentos/javascript/test/tsconfig.json","configFile":"/home/glaulher/Documentos/javascript/test/tsconfig.json","diagnostics":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"text":"Argument for '--jsx' option must be: 'preserve', 'react-native', 'react'.","code":6046,"category":"error","fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json"}]}}
+Info 252  [18:19:44.297] Running: *ensureProjectForOpenFiles*
+Info 253  [18:19:44.297] Before ensureProjectForOpenFiles:
+Info 254  [18:19:44.297] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 254  [18:19:44.297] 	Files (181)
+
+Info 254  [18:19:44.297] -----------------------------------------------
+Info 254  [18:19:44.297] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 254  [18:19:44.297] 	Files (2)
+
+Info 254  [18:19:44.297] -----------------------------------------------
+Info 254  [18:19:44.297] Open files: 
+Info 254  [18:19:44.297] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 254  [18:19:44.297] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 254  [18:19:44.298] After ensureProjectForOpenFiles:
+Info 255  [18:19:44.298] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 255  [18:19:44.298] 	Files (181)
+
+Info 255  [18:19:44.298] -----------------------------------------------
+Info 255  [18:19:44.298] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 255  [18:19:44.298] 	Files (2)
+
+Info 255  [18:19:44.298] -----------------------------------------------
+Info 255  [18:19:44.298] Open files: 
+Info 255  [18:19:44.298] 	FileName: /home/glaulher/Documentos/javascript/test/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 255  [18:19:44.298] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 255  [18:19:44.298] got projects updated in background, updating diagnostics for /home/glaulher/Documentos/javascript/test/src/index.tsx
+Info 256  [18:19:44.298] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/glaulher/Documentos/javascript/test/src/index.tsx"]}}
+Info 257  [18:21:3.909] request:
+    {"seq":49,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":["/home/glaulher/Documentos/javascript/test/src/index.tsx"],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","fileContent":"import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n          Edit <code>src/App.tsx</code> and save to reload.\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n","projectRootPath":"/home/glaulher/Documentos/javascript/test","scriptKindName":"TSX"}]}}
+Info 258  [18:21:3.909] FileWatcher:: Close:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/App.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 259  [18:21:3.910] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 260  [18:21:3.910] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 261  [18:21:3.910] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles:  Status: File removed from open files impacted by this config file
+Info 262  [18:21:3.910] FileWatcher:: Added:: WatchInfo: /home/glaulher/Documentos/javascript/test/src/index.tsx 500 undefined Project:  WatchType: Closed Script info
+Info 263  [18:21:3.910] Search path: /home/glaulher/Documentos/javascript/test/src
+Info 264  [18:21:3.910] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 265  [18:21:3.911] ConfigFilePresence:: Current Watches: :: File: /home/glaulher/Documentos/javascript/test/src/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 266  [18:21:3.911] ConfigFilePresence:: Current Watches: Config file:: File: /home/glaulher/Documentos/javascript/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/glaulher/Documentos/javascript/test/src/App.tsx Status: File added to open files impacted by this config file
+Info 267  [18:21:3.911] For info: /home/glaulher/Documentos/javascript/test/src/App.tsx :: Config file name: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Info 268  [18:21:3.912] Project '/home/glaulher/Documentos/javascript/test/tsconfig.json' (Configured)
+Info 268  [18:21:3.912] 	Files (181)
+
+Info 268  [18:21:3.912] -----------------------------------------------
+Info 268  [18:21:3.912] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 268  [18:21:3.912] 	Files (2)
+
+Info 268  [18:21:3.912] -----------------------------------------------
+Info 268  [18:21:3.912] Open files: 
+Info 268  [18:21:3.912] 	FileName: /home/glaulher/Documentos/javascript/test/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/test
+Info 268  [18:21:3.912] 		Projects: /home/glaulher/Documentos/javascript/test/tsconfig.json
+Perf 268  [18:21:3.912] 49::updateOpen: elapsed time (in milliseconds) 3.1571
+Info 269  [18:21:3.912] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":49,"success":true,"body":true}
+Info 270  [18:21:3.937] request:
+    {"seq":50,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":1,"startOffset":1,"endLine":1,"endOffset":1}}
+Perf 271  [18:21:3.938] 50::getApplicableRefactors: elapsed time (in milliseconds) 1.9194
+Info 272  [18:21:3.939] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":50,"success":true,"body":[]}
+Info 273  [18:21:3.945] request:
+    {"seq":51,"type":"request","command":"projectInfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","needFileNameList":false}}
+Perf 274  [18:21:3.945] 51::projectInfo: elapsed time (in milliseconds) 0.2862
+Info 275  [18:21:3.945] response:
+    {"seq":0,"type":"response","command":"projectInfo","request_seq":51,"success":true,"body":{"configFileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","languageServiceDisabled":false}}
+Info 276  [18:21:3.995] request:
+    {"seq":52,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 277  [18:21:3.999] 52::encodedSemanticClassifications-full: elapsed time (in milliseconds) 4.0901
+Info 278  [18:21:3.999] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":52,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 279  [18:21:4.107] request:
+    {"seq":53,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 280  [18:21:4.107] Host configuration update for file /home/glaulher/Documentos/javascript/test/src/App.tsx
+Info 281  [18:21:4.107] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":53,"success":true}
+Perf 282  [18:21:4.108] 53::configure: async elapsed time (in milliseconds) 0.6611
+Info 283  [18:21:4.138] request:
+    {"seq":54,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":2,"startOffset":15,"endLine":2,"endOffset":15}}
+Perf 284  [18:21:4.139] 54::getApplicableRefactors: elapsed time (in milliseconds) 1.7763
+Info 285  [18:21:4.140] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":54,"success":true,"body":[{"name":"Convert export","description":"Convert default export to named export","actions":[{"name":"Convert default export to named export","description":"Convert default export to named export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert export","description":"Convert named export to default export","actions":[{"name":"Convert named export to default export","description":"Convert named export to default export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert import","description":"Convert namespace import to named imports","actions":[{"name":"Convert namespace import to named imports","description":"Convert namespace import to named imports","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Convert import","description":"Convert named imports to namespace import","actions":[{"name":"Convert named imports to namespace import","description":"Convert named imports to namespace import","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Extract Symbol","description":"Extract function","actions":[{"description":"Extract function","name":"function_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract Symbol","description":"Extract constant","actions":[{"description":"Extract constant","name":"constant_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract type","description":"Extract type","actions":[{"name":"Extract to typedef","description":"Extract to typedef","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to type alias","description":"Extract to type alias","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to interface","description":"Extract to interface","notApplicableReason":"Selection is not a valid type node"}]},{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","actions":[{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","notApplicableReason":"Could not find property for which to generate accessor"}]},{"name":"Add or remove braces in an arrow function","description":"Add or remove braces in an arrow function","actions":[{"name":"Add braces to arrow function","description":"Add braces to arrow function","notApplicableReason":"Could not find a containing arrow function"},{"name":"Remove braces from arrow function","description":"Remove braces from arrow function","notApplicableReason":"Could not find a containing arrow function"}]}]}
+Info 286  [18:21:4.218] request:
+    {"seq":55,"type":"request","command":"geterr","arguments":{"delay":0,"files":["/home/glaulher/Documentos/javascript/test/src/App.tsx"]}}
+Perf 287  [18:21:4.218] 55::geterr: async elapsed time (in milliseconds) 0.3280
+Info 288  [18:21:4.219] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 289  [18:21:4.839] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[{"start":{"line":6,"offset":5},"end":{"line":6,"offset":26},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":7,"offset":7},"end":{"line":7,"offset":38},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":8,"offset":9},"end":{"line":8,"offset":59},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":9,"offset":9},"end":{"line":9,"offset":12},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":10,"offset":16},"end":{"line":10,"offset":22},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":12,"offset":9},"end":{"line":17,"offset":10},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"}]}}
+Info 290  [18:21:4.840] request:
+    {"seq":56,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 291  [18:21:4.841] 56::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.2614
+Info 292  [18:21:4.841] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":56,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 293  [18:21:4.845] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 294  [18:21:4.846] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":55}}
+Info 295  [18:21:4.846] request:
+    {"seq":57,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 296  [18:21:4.847] 57::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.1716
+Info 297  [18:21:4.847] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":57,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 298  [18:21:5.148] request:
+    {"seq":58,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":2,"startOffset":15,"endLine":2,"endOffset":15}}
+Perf 299  [18:21:5.150] 58::getApplicableRefactors: elapsed time (in milliseconds) 1.9181
+Info 300  [18:21:5.151] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":58,"success":true,"body":[{"name":"Convert export","description":"Convert default export to named export","actions":[{"name":"Convert default export to named export","description":"Convert default export to named export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert export","description":"Convert named export to default export","actions":[{"name":"Convert named export to default export","description":"Convert named export to default export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert import","description":"Convert namespace import to named imports","actions":[{"name":"Convert namespace import to named imports","description":"Convert namespace import to named imports","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Convert import","description":"Convert named imports to namespace import","actions":[{"name":"Convert named imports to namespace import","description":"Convert named imports to namespace import","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Extract Symbol","description":"Extract function","actions":[{"description":"Extract function","name":"function_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract Symbol","description":"Extract constant","actions":[{"description":"Extract constant","name":"constant_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract type","description":"Extract type","actions":[{"name":"Extract to typedef","description":"Extract to typedef","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to type alias","description":"Extract to type alias","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to interface","description":"Extract to interface","notApplicableReason":"Selection is not a valid type node"}]},{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","actions":[{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","notApplicableReason":"Could not find property for which to generate accessor"}]},{"name":"Add or remove braces in an arrow function","description":"Add or remove braces in an arrow function","actions":[{"name":"Add braces to arrow function","description":"Add braces to arrow function","notApplicableReason":"Could not find a containing arrow function"},{"name":"Remove braces from arrow function","description":"Remove braces from arrow function","notApplicableReason":"Could not find a containing arrow function"}]}]}
+Info 301  [18:21:9.702] request:
+    {"seq":59,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","line":7,"offset":24}}
+Info 302  [18:21:9.953] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":59,"success":true,"body":{"canceled":true}}
+Info 303  [18:21:10.34] request:
+    {"seq":60,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","line":6,"offset":21}}
+Perf 304  [18:21:10.35] 60::quickinfo: elapsed time (in milliseconds) 0.8589
+Info 305  [18:21:10.35] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":60,"success":false,"message":"No content available."}
+Info 306  [18:21:10.234] request:
+    {"seq":61,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":6,"startOffset":5,"endLine":6,"endOffset":26,"errorCodes":[17004]}}
+Perf 307  [18:21:10.240] 61::getCodeFixes: elapsed time (in milliseconds) 6.1042
+Info 308  [18:21:10.240] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":61,"success":true,"body":[{"fixName":"fixEnableJsxFlag","description":"Enable the '--jsx' flag in your configuration file","changes":[{"fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","textChanges":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"newText":"\"react\""}]}]}]}
+Info 309  [18:21:14.402] request:
+    {"seq":62,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","line":2,"offset":20}}
+Perf 310  [18:21:14.403] 62::quickinfo: elapsed time (in milliseconds) 0.3963
+Info 311  [18:21:14.403] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":62,"success":false,"message":"No content available."}
+Info 312  [18:21:18.314] request:
+    {"seq":63,"type":"request","command":"geterr","arguments":{"delay":0,"files":["/home/glaulher/Documentos/javascript/test/src/App.tsx"]}}
+Perf 313  [18:21:18.314] 63::geterr: async elapsed time (in milliseconds) 0.4145
+Info 314  [18:21:18.315] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 315  [18:21:18.316] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[{"start":{"line":6,"offset":5},"end":{"line":6,"offset":26},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":7,"offset":7},"end":{"line":7,"offset":38},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":8,"offset":9},"end":{"line":8,"offset":59},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":9,"offset":9},"end":{"line":9,"offset":12},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":10,"offset":16},"end":{"line":10,"offset":22},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":12,"offset":9},"end":{"line":17,"offset":10},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"}]}}
+Info 316  [18:21:18.317] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 317  [18:21:18.317] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":63}}
+Info 318  [18:21:30.9] request:
+    {"seq":64,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 319  [18:21:30.10] 64::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.1031
+Info 320  [18:21:30.11] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":64,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 321  [18:21:30.647] request:
+    {"seq":65,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 322  [18:21:30.648] 65::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.1657
+Info 323  [18:21:30.648] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":65,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 324  [18:21:31.183] request:
+    {"seq":66,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 325  [18:21:31.191] 66::encodedSemanticClassifications-full: elapsed time (in milliseconds) 7.4854
+Info 326  [18:21:31.191] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":66,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 327  [18:21:31.555] request:
+    {"seq":67,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 328  [18:21:31.556] 67::encodedSemanticClassifications-full: elapsed time (in milliseconds) 0.9853
+Info 329  [18:21:31.556] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":67,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 330  [18:24:20.173] request:
+    {"seq":68,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":6,"startOffset":5,"endLine":6,"endOffset":26,"errorCodes":[17004]}}
+Perf 331  [18:24:20.176] 68::getCodeFixes: elapsed time (in milliseconds) 3.0638
+Info 332  [18:24:20.176] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":68,"success":true,"body":[{"fixName":"fixEnableJsxFlag","description":"Enable the '--jsx' flag in your configuration file","changes":[{"fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","textChanges":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"newText":"\"react\""}]}]}]}
+Info 333  [18:24:45.779] request:
+    {"seq":69,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":1,"startOffset":1,"endLine":1,"endOffset":1}}
+Perf 334  [18:24:45.780] 69::getApplicableRefactors: elapsed time (in milliseconds) 1.2872
+Info 335  [18:24:45.780] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":69,"success":true,"body":[{"name":"Convert export","description":"Convert default export to named export","actions":[{"name":"Convert default export to named export","description":"Convert default export to named export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert export","description":"Convert named export to default export","actions":[{"name":"Convert named export to default export","description":"Convert named export to default export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert import","description":"Convert namespace import to named imports","actions":[{"name":"Convert namespace import to named imports","description":"Convert namespace import to named imports","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Convert import","description":"Convert named imports to namespace import","actions":[{"name":"Convert named imports to namespace import","description":"Convert named imports to namespace import","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Extract Symbol","description":"Extract function","actions":[{"description":"Extract function","name":"function_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract Symbol","description":"Extract constant","actions":[{"description":"Extract constant","name":"constant_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract type","description":"Extract type","actions":[{"name":"Extract to typedef","description":"Extract to typedef","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to type alias","description":"Extract to type alias","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to interface","description":"Extract to interface","notApplicableReason":"Selection is not a valid type node"}]},{"name":"Add or remove braces in an arrow function","description":"Add or remove braces in an arrow function","actions":[{"name":"Add braces to arrow function","description":"Add braces to arrow function","notApplicableReason":"Could not find a containing arrow function"},{"name":"Remove braces from arrow function","description":"Remove braces from arrow function","notApplicableReason":"Could not find a containing arrow function"}]}]}
+Info 336  [18:24:45.788] request:
+    {"seq":70,"type":"request","command":"projectInfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","needFileNameList":false}}
+Perf 337  [18:24:45.788] 70::projectInfo: elapsed time (in milliseconds) 0.2978
+Info 338  [18:24:45.788] response:
+    {"seq":0,"type":"response","command":"projectInfo","request_seq":70,"success":true,"body":{"configFileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","languageServiceDisabled":false}}
+Info 339  [18:24:45.868] request:
+    {"seq":71,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 340  [18:24:45.869] 71::encodedSemanticClassifications-full: elapsed time (in milliseconds) 1.2664
+Info 341  [18:24:45.870] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":71,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 342  [18:24:45.952] request:
+    {"seq":72,"type":"request","command":"getApplicableRefactors","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":2,"startOffset":15,"endLine":2,"endOffset":15}}
+Perf 343  [18:24:45.954] 72::getApplicableRefactors: elapsed time (in milliseconds) 1.3223
+Info 344  [18:24:45.954] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":72,"success":true,"body":[{"name":"Convert export","description":"Convert default export to named export","actions":[{"name":"Convert default export to named export","description":"Convert default export to named export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert export","description":"Convert named export to default export","actions":[{"name":"Convert named export to default export","description":"Convert named export to default export","notApplicableReason":"Could not find export statement"}]},{"name":"Convert import","description":"Convert namespace import to named imports","actions":[{"name":"Convert namespace import to named imports","description":"Convert namespace import to named imports","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Convert import","description":"Convert named imports to namespace import","actions":[{"name":"Convert named imports to namespace import","description":"Convert named imports to namespace import","notApplicableReason":"Selection is not an import declaration."}]},{"name":"Extract Symbol","description":"Extract function","actions":[{"description":"Extract function","name":"function_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract Symbol","description":"Extract constant","actions":[{"description":"Extract constant","name":"constant_extract_error","notApplicableReason":"Cannot extract empty range."}]},{"name":"Extract type","description":"Extract type","actions":[{"name":"Extract to typedef","description":"Extract to typedef","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to type alias","description":"Extract to type alias","notApplicableReason":"Selection is not a valid type node"},{"name":"Extract to interface","description":"Extract to interface","notApplicableReason":"Selection is not a valid type node"}]},{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","actions":[{"name":"Generate 'get' and 'set' accessors","description":"Generate 'get' and 'set' accessors","notApplicableReason":"Could not find property for which to generate accessor"}]},{"name":"Add or remove braces in an arrow function","description":"Add or remove braces in an arrow function","actions":[{"name":"Add braces to arrow function","description":"Add braces to arrow function","notApplicableReason":"Could not find a containing arrow function"},{"name":"Remove braces from arrow function","description":"Remove braces from arrow function","notApplicableReason":"Could not find a containing arrow function"}]}]}
+Info 345  [18:24:46.86] request:
+    {"seq":73,"type":"request","command":"geterr","arguments":{"delay":0,"files":["/home/glaulher/Documentos/javascript/test/src/App.tsx"]}}
+Perf 346  [18:24:46.86] 73::geterr: async elapsed time (in milliseconds) 0.3215
+Info 347  [18:24:46.88] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 348  [18:24:46.89] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[{"start":{"line":6,"offset":5},"end":{"line":6,"offset":26},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":7,"offset":7},"end":{"line":7,"offset":38},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":8,"offset":9},"end":{"line":8,"offset":59},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":9,"offset":9},"end":{"line":9,"offset":12},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":10,"offset":16},"end":{"line":10,"offset":22},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"},{"start":{"line":12,"offset":9},"end":{"line":17,"offset":10},"text":"Cannot use JSX unless the '--jsx' flag is provided.","code":17004,"category":"error"}]}}
+Info 349  [18:24:46.90] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","diagnostics":[]}}
+Info 350  [18:24:46.91] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":73}}
+Info 351  [18:24:46.690] request:
+    {"seq":74,"type":"request","command":"encodedSemanticClassifications-full","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","start":0,"length":529}}
+Perf 352  [18:24:46.691] 74::encodedSemanticClassifications-full: elapsed time (in milliseconds) 0.9822
+Info 353  [18:24:46.691] response:
+    {"seq":0,"type":"response","command":"encodedSemanticClassifications-full","request_seq":74,"success":true,"body":{"spans":[61,3,2817,162,4,2056,524,3,2816],"endOfLineState":0}}
+Info 354  [18:24:48.473] request:
+    {"seq":75,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","line":8,"offset":42}}
+Perf 355  [18:24:48.473] 75::quickinfo: elapsed time (in milliseconds) 0.5253
+Info 356  [18:24:48.473] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":75,"success":false,"message":"No content available."}
+Info 357  [18:24:48.659] request:
+    {"seq":76,"type":"request","command":"getCodeFixes","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","startLine":8,"startOffset":9,"endLine":8,"endOffset":59,"errorCodes":[17004]}}
+Perf 358  [18:24:48.661] 76::getCodeFixes: elapsed time (in milliseconds) 2.0486
+Info 359  [18:24:48.661] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":76,"success":true,"body":[{"fixName":"fixEnableJsxFlag","description":"Enable the '--jsx' flag in your configuration file","changes":[{"fileName":"/home/glaulher/Documentos/javascript/test/tsconfig.json","textChanges":[{"start":{"line":21,"offset":12},"end":{"line":21,"offset":23},"newText":"\"react\""}]}]}]}
+Info 360  [18:24:55.98] request:
+    {"seq":77,"type":"request","command":"quickinfo","arguments":{"file":"/home/glaulher/Documentos/javascript/test/src/App.tsx","line":5,"offset":8}}
+Perf 361  [18:24:55.99] 77::quickinfo: elapsed time (in milliseconds) 0.4990
+Info 362  [18:24:55.99] response:
+    {"seq":0,"type":"response","command":"quickinfo","request_seq":77,"success":false,"message":"No content available."}

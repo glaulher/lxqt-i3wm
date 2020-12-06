@@ -1,0 +1,867 @@
+Info 0    [18:35:13.712] Starting TS Server
+Info 1    [18:35:13.713] Version: 4.0.3
+Info 2    [18:35:13.713] Arguments: /usr/lib/electron9/electron /usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/6f256796cc54b629a87a/tscancellation-3e19b9cc3ba082222ed8.tmp* --logVerbosity verbose --logFile /home/glaulher/.config/Code - OSS/logs/20201124T174218/exthost2/vscode.typescript-language-features/tsserver-log-kho0xM/tsserver.log --globalPlugins typescript-vscode-sh-plugin --pluginProbeLocations /usr/lib/code-oss/resources/app/extensions/typescript-language-features --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation
+Info 3    [18:35:13.713] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [18:35:13.714] ServerMode: 1 syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [18:35:13.732] request:
+    {"seq":0,"type":"request","command":"configure","arguments":{"hostInfo":"vscode","preferences":{"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includePackageJsonAutoImports":"auto"},"watchOptions":{}}}
+Info 6    [18:35:13.733] Host information vscode
+Info 7    [18:35:13.734] Host watch options changed to undefined, it will be take effect for next watches.
+Info 8    [18:35:13.735] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":0,"success":true}
+Perf 9    [18:35:13.737] 0::configure: async elapsed time (in milliseconds) 4.9430
+Info 10   [18:35:13.737] request:
+    {"seq":1,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","fileContent":"function Dashboard() {\n  return <h1>Hello World</h1>;\n}\n","projectRootPath":"/home/glaulher/Documentos/javascript/bootcamp/github.search","scriptKindName":"TSX"}]}}
+Info 11   [18:35:13.751] Loading global plugin typescript-vscode-sh-plugin
+Info 12   [18:35:13.751] Enabling plugin typescript-vscode-sh-plugin from candidate paths: /usr/lib/code-oss/resources/app/extensions/typescript-language-features,/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/tsserver.js/../../..
+Info 13   [18:35:13.752] Loading typescript-vscode-sh-plugin from /usr/lib/code-oss/resources/app/extensions/typescript-language-features (resolved to /usr/lib/code-oss/resources/app/extensions/typescript-language-features/node_modules)
+Info 14   [18:35:13.789] typescript-vscode-sh-plugin initialized. Intercepting getEncodedSemanticClassifications and getEncodedSyntacticClassifications.
+Info 15   [18:35:13.789] Plugin validation succeded
+Info 16   [18:35:13.795] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [18:35:17.601] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 3806ms
+Info 18   [18:35:17.601] Project '/dev/null/inferredProject1*' (Inferred)
+Info 19   [18:35:17.601] 	Files (6)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+
+Info 20   [18:35:17.602] -----------------------------------------------
+Info 21   [18:35:17.908] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 22   [18:35:21.137] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 3229ms
+Info 23   [18:35:21.137] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 24   [18:35:21.137] 	Files (9)
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@types/testing-library__jest-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@testing-library/react/types/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@testing-library/user-event/typings/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@types/react/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@types/react-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@types/react-router-dom/index.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/react-scripts/lib/react-app.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/typescript/lib/typescript.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/web-vitals/dist/index.d.ts
+
+Info 25   [18:35:21.137] -----------------------------------------------
+Info 26   [18:35:21.138] Project '/dev/null/inferredProject1*' (Inferred)
+Info 26   [18:35:21.139] 	Files (6)
+
+Info 26   [18:35:21.139] -----------------------------------------------
+Info 26   [18:35:21.139] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 26   [18:35:21.139] 	Files (9)
+
+Info 26   [18:35:21.139] -----------------------------------------------
+Info 26   [18:35:21.139] Open files: 
+Info 26   [18:35:21.139] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 26   [18:35:21.139] 		Projects: /dev/null/inferredProject1*
+Perf 26   [18:35:21.139] 1::updateOpen: elapsed time (in milliseconds) 7402.0533
+Info 27   [18:35:21.140] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":1,"success":true,"performanceData":{"updateGraphDurationMs":7035},"body":true}
+Info 28   [18:35:21.142] request:
+    {"seq":3,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 29   [18:35:21.154] 3::navtree: elapsed time (in milliseconds) 12.6014
+Info 30   [18:35:21.155] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":3,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":19}}}]}}
+Info 31   [18:35:21.157] request:
+    {"seq":4,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 32   [18:35:21.166] 4::getOutliningSpans: elapsed time (in milliseconds) 8.4511
+Info 33   [18:35:21.166] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":4,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 34   [18:35:21.679] request:
+    {"seq":5,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx","fileContent":"import * as React from 'react';\n\nimport { Switch, Route } from 'react-router-dom';\nimport Dashboard from '../pages/Dashboard';\n// import Repository from '../pages/Repository';\n\nconst Routes: React.FC = () => (\n  <Switch>\n    <Route path=\"/\" exact component={Dashboard} />\n  </Switch>\n);\n\nexport default Routes;\n","projectRootPath":"/home/glaulher/Documentos/javascript/bootcamp/github.search","scriptKindName":"TSX"}]}}
+Info 35   [18:35:21.680] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 36   [18:35:21.826] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 146ms
+Info 37   [18:35:21.826] Project '/dev/null/inferredProject1*' (Inferred)
+Info 38   [18:35:21.826] 	Files (7)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx
+
+Info 39   [18:35:21.826] -----------------------------------------------
+Info 40   [18:35:21.826] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 41   [18:35:21.827] 	Files (9)
+
+Info 42   [18:35:21.827] -----------------------------------------------
+Info 43   [18:35:21.835] Project '/dev/null/inferredProject1*' (Inferred)
+Info 43   [18:35:21.835] 	Files (7)
+
+Info 43   [18:35:21.835] -----------------------------------------------
+Info 43   [18:35:21.835] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 43   [18:35:21.835] 	Files (9)
+
+Info 43   [18:35:21.835] -----------------------------------------------
+Info 43   [18:35:21.835] Open files: 
+Info 43   [18:35:21.835] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 43   [18:35:21.835] 		Projects: /dev/null/inferredProject1*
+Info 43   [18:35:21.835] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 43   [18:35:21.836] 		Projects: /dev/null/inferredProject1*
+Perf 43   [18:35:21.836] 5::updateOpen: elapsed time (in milliseconds) 156.6604
+Info 44   [18:35:21.836] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":5,"success":true,"performanceData":{"updateGraphDurationMs":146},"body":true}
+Info 45   [18:35:21.838] request:
+    {"seq":6,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 46   [18:35:21.850] 6::navtree: elapsed time (in milliseconds) 11.5189
+Info 47   [18:35:21.850] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":6,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":18}}],"nameSpan":{"start":{"line":1,"offset":13},"end":{"line":1,"offset":18}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 48   [18:35:21.856] request:
+    {"seq":7,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 49   [18:35:21.861] 7::getOutliningSpans: elapsed time (in milliseconds) 5.0086
+Info 50   [18:35:21.863] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":7,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 51   [18:35:21.865] request:
+    {"seq":8,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 52   [18:35:21.866] Host configuration update for file /home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx
+Info 53   [18:35:21.866] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":8,"success":true}
+Perf 54   [18:35:21.867] 8::configure: async elapsed time (in milliseconds) 1.5459
+Info 55   [18:35:31.371] request:
+    {"seq":9,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 56   [18:35:31.373] 9::navtree: elapsed time (in milliseconds) 1.5978
+Info 57   [18:35:31.373] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":9,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":19}}}]}}
+Info 58   [18:35:31.464] request:
+    {"seq":10,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 59   [18:35:31.465] 10::getOutliningSpans: elapsed time (in milliseconds) 1.1439
+Info 60   [18:35:31.466] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":10,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 61   [18:36:3.595] request:
+    {"seq":11,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 62   [18:36:3.597] 11::getOutliningSpans: elapsed time (in milliseconds) 1.5168
+Info 63   [18:36:3.597] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":11,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 64   [18:36:7.481] request:
+    {"seq":12,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 65   [18:36:7.483] Host configuration update for file /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+Info 66   [18:36:7.483] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":12,"success":true}
+Perf 67   [18:36:7.484] 12::configure: async elapsed time (in milliseconds) 2.1928
+Info 68   [18:36:23.253] request:
+    {"seq":13,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 69   [18:36:23.258] 13::navtree: elapsed time (in milliseconds) 5.1831
+Info 70   [18:36:23.259] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":13,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":18}}],"nameSpan":{"start":{"line":1,"offset":13},"end":{"line":1,"offset":18}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 71   [18:36:23.362] request:
+    {"seq":14,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 72   [18:36:23.365] 14::getOutliningSpans: elapsed time (in milliseconds) 2.3801
+Info 73   [18:36:23.365] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":14,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 74   [18:36:24.835] request:
+    {"seq":15,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 75   [18:36:24.837] 15::navtree: elapsed time (in milliseconds) 1.8944
+Info 76   [18:36:24.837] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":15,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":19}}}]}}
+Info 77   [18:36:24.970] request:
+    {"seq":16,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 78   [18:36:24.972] 16::getOutliningSpans: elapsed time (in milliseconds) 1.1989
+Info 79   [18:36:24.972] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":16,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 80   [18:36:54.156] request:
+    {"seq":17,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 81   [18:36:54.158] 17::getOutliningSpans: elapsed time (in milliseconds) 1.1053
+Info 82   [18:36:54.158] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":17,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 83   [18:45:58.295] request:
+    {"seq":18,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 84   [18:45:58.298] 18::navtree: elapsed time (in milliseconds) 3.3284
+Info 85   [18:45:58.298] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":18,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":18}}],"nameSpan":{"start":{"line":1,"offset":13},"end":{"line":1,"offset":18}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 86   [18:45:58.466] request:
+    {"seq":19,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 87   [18:45:58.468] 19::getOutliningSpans: elapsed time (in milliseconds) 1.8653
+Info 88   [18:45:58.468] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":19,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 89   [18:46:16.172] request:
+    {"seq":20,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx","textChanges":[{"newText":"","start":{"line":1,"offset":8},"end":{"line":1,"offset":12}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 90   [18:46:16.174] 20::updateOpen: elapsed time (in milliseconds) 2.0051
+Info 91   [18:46:16.174] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":20,"success":true,"body":true}
+Info 92   [18:46:16.262] request:
+    {"seq":21,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 93   [18:46:16.269] 21::getOutliningSpans: elapsed time (in milliseconds) 7.5362
+Info 94   [18:46:16.269] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":21,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 95   [18:46:16.481] request:
+    {"seq":22,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 96   [18:46:16.482] 22::navtree: elapsed time (in milliseconds) 1.1078
+Info 97   [18:46:16.482] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":22,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 98   [18:46:21.173] request:
+    {"seq":23,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 99   [18:46:21.174] 23::navtree: elapsed time (in milliseconds) 1.4492
+Info 100  [18:46:21.174] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":23,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":19}}}]}}
+Info 101  [18:46:21.286] request:
+    {"seq":24,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 102  [18:46:21.287] 24::getOutliningSpans: elapsed time (in milliseconds) 1.0760
+Info 103  [18:46:21.288] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":24,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 104  [18:46:24.930] request:
+    {"seq":25,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 105  [18:46:24.936] 25::navtree: elapsed time (in milliseconds) 5.6458
+Info 106  [18:46:24.936] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":25,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 107  [18:46:25.59] request:
+    {"seq":26,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 108  [18:46:25.63] 26::getOutliningSpans: elapsed time (in milliseconds) 4.1786
+Info 109  [18:46:25.63] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":26,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 110  [18:46:33.13] request:
+    {"seq":27,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 111  [18:46:33.15] 27::navtree: elapsed time (in milliseconds) 1.3400
+Info 112  [18:46:33.15] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":27,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":19}}}]}}
+Info 113  [18:46:33.219] request:
+    {"seq":28,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 114  [18:46:33.220] 28::getOutliningSpans: elapsed time (in milliseconds) 0.9390
+Info 115  [18:46:33.220] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":28,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":21},"end":{"line":3,"offset":2}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":3,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"hintSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 116  [18:46:36.14] request:
+    {"seq":29,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"\n","start":{"line":1,"offset":1},"end":{"line":1,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 117  [18:46:36.15] 29::updateOpen: elapsed time (in milliseconds) 0.4589
+Info 118  [18:46:36.15] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":29,"success":true,"body":true}
+Info 119  [18:46:36.112] request:
+    {"seq":30,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 120  [18:46:36.114] 30::getOutliningSpans: elapsed time (in milliseconds) 2.1210
+Info 121  [18:46:36.115] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":30,"success":true,"body":[{"textSpan":{"start":{"line":2,"offset":21},"end":{"line":4,"offset":2}},"hintSpan":{"start":{"line":2,"offset":1},"end":{"line":4,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":30}},"hintSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 122  [18:46:37.379] request:
+    {"seq":31,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"\n","start":{"line":1,"offset":1},"end":{"line":1,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 123  [18:46:37.379] 31::updateOpen: elapsed time (in milliseconds) 0.5670
+Info 124  [18:46:37.379] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":31,"success":true,"body":true}
+Info 125  [18:46:37.480] request:
+    {"seq":32,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 126  [18:46:37.483] 32::getOutliningSpans: elapsed time (in milliseconds) 2.2266
+Info 127  [18:46:37.483] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":32,"success":true,"body":[{"textSpan":{"start":{"line":3,"offset":21},"end":{"line":5,"offset":2}},"hintSpan":{"start":{"line":3,"offset":1},"end":{"line":5,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":30}},"hintSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 128  [18:46:38.678] request:
+    {"seq":33,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 129  [18:46:38.678] 33::navtree: elapsed time (in milliseconds) 0.9261
+Info 130  [18:46:38.679] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":33,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":5,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":3,"offset":1},"end":{"line":5,"offset":2}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":19}}}]}}
+Info 131  [18:46:41.360] request:
+    {"seq":34,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"import  React from 'react';\n","start":{"line":1,"offset":1},"end":{"line":1,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 132  [18:46:41.361] 34::updateOpen: elapsed time (in milliseconds) 0.5165
+Info 133  [18:46:41.361] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":34,"success":true,"body":true}
+Info 134  [18:46:41.474] request:
+    {"seq":35,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 135  [18:46:41.476] 35::getOutliningSpans: elapsed time (in milliseconds) 2.2258
+Info 136  [18:46:41.477] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":35,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 137  [18:46:42.511] request:
+    {"seq":36,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 138  [18:46:42.512] 36::navtree: elapsed time (in milliseconds) 1.1000
+Info 139  [18:46:42.512] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":36,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":6,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}}]}}
+Info 140  [18:46:48.342] request:
+    {"seq":37,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"","start":{"line":1,"offset":8},"end":{"line":1,"offset":9}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 141  [18:46:48.342] 37::updateOpen: elapsed time (in milliseconds) 0.5058
+Info 142  [18:46:48.342] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":37,"success":true,"body":true}
+Info 143  [18:46:48.446] request:
+    {"seq":38,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 144  [18:46:48.448] 38::getOutliningSpans: elapsed time (in milliseconds) 2.0598
+Info 145  [18:46:48.448] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":38,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 146  [18:46:49.364] request:
+    {"seq":39,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 147  [18:46:49.365] 39::navtree: elapsed time (in milliseconds) 0.8465
+Info 148  [18:46:49.365] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":39,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":6,"offset":3}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 149  [18:46:56.998] request:
+    {"seq":40,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"e","start":{"line":7,"offset":1},"end":{"line":7,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 150  [18:46:56.998] 40::updateOpen: elapsed time (in milliseconds) 0.4688
+Info 151  [18:46:56.998] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":40,"success":true,"body":true}
+Info 152  [18:46:57.43] request:
+    {"seq":41,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 153  [18:46:57.47] 41::navtree: elapsed time (in milliseconds) 3.3835
+Info 154  [18:46:57.47] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":41,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":2}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 155  [18:46:57.142] request:
+    {"seq":42,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 156  [18:46:57.143] 42::getOutliningSpans: elapsed time (in milliseconds) 1.0945
+Info 157  [18:46:57.143] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":42,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 158  [18:46:57.935] request:
+    {"seq":43,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"x","start":{"line":7,"offset":2},"end":{"line":7,"offset":2}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 159  [18:46:57.935] 43::updateOpen: elapsed time (in milliseconds) 0.5529
+Info 160  [18:46:57.936] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":43,"success":true,"body":true}
+Info 161  [18:46:58.48] request:
+    {"seq":45,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"p","start":{"line":7,"offset":3},"end":{"line":7,"offset":3}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 162  [18:46:58.49] 45::updateOpen: elapsed time (in milliseconds) 0.5206
+Info 163  [18:46:58.49] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":45,"success":true,"body":true}
+Info 164  [18:46:58.82] request:
+    {"seq":46,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 165  [18:46:58.84] 46::navtree: elapsed time (in milliseconds) 2.0476
+Info 166  [18:46:58.84] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":46,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":4}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 167  [18:46:58.416] request:
+    {"seq":47,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"o","start":{"line":7,"offset":4},"end":{"line":7,"offset":4}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 168  [18:46:58.424] 47::updateOpen: elapsed time (in milliseconds) 7.3889
+Info 169  [18:46:58.426] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":47,"success":true,"body":true}
+Info 170  [18:46:58.442] request:
+    {"seq":48,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 171  [18:46:58.445] 48::getOutliningSpans: elapsed time (in milliseconds) 2.1161
+Info 172  [18:46:58.445] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":48,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 173  [18:46:59.48] request:
+    {"seq":49,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 174  [18:46:59.49] 49::navtree: elapsed time (in milliseconds) 1.0263
+Info 175  [18:46:59.49] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":49,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":5}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 176  [18:47:0.315] request:
+    {"seq":50,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"export","start":{"line":7,"offset":1},"end":{"line":7,"offset":5}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 177  [18:47:0.322] 50::updateOpen: elapsed time (in milliseconds) 6.1331
+Info 178  [18:47:0.323] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":50,"success":true,"body":true}
+Info 179  [18:47:0.402] request:
+    {"seq":51,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 180  [18:47:0.405] 51::getOutliningSpans: elapsed time (in milliseconds) 3.8469
+Info 181  [18:47:0.406] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":51,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 182  [18:47:1.20] request:
+    {"seq":52,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 183  [18:47:1.21] 52::navtree: elapsed time (in milliseconds) 0.9654
+Info 184  [18:47:1.21] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":52,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":7}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 185  [18:47:1.333] request:
+    {"seq":53,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":" ","start":{"line":7,"offset":7},"end":{"line":7,"offset":7}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 186  [18:47:1.333] 53::updateOpen: elapsed time (in milliseconds) 0.4622
+Info 187  [18:47:1.333] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":53,"success":true,"body":true}
+Info 188  [18:47:1.433] request:
+    {"seq":54,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 189  [18:47:1.435] 54::getOutliningSpans: elapsed time (in milliseconds) 2.0855
+Info 190  [18:47:1.435] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":54,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 191  [18:47:1.679] request:
+    {"seq":55,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"d","start":{"line":7,"offset":8},"end":{"line":7,"offset":8}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 192  [18:47:1.679] 55::updateOpen: elapsed time (in milliseconds) 0.4366
+Info 193  [18:47:1.679] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":55,"success":true,"body":true}
+Info 194  [18:47:1.681] request:
+    {"seq":56,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 195  [18:47:1.683] 56::navtree: elapsed time (in milliseconds) 1.8288
+Info 196  [18:47:1.683] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":56,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":9}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 197  [18:47:1.799] request:
+    {"seq":57,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"e","start":{"line":7,"offset":9},"end":{"line":7,"offset":9}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 198  [18:47:1.799] 57::updateOpen: elapsed time (in milliseconds) 0.4686
+Info 199  [18:47:1.800] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":57,"success":true,"body":true}
+Info 200  [18:47:1.898] request:
+    {"seq":58,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 201  [18:47:1.900] 58::getOutliningSpans: elapsed time (in milliseconds) 2.0280
+Info 202  [18:47:1.900] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":58,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 203  [18:47:2.181] request:
+    {"seq":59,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"f","start":{"line":7,"offset":10},"end":{"line":7,"offset":10}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 204  [18:47:2.182] 59::updateOpen: elapsed time (in milliseconds) 0.4230
+Info 205  [18:47:2.182] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":59,"success":true,"body":true}
+Info 206  [18:47:2.183] request:
+    {"seq":60,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 207  [18:47:2.184] 60::navtree: elapsed time (in milliseconds) 1.2574
+Info 208  [18:47:2.184] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":60,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":11}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 209  [18:47:2.487] request:
+    {"seq":61,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"a","start":{"line":7,"offset":11},"end":{"line":7,"offset":11}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 210  [18:47:2.488] 61::updateOpen: elapsed time (in milliseconds) 0.5267
+Info 211  [18:47:2.488] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":61,"success":true,"body":true}
+Info 212  [18:47:2.627] request:
+    {"seq":62,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 213  [18:47:2.629] 62::getOutliningSpans: elapsed time (in milliseconds) 2.2361
+Info 214  [18:47:2.630] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":62,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 215  [18:47:2.779] request:
+    {"seq":63,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"u","start":{"line":7,"offset":12},"end":{"line":7,"offset":12}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 216  [18:47:2.780] 63::updateOpen: elapsed time (in milliseconds) 0.4088
+Info 217  [18:47:2.780] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":63,"success":true,"body":true}
+Info 218  [18:47:2.879] request:
+    {"seq":64,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 219  [18:47:2.881] 64::getOutliningSpans: elapsed time (in milliseconds) 1.8117
+Info 220  [18:47:2.881] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":64,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 221  [18:47:3.353] request:
+    {"seq":65,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 222  [18:47:3.354] 65::navtree: elapsed time (in milliseconds) 1.1148
+Info 223  [18:47:3.354] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":65,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":13}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 224  [18:47:3.865] request:
+    {"seq":66,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"l","start":{"line":7,"offset":13},"end":{"line":7,"offset":13}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 225  [18:47:3.865] 66::updateOpen: elapsed time (in milliseconds) 0.5189
+Info 226  [18:47:3.865] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":66,"success":true,"body":true}
+Info 227  [18:47:3.965] request:
+    {"seq":67,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 228  [18:47:3.966] 67::getOutliningSpans: elapsed time (in milliseconds) 1.7987
+Info 229  [18:47:3.967] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":67,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 230  [18:47:4.111] request:
+    {"seq":68,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"t","start":{"line":7,"offset":14},"end":{"line":7,"offset":14}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 231  [18:47:4.112] 68::updateOpen: elapsed time (in milliseconds) 0.4229
+Info 232  [18:47:4.112] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":68,"success":true,"body":true}
+Info 233  [18:47:4.201] request:
+    {"seq":69,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 234  [18:47:4.203] 69::getOutliningSpans: elapsed time (in milliseconds) 1.7136
+Info 235  [18:47:4.203] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":69,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 236  [18:47:4.646] request:
+    {"seq":70,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 237  [18:47:4.647] 70::navtree: elapsed time (in milliseconds) 0.8640
+Info 238  [18:47:4.647] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":70,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":15}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":15}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 239  [18:47:5.69] request:
+    {"seq":71,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"default","start":{"line":7,"offset":8},"end":{"line":7,"offset":15}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 240  [18:47:5.69] 71::updateOpen: elapsed time (in milliseconds) 0.3694
+Info 241  [18:47:5.69] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":71,"success":true,"body":true}
+Info 242  [18:47:5.168] request:
+    {"seq":72,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 243  [18:47:5.170] 72::getOutliningSpans: elapsed time (in milliseconds) 1.8761
+Info 244  [18:47:5.170] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":72,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 245  [18:47:5.578] request:
+    {"seq":73,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 246  [18:47:5.579] 73::navtree: elapsed time (in milliseconds) 0.7993
+Info 247  [18:47:5.579] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":73,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":15}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":15}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 248  [18:47:6.493] request:
+    {"seq":74,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":" ","start":{"line":7,"offset":15},"end":{"line":7,"offset":15}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 249  [18:47:6.500] 74::updateOpen: elapsed time (in milliseconds) 6.3544
+Info 250  [18:47:6.502] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":74,"success":true,"body":true}
+Info 251  [18:47:6.589] request:
+    {"seq":75,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 252  [18:47:6.591] 75::getOutliningSpans: elapsed time (in milliseconds) 1.7456
+Info 253  [18:47:6.591] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":75,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 254  [18:47:6.967] request:
+    {"seq":76,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 255  [18:47:6.977] 76::navtree: elapsed time (in milliseconds) 9.7425
+Info 256  [18:47:6.978] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":76,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":16}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":15}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 257  [18:47:7.725] request:
+    {"seq":77,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"S","start":{"line":7,"offset":16},"end":{"line":7,"offset":16}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 258  [18:47:7.726] 77::updateOpen: elapsed time (in milliseconds) 1.1346
+Info 259  [18:47:7.726] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":77,"success":true,"body":true}
+Info 260  [18:47:7.730] request:
+    {"seq":78,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 261  [18:47:7.732] 78::navtree: elapsed time (in milliseconds) 2.1853
+Info 262  [18:47:7.732] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":78,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":17}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":17}}]}]}}
+Info 263  [18:47:7.900] request:
+    {"seq":79,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 264  [18:47:7.901] 79::getOutliningSpans: elapsed time (in milliseconds) 1.0178
+Info 265  [18:47:7.901] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":79,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 266  [18:47:8.659] request:
+    {"seq":80,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"","start":{"line":7,"offset":16},"end":{"line":7,"offset":17}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 267  [18:47:8.659] 80::updateOpen: elapsed time (in milliseconds) 0.3875
+Info 268  [18:47:8.659] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":80,"success":true,"body":true}
+Info 269  [18:47:8.696] request:
+    {"seq":81,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 270  [18:47:8.698] 81::getOutliningSpans: elapsed time (in milliseconds) 1.9653
+Info 271  [18:47:8.698] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":81,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 272  [18:47:9.25] request:
+    {"seq":82,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 273  [18:47:9.26] 82::navtree: elapsed time (in milliseconds) 1.0449
+Info 274  [18:47:9.26] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":82,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":16}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":15}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 275  [18:47:9.852] request:
+    {"seq":83,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"D","start":{"line":7,"offset":16},"end":{"line":7,"offset":16}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 276  [18:47:9.852] 83::updateOpen: elapsed time (in milliseconds) 0.3933
+Info 277  [18:47:9.852] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":83,"success":true,"body":true}
+Info 278  [18:47:9.853] request:
+    {"seq":84,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 279  [18:47:9.855] 84::navtree: elapsed time (in milliseconds) 1.5269
+Info 280  [18:47:9.855] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":84,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":17}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":17}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 281  [18:47:9.985] request:
+    {"seq":85,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 282  [18:47:9.986] 85::getOutliningSpans: elapsed time (in milliseconds) 0.9704
+Info 283  [18:47:9.986] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":85,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 284  [18:47:10.336] request:
+    {"seq":86,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"a","start":{"line":7,"offset":17},"end":{"line":7,"offset":17}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 285  [18:47:10.336] 86::updateOpen: elapsed time (in milliseconds) 0.3597
+Info 286  [18:47:10.336] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":86,"success":true,"body":true}
+Info 287  [18:47:10.338] request:
+    {"seq":87,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 288  [18:47:10.340] 87::getOutliningSpans: elapsed time (in milliseconds) 1.6920
+Info 289  [18:47:10.340] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":87,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 290  [18:47:10.404] request:
+    {"seq":88,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 291  [18:47:10.416] 88::navtree: elapsed time (in milliseconds) 12.3061
+Info 292  [18:47:10.418] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":88,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":18}}],"childItems":[{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":18}}]},{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 293  [18:47:11.923] request:
+    {"seq":89,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"Dashboard","start":{"line":7,"offset":16},"end":{"line":7,"offset":18}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 294  [18:47:11.923] 89::updateOpen: elapsed time (in milliseconds) 0.3250
+Info 295  [18:47:11.924] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":89,"success":true,"body":true}
+Info 296  [18:47:12.20] request:
+    {"seq":90,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 297  [18:47:12.34] 90::getOutliningSpans: elapsed time (in milliseconds) 14.7762
+Info 298  [18:47:12.34] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":90,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 299  [18:47:12.281] request:
+    {"seq":91,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 300  [18:47:12.282] 91::navtree: elapsed time (in milliseconds) 1.0465
+Info 301  [18:47:12.282] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":91,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":25}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":25}}]},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 302  [18:47:13.665] request:
+    {"seq":92,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx","textChanges":[{"newText":"\n","start":{"line":7,"offset":25},"end":{"line":7,"offset":25}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 303  [18:47:13.666] 92::updateOpen: elapsed time (in milliseconds) 0.3901
+Info 304  [18:47:13.666] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":92,"success":true,"body":true}
+Info 305  [18:47:13.744] request:
+    {"seq":93,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 306  [18:47:13.746] 93::getOutliningSpans: elapsed time (in milliseconds) 1.8821
+Info 307  [18:47:13.746] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":93,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 308  [18:47:13.986] request:
+    {"seq":94,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 309  [18:47:13.987] 94::navtree: elapsed time (in milliseconds) 1.1267
+Info 310  [18:47:13.987] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":94,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":26}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":25}}]},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 311  [18:47:24.577] request:
+    {"seq":95,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 312  [18:47:24.580] 95::navtree: elapsed time (in milliseconds) 3.1544
+Info 313  [18:47:24.580] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":95,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 314  [18:47:24.671] request:
+    {"seq":96,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 315  [18:47:24.673] 96::getOutliningSpans: elapsed time (in milliseconds) 1.3625
+Info 316  [18:47:24.673] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":96,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 317  [18:47:41.738] request:
+    {"seq":97,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx","fileContent":"import Routes from './routes';\n\n// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types\nfunction App() {\n  return <Routes />;\n}\n\nexport default App;\n","projectRootPath":"/home/glaulher/Documentos/javascript/bootcamp/github.search","scriptKindName":"TSX"}]}}
+Info 318  [18:47:41.739] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 319  [18:47:41.791] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 51ms
+Info 320  [18:47:41.791] Project '/dev/null/inferredProject1*' (Inferred)
+Info 321  [18:47:41.791] 	Files (8)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx
+
+Info 322  [18:47:41.792] -----------------------------------------------
+Info 323  [18:47:41.792] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 324  [18:47:41.792] 	Files (9)
+
+Info 325  [18:47:41.792] -----------------------------------------------
+Info 326  [18:47:41.793] Project '/dev/null/inferredProject1*' (Inferred)
+Info 326  [18:47:41.793] 	Files (8)
+
+Info 326  [18:47:41.793] -----------------------------------------------
+Info 326  [18:47:41.793] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 326  [18:47:41.793] 	Files (9)
+
+Info 326  [18:47:41.793] -----------------------------------------------
+Info 326  [18:47:41.793] Open files: 
+Info 326  [18:47:41.793] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 326  [18:47:41.793] 		Projects: /dev/null/inferredProject1*
+Info 326  [18:47:41.793] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 326  [18:47:41.793] 		Projects: /dev/null/inferredProject1*
+Info 326  [18:47:41.793] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 326  [18:47:41.793] 		Projects: /dev/null/inferredProject1*
+Perf 326  [18:47:41.793] 97::updateOpen: elapsed time (in milliseconds) 54.9903
+Info 327  [18:47:41.793] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":97,"success":true,"performanceData":{"updateGraphDurationMs":51},"body":true}
+Info 328  [18:47:41.842] request:
+    {"seq":98,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 329  [18:47:41.844] 98::navtree: elapsed time (in milliseconds) 1.9472
+Info 330  [18:47:41.844] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":98,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":8,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":8,"offset":1},"end":{"line":8,"offset":20}}]},{"text":"Routes","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":14}}}]}}
+Info 331  [18:47:41.867] request:
+    {"seq":99,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 332  [18:47:41.868] 99::getOutliningSpans: elapsed time (in milliseconds) 0.9744
+Info 333  [18:47:41.868] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":99,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":15},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"}]}
+Info 334  [18:47:41.945] request:
+    {"seq":100,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 335  [18:47:41.949] Host configuration update for file /home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx
+Info 336  [18:47:41.951] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":100,"success":true}
+Perf 337  [18:47:41.953] 100::configure: async elapsed time (in milliseconds) 7.4799
+Info 338  [18:47:58.254] request:
+    {"seq":101,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 339  [18:47:58.257] 101::navtree: elapsed time (in milliseconds) 3.0710
+Info 340  [18:47:58.257] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":101,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":13,"offset":24}}],"childItems":[{"text":"Dashboard","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":17}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":14}}},{"text":"Route","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":18},"end":{"line":3,"offset":23}}},{"text":"Routes","kind":"const","kindModifiers":"","spans":[{"start":{"line":7,"offset":7},"end":{"line":11,"offset":2}}],"nameSpan":{"start":{"line":7,"offset":7},"end":{"line":7,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":13,"offset":1},"end":{"line":13,"offset":23}}]},{"text":"Switch","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":10},"end":{"line":3,"offset":16}}}]}}
+Info 341  [18:47:58.405] request:
+    {"seq":102,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx"}}
+Perf 342  [18:47:58.406] 102::getOutliningSpans: elapsed time (in milliseconds) 1.5436
+Info 343  [18:47:58.406] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":102,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":44}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":31},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":7,"offset":26},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":12}},"bannerText":"<Switch>...</Switch>","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"hintSpan":{"start":{"line":9,"offset":12},"end":{"line":9,"offset":48}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}
+Info 344  [18:48:1.171] request:
+    {"seq":103,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 345  [18:48:1.180] 103::navtree: elapsed time (in milliseconds) 9.4213
+Info 346  [18:48:1.180] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":103,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":8,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":8,"offset":1},"end":{"line":8,"offset":20}}]},{"text":"Routes","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":14}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":14}}}]}}
+Info 347  [18:48:1.293] request:
+    {"seq":104,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 348  [18:48:1.294] 104::getOutliningSpans: elapsed time (in milliseconds) 0.9480
+Info 349  [18:48:1.294] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":104,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":15},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"}]}
+Info 350  [18:48:24.732] request:
+    {"seq":105,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx","textChanges":[{"newText":"import React from 'react';\n","start":{"line":1,"offset":1},"end":{"line":1,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 351  [18:48:24.733] 105::updateOpen: elapsed time (in milliseconds) 0.4095
+Info 352  [18:48:24.733] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":105,"success":true,"body":true}
+Info 353  [18:48:24.844] request:
+    {"seq":106,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 354  [18:48:24.846] 106::getOutliningSpans: elapsed time (in milliseconds) 2.0919
+Info 355  [18:48:24.846] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":106,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":31}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":31}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":5,"offset":15},"end":{"line":7,"offset":2}},"hintSpan":{"start":{"line":5,"offset":1},"end":{"line":7,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"}]}
+Info 356  [18:48:24.906] request:
+    {"seq":107,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 357  [18:48:24.907] 107::navtree: elapsed time (in milliseconds) 1.1099
+Info 358  [18:48:24.907] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":107,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":9,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":5,"offset":1},"end":{"line":7,"offset":2}}],"nameSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":9,"offset":1},"end":{"line":9,"offset":20}}]},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}},{"text":"Routes","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":14}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":14}}}]}}
+Info 359  [18:48:36.31] request:
+    {"seq":108,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","fileContent":"import { StrictMode } from 'react';\nimport ReactDOM from 'react-dom';\n\nimport App from './App';\n\nReactDOM.render(\n  <StrictMode>\n    <App />\n  </StrictMode>,\n  document.getElementById('root'),\n);\n","projectRootPath":"/home/glaulher/Documentos/javascript/bootcamp/github.search","scriptKindName":"TSX"}]}}
+Info 360  [18:48:36.42] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 361  [18:48:36.251] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true Elapsed: 207ms
+Info 362  [18:48:36.251] Project '/dev/null/inferredProject1*' (Inferred)
+Info 363  [18:48:36.251] 	Files (9)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx
+
+Info 364  [18:48:36.251] -----------------------------------------------
+Info 365  [18:48:36.251] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 366  [18:48:36.251] 	Files (9)
+
+Info 367  [18:48:36.251] -----------------------------------------------
+Info 368  [18:48:36.251] Project '/dev/null/inferredProject1*' (Inferred)
+Info 368  [18:48:36.251] 	Files (9)
+
+Info 368  [18:48:36.251] -----------------------------------------------
+Info 368  [18:48:36.252] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 368  [18:48:36.252] 	Files (9)
+
+Info 368  [18:48:36.252] -----------------------------------------------
+Info 368  [18:48:36.252] Open files: 
+Info 368  [18:48:36.252] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 368  [18:48:36.252] 		Projects: /dev/null/inferredProject1*
+Info 368  [18:48:36.252] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 368  [18:48:36.252] 		Projects: /dev/null/inferredProject1*
+Info 368  [18:48:36.252] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 368  [18:48:36.252] 		Projects: /dev/null/inferredProject1*
+Info 368  [18:48:36.252] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 368  [18:48:36.252] 		Projects: /dev/null/inferredProject1*
+Perf 368  [18:48:36.252] 108::updateOpen: elapsed time (in milliseconds) 221.8007
+Info 369  [18:48:36.252] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":108,"success":true,"performanceData":{"updateGraphDurationMs":207},"body":true}
+Info 370  [18:48:36.273] request:
+    {"seq":109,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 371  [18:48:36.275] 109::navtree: elapsed time (in milliseconds) 2.0602
+Info 372  [18:48:36.275] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":109,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":11,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":10},"end":{"line":1,"offset":20}}],"nameSpan":{"start":{"line":1,"offset":10},"end":{"line":1,"offset":20}}}]}}
+Info 373  [18:48:36.277] request:
+    {"seq":110,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 374  [18:48:36.279] 110::getOutliningSpans: elapsed time (in milliseconds) 1.5506
+Info 375  [18:48:36.279] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":110,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":25}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":6,"offset":16},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":6,"offset":1},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":3},"end":{"line":9,"offset":16}},"hintSpan":{"start":{"line":7,"offset":3},"end":{"line":9,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 376  [18:48:36.280] request:
+    {"seq":111,"type":"request","command":"configure","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","formatOptions":{"tabSize":2,"indentSize":2,"convertTabsToSpaces":true,"newLineCharacter":"\n","insertSpaceAfterCommaDelimiter":true,"insertSpaceAfterConstructor":false,"insertSpaceAfterSemicolonInForStatements":true,"insertSpaceBeforeAndAfterBinaryOperators":true,"insertSpaceAfterKeywordsInControlFlowStatements":true,"insertSpaceAfterFunctionKeywordForAnonymousFunctions":true,"insertSpaceBeforeFunctionParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets":false,"insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingEmptyBraces":true,"insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces":false,"insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces":false,"insertSpaceAfterTypeAssertion":false,"placeOpenBraceOnNewLineForFunctions":false,"placeOpenBraceOnNewLineForControlBlocks":false,"semicolons":"ignore"},"preferences":{"quotePreference":"auto","importModuleSpecifierEnding":"auto","allowTextChangesInNewFiles":true,"providePrefixAndSuffixTextForRename":true,"allowRenameOfImportPath":true,"includeAutomaticOptionalChainCompletions":true,"provideRefactorNotApplicableReason":true}}}
+Info 377  [18:48:36.280] Host configuration update for file /home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx
+Info 378  [18:48:36.280] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":111,"success":true}
+Perf 379  [18:48:36.281] 111::configure: async elapsed time (in milliseconds) 0.5579
+Info 380  [18:48:50.690] request:
+    {"seq":112,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":"import React from 'react';\n","start":{"line":1,"offset":1},"end":{"line":1,"offset":1}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 381  [18:48:50.690] 112::updateOpen: elapsed time (in milliseconds) 0.3557
+Info 382  [18:48:50.690] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":112,"success":true,"body":true}
+Info 383  [18:48:50.815] request:
+    {"seq":113,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 384  [18:48:50.817] 113::getOutliningSpans: elapsed time (in milliseconds) 2.5089
+Info 385  [18:48:50.818] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":113,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":5,"offset":25}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":5,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 386  [18:48:50.926] request:
+    {"seq":114,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 387  [18:48:50.927] 114::navtree: elapsed time (in milliseconds) 1.1759
+Info 388  [18:48:50.927] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":114,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":12,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":10},"end":{"line":2,"offset":20}}],"nameSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":20}}}]}}
+Info 389  [18:48:59.10] request:
+    {"seq":115,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":"","start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 390  [18:48:59.11] 115::updateOpen: elapsed time (in milliseconds) 0.3932
+Info 391  [18:48:59.11] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":115,"success":true,"body":true}
+Info 392  [18:48:59.107] request:
+    {"seq":116,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 393  [18:48:59.110] 116::getOutliningSpans: elapsed time (in milliseconds) 2.9720
+Info 394  [18:48:59.110] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":116,"success":true,"body":[{"textSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"hintSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 395  [18:48:59.170] request:
+    {"seq":117,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 396  [18:48:59.171] 117::navtree: elapsed time (in milliseconds) 1.5419
+Info 397  [18:48:59.172] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":117,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":12,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}},{"text":"from","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":10},"end":{"line":2,"offset":20}}],"nameSpan":{"start":{"line":2,"offset":10},"end":{"line":2,"offset":20}}}]}}
+Info 398  [18:49:2.108] request:
+    {"seq":118,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":"React","start":{"line":2,"offset":8},"end":{"line":2,"offset":8}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 399  [18:49:2.109] 118::updateOpen: elapsed time (in milliseconds) 0.3890
+Info 400  [18:49:2.109] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":118,"success":true,"body":true}
+Info 401  [18:49:2.207] request:
+    {"seq":119,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 402  [18:49:2.210] 119::getOutliningSpans: elapsed time (in milliseconds) 3.2684
+Info 403  [18:49:2.211] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":119,"success":true,"body":[{"textSpan":{"start":{"line":2,"offset":13},"end":{"line":2,"offset":27}},"hintSpan":{"start":{"line":2,"offset":13},"end":{"line":2,"offset":27}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":3,"offset":1},"end":{"line":5,"offset":25}},"hintSpan":{"start":{"line":3,"offset":1},"end":{"line":5,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 404  [18:49:2.259] request:
+    {"seq":120,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 405  [18:49:2.261] 120::navtree: elapsed time (in milliseconds) 1.6062
+Info 406  [18:49:2.261] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":120,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":12,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}},{"text":"from","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":13}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":1},"end":{"line":2,"offset":13}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}}]}}
+Info 407  [18:49:3.553] request:
+    {"seq":121,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":",","start":{"line":2,"offset":13},"end":{"line":2,"offset":13}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 408  [18:49:3.554] 121::updateOpen: elapsed time (in milliseconds) 0.3718
+Info 409  [18:49:3.554] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":121,"success":true,"body":true}
+Info 410  [18:49:3.653] request:
+    {"seq":122,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 411  [18:49:3.655] 122::getOutliningSpans: elapsed time (in milliseconds) 2.0832
+Info 412  [18:49:3.655] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":122,"success":true,"body":[{"textSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"hintSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 413  [18:49:3.712] request:
+    {"seq":123,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 414  [18:49:3.713] 123::navtree: elapsed time (in milliseconds) 1.2401
+Info 415  [18:49:3.713] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":123,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":12,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}},{"text":"from","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":9},"end":{"line":1,"offset":13}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":13}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":16},"end":{"line":2,"offset":26}}],"nameSpan":{"start":{"line":2,"offset":16},"end":{"line":2,"offset":26}}}]}}
+Info 416  [18:49:7.699] request:
+    {"seq":124,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":"","start":{"line":1,"offset":1},"end":{"line":1,"offset":22}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 417  [18:49:7.700] 124::updateOpen: elapsed time (in milliseconds) 0.3428
+Info 418  [18:49:7.700] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":124,"success":true,"body":true}
+Info 419  [18:49:7.792] request:
+    {"seq":125,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 420  [18:49:7.794] 125::getOutliningSpans: elapsed time (in milliseconds) 2.2360
+Info 421  [18:49:7.794] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":125,"success":true,"body":[{"textSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"hintSpan":{"start":{"line":2,"offset":1},"end":{"line":5,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":7,"offset":16},"end":{"line":12,"offset":2}},"hintSpan":{"start":{"line":7,"offset":1},"end":{"line":12,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"hintSpan":{"start":{"line":8,"offset":3},"end":{"line":10,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 422  [18:49:7.859] request:
+    {"seq":126,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 423  [18:49:7.863] 126::navtree: elapsed time (in milliseconds) 3.6892
+Info 424  [18:49:7.864] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":126,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":12,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}],"nameSpan":{"start":{"line":5,"offset":8},"end":{"line":5,"offset":11}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":13}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}],"nameSpan":{"start":{"line":3,"offset":8},"end":{"line":3,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":16},"end":{"line":2,"offset":26}}],"nameSpan":{"start":{"line":2,"offset":16},"end":{"line":2,"offset":26}}}]}}
+Info 425  [18:49:9.944] request:
+    {"seq":127,"type":"request","command":"updateOpen","arguments":{"changedFiles":[{"fileName":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx","textChanges":[{"newText":"","start":{"line":1,"offset":1},"end":{"line":2,"offset":1}},{"newText":" ","start":{"line":2,"offset":14},"end":{"line":2,"offset":14}}]}],"closedFiles":[],"openFiles":[]}}
+Perf 426  [18:49:9.944] 127::updateOpen: elapsed time (in milliseconds) 0.5051
+Info 427  [18:49:9.944] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":127,"success":true,"body":true}
+Info 428  [18:49:10.41] request:
+    {"seq":128,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 429  [18:49:10.43] 128::getOutliningSpans: elapsed time (in milliseconds) 2.2580
+Info 430  [18:49:10.44] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":128,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":25}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":4,"offset":25}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":6,"offset":16},"end":{"line":11,"offset":2}},"hintSpan":{"start":{"line":6,"offset":1},"end":{"line":11,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"},{"textSpan":{"start":{"line":7,"offset":3},"end":{"line":9,"offset":16}},"hintSpan":{"start":{"line":7,"offset":3},"end":{"line":9,"offset":16}},"bannerText":"<StrictMode>...</StrictMode>","autoCollapse":false,"kind":"code"}]}
+Info 431  [18:49:10.190] request:
+    {"seq":129,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx"}}
+Perf 432  [18:49:10.191] 129::navtree: elapsed time (in milliseconds) 0.8501
+Info 433  [18:49:10.191] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":129,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":11,"offset":4}}],"childItems":[{"text":"App","kind":"alias","kindModifiers":"","spans":[{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}],"nameSpan":{"start":{"line":4,"offset":8},"end":{"line":4,"offset":11}}},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}},{"text":"ReactDOM","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":16}}},{"text":"StrictMode","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":17},"end":{"line":1,"offset":27}}],"nameSpan":{"start":{"line":1,"offset":17},"end":{"line":1,"offset":27}}}]}}
+Info 434  [18:49:24.13] request:
+    {"seq":130,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 435  [18:49:24.14] 130::navtree: elapsed time (in milliseconds) 1.8316
+Info 436  [18:49:24.15] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":130,"success":true,"body":{"text":"\"App\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":9,"offset":21}}],"childItems":[{"text":"App","kind":"function","kindModifiers":"","spans":[{"start":{"line":5,"offset":1},"end":{"line":7,"offset":2}}],"nameSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":13}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":9,"offset":1},"end":{"line":9,"offset":20}}]},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}},{"text":"Routes","kind":"alias","kindModifiers":"","spans":[{"start":{"line":2,"offset":8},"end":{"line":2,"offset":14}}],"nameSpan":{"start":{"line":2,"offset":8},"end":{"line":2,"offset":14}}}]}}
+Info 437  [18:49:24.121] request:
+    {"seq":131,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx"}}
+Perf 438  [18:49:24.122] 131::getOutliningSpans: elapsed time (in milliseconds) 1.2496
+Info 439  [18:49:24.122] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":131,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":31}},"hintSpan":{"start":{"line":1,"offset":1},"end":{"line":2,"offset":31}},"bannerText":"...","autoCollapse":false,"kind":"imports"},{"textSpan":{"start":{"line":5,"offset":15},"end":{"line":7,"offset":2}},"hintSpan":{"start":{"line":5,"offset":1},"end":{"line":7,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"}]}
+Info 440  [18:49:28.343] request:
+    {"seq":132,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 441  [18:49:28.345] 132::navtree: elapsed time (in milliseconds) 1.3805
+Info 442  [18:49:28.345] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":132,"success":true,"body":{"text":"\"index\"","kind":"module","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":7,"offset":26}}],"childItems":[{"text":"Dashboard","kind":"function","kindModifiers":"","spans":[{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}}],"nameSpan":{"start":{"line":4,"offset":10},"end":{"line":4,"offset":19}}},{"text":"default","kind":"const","kindModifiers":"export","spans":[{"start":{"line":7,"offset":1},"end":{"line":7,"offset":25}}]},{"text":"React","kind":"alias","kindModifiers":"","spans":[{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}],"nameSpan":{"start":{"line":1,"offset":8},"end":{"line":1,"offset":13}}}]}}
+Info 443  [18:49:28.464] request:
+    {"seq":133,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx"}}
+Perf 444  [18:49:28.465] 133::getOutliningSpans: elapsed time (in milliseconds) 0.8620
+Info 445  [18:49:28.465] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":133,"success":true,"body":[{"textSpan":{"start":{"line":4,"offset":21},"end":{"line":6,"offset":2}},"hintSpan":{"start":{"line":4,"offset":1},"end":{"line":6,"offset":2}},"bannerText":"...","autoCollapse":true,"kind":"code"},{"textSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"hintSpan":{"start":{"line":5,"offset":10},"end":{"line":5,"offset":30}},"bannerText":"<h1>...</h1>","autoCollapse":false,"kind":"code"}]}
+Info 446  [18:50:47.810] request:
+    {"seq":134,"type":"request","command":"updateOpen","arguments":{"changedFiles":[],"closedFiles":[],"openFiles":[{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/prettier.config.js","fileContent":"module.exports = {\n  singleQuote: true,\n  trailingComma: 'all',\n  allowParens: 'avoid',\n};\n","projectRootPath":"/home/glaulher/Documentos/javascript/bootcamp/github.search","scriptKindName":"JS"}]}}
+Info 447  [18:50:47.812] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 448  [18:50:50.403] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true Elapsed: 2590ms
+Info 449  [18:50:50.404] Project '/dev/null/inferredProject1*' (Inferred)
+Info 450  [18:50:50.404] 	Files (10)
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/code-oss/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx
+	/home/glaulher/Documentos/javascript/bootcamp/github.search/prettier.config.js
+
+Info 451  [18:50:50.404] -----------------------------------------------
+Info 452  [18:50:50.404] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 453  [18:50:50.404] 	Files (9)
+
+Info 454  [18:50:50.404] -----------------------------------------------
+Info 455  [18:50:50.404] Project '/dev/null/inferredProject1*' (Inferred)
+Info 455  [18:50:50.404] 	Files (10)
+
+Info 455  [18:50:50.404] -----------------------------------------------
+Info 455  [18:50:50.404] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 455  [18:50:50.404] 	Files (9)
+
+Info 455  [18:50:50.404] -----------------------------------------------
+Info 455  [18:50:50.404] Open files: 
+Info 455  [18:50:50.405] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 455  [18:50:50.405] 		Projects: /dev/null/inferredProject1*
+Info 455  [18:50:50.405] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/routes/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 455  [18:50:50.405] 		Projects: /dev/null/inferredProject1*
+Info 455  [18:50:50.405] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/App.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 455  [18:50:50.405] 		Projects: /dev/null/inferredProject1*
+Info 455  [18:50:50.405] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/src/index.tsx ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 455  [18:50:50.405] 		Projects: /dev/null/inferredProject1*
+Info 455  [18:50:50.405] 	FileName: /home/glaulher/Documentos/javascript/bootcamp/github.search/prettier.config.js ProjectRootPath: /home/glaulher/Documentos/javascript/bootcamp/github.search
+Info 455  [18:50:50.405] 		Projects: /dev/null/inferredProject1*
+Perf 455  [18:50:50.405] 134::updateOpen: elapsed time (in milliseconds) 2594.7088
+Info 456  [18:50:50.405] response:
+    {"seq":0,"type":"response","command":"updateOpen","request_seq":134,"success":true,"performanceData":{"updateGraphDurationMs":2590},"body":true}
+Info 457  [18:50:50.406] request:
+    {"seq":135,"type":"request","command":"navtree","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/prettier.config.js"}}
+Perf 458  [18:50:50.408] 135::navtree: elapsed time (in milliseconds) 2.4377
+Info 459  [18:50:50.408] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":135,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":5,"offset":4}}],"childItems":[{"text":"<unknown>","kind":"const","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":5,"offset":2}}],"childItems":[{"text":"allowParens","kind":"property","kindModifiers":"","spans":[{"start":{"line":4,"offset":3},"end":{"line":4,"offset":23}}],"nameSpan":{"start":{"line":4,"offset":3},"end":{"line":4,"offset":14}}},{"text":"singleQuote","kind":"property","kindModifiers":"","spans":[{"start":{"line":2,"offset":3},"end":{"line":2,"offset":20}}],"nameSpan":{"start":{"line":2,"offset":3},"end":{"line":2,"offset":14}}},{"text":"trailingComma","kind":"property","kindModifiers":"","spans":[{"start":{"line":3,"offset":3},"end":{"line":3,"offset":23}}],"nameSpan":{"start":{"line":3,"offset":3},"end":{"line":3,"offset":16}}}]}]}}
+Info 460  [18:50:50.409] request:
+    {"seq":136,"type":"request","command":"getOutliningSpans","arguments":{"file":"/home/glaulher/Documentos/javascript/bootcamp/github.search/prettier.config.js"}}
+Perf 461  [18:50:50.410] 136::getOutliningSpans: elapsed time (in milliseconds) 1.0208
+Info 462  [18:50:50.410] response:
+    {"seq":0,"type":"response","command":"getOutliningSpans","request_seq":136,"success":true,"body":[{"textSpan":{"start":{"line":1,"offset":17},"end":{"line":5,"offset":2}},"hintSpan":{"start":{"line":1,"offset":18},"end":{"line":5,"offset":2}},"bannerText":"...","autoCollapse":false,"kind":"code"}]}

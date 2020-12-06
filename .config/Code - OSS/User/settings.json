@@ -56,6 +56,11 @@
   "window.zoomLevel": 0,
 
   "emmet.syntaxProfiles": {"javascript": "jsx"},
+  "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "typescript.tsserver.log": "verbose",
 
  // "eslint.autoFixOnSave": true,
   // "eslint.validate":[

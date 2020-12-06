@@ -1,0 +1,87 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3333/users",
+		"timestamp": 1605799595746
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-19T15:26:35.746Z",
+		"timestamp": 1605799595746
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1605799595746
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1605799595746
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1605799595746
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1605799595747
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1605799595747
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1605799595749
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (331 seconds), disconnect it\n",
+		"timestamp": 1605799595753
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 1 seems to be dead!\n",
+		"timestamp": 1605799595753
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 1\n",
+		"timestamp": 1605799595753
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3333...\n",
+		"timestamp": 1605799595754
+	},
+	{
+		"name": "TEXT",
+		"value": "connect to ::1 port 3333 failed: Conexão recusada\n",
+		"timestamp": 1605799595754
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 127.0.0.1:3333...\n",
+		"timestamp": 1605799595754
+	},
+	{
+		"name": "TEXT",
+		"value": "connect to 127.0.0.1 port 3333 failed: Conexão recusada\n",
+		"timestamp": 1605799595755
+	},
+	{
+		"name": "TEXT",
+		"value": "Failed to connect to localhost port 3333: Conexão recusada\n",
+		"timestamp": 1605799595755
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 2\n",
+		"timestamp": 1605799595755
+	}
+]

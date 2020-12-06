@@ -1,0 +1,137 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3333/sessions",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-20T14:56:18.795Z",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1605884178795
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1605884178799
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 0 seems to be dead!\n",
+		"timestamp": 1605884178806
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 0\n",
+		"timestamp": 1605884178806
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3333...\n",
+		"timestamp": 1605884178806
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3333 (#1)\n",
+		"timestamp": 1605884178807
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /sessions HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2020.4.2\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 52\r\n\r\n",
+		"timestamp": 1605884178807
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n\t\"email\": \"grm@gmail.com\",\n\t\"password\": \"123456\"\n}",
+		"timestamp": 1605884178807
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 52 out of 52 bytes\n",
+		"timestamp": 1605884178807
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 373\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"175-4HhVpFeuff98KnzuniUpnibr1fs\"\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Fri, 20 Nov 2020 14:56:18 GMT\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 373 B chunk",
+		"timestamp": 1605884178975
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #1 to host localhost left intact\n",
+		"timestamp": 1605884178975
+	}
+]

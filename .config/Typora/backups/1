@@ -1,0 +1,38 @@
+# notas
+
+***
+
+
+
+react
+
+Switch  do react-router-dom garante a exibição em tela de apenas uma rota.
+
+
+
+styled-components
+
+isola o css em  component.
+
+polished
+
+manipula cores: clarear, escurecer, deixar transparente etc
+
+async / await :
+
+quando for pra executar requisições assincronas que não dependem uma da outra, usar await promise.all([])
+
+exemplo:
+
+```typ
+async function loadData(): Promise<void>{
+const [repository, issues] = await Promise.all([
+api.get(`repos/${params.repository}`)
+])
+}
+```
+
+
+
+
+

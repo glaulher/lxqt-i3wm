@@ -1,0 +1,9 @@
+[2020-11-25 11:06:02.216] [renderer1] [error] Error: Unable to read file '/home/glaulher/Documentos/javascript/bootcamp/github.search/tsconfig.json' (Error: Unable to resolve non-existing file '/home/glaulher/Documentos/javascript/bootcamp/github.search/tsconfig.json')
+    at Object.t.createErrorWithActions (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:56:307)
+    at w.handleSetInputError (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:6258:391)
+    at w.handleSetInputError (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:6261:52)
+    at w.setInput (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:6258:98)
+    at async p.doSetInput (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:4627:4)
+    at async p.openEditor (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:4625:617)
+    at async file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:6886:617
+    at async e.restoreEditors (file:///usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:6879:609)

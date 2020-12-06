@@ -1,0 +1,182 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.github.com/search/issues?q=repo%3Afacebook%2Freact%2Btype%3Aissue%2Bstate%3Aclosed",
+		"timestamp": 1606950499210
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-12-02T23:08:19.210Z",
+		"timestamp": 1606950499210
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1606950499210
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1606950499210
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1606950499210
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1606950499211
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1606950499211
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1606950499216
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host api.github.com: 0x24b2ba97cd20 [serially]\n",
+		"timestamp": 1606950499226
+	},
+	{
+		"name": "TEXT",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1606950499226
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#8) with host api.github.com\n",
+		"timestamp": 1606950499226
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.github.com (140.82.112.6) port 443 (#8)\n",
+		"timestamp": 1606950499226
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /search/issues?q=repo%3Afacebook%2Freact%2Btype%3Aissue%2Bstate%3Aclosed HTTP/1.1\r\nHost: api.github.com\r\nUser-Agent: insomnia/2020.4.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1606950499226
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1606950499376
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 403 rate limit exceeded\r\n",
+		"timestamp": 1606950499376
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Wed, 02 Dec 2020 23:10:19 GMT\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: Varnish\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Frame-Options: deny\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-XSS-Protection: 1; mode=block\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Origin: *\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Github-Media-Type: github.v3; format=json\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Limit: 10\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Remaining: 0\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Reset: 1606950631\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Used: 10\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 248\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-GitHub-Request-Id: 70C0:1D14:D3E36:1FCEB6:5FC81EAB\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 248 B chunk",
+		"timestamp": 1606950499377
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #8 to host api.github.com left intact\n",
+		"timestamp": 1606950499378
+	}
+]

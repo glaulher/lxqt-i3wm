@@ -1,0 +1,58 @@
+[Info  - 11:06:11] ESLint server is starting
+[Info  - 11:06:16] ESLint server running in node v12.14.1
+[Info  - 11:06:16] ESLint server is running.
+[Info  - 11:06:23] ESLint library loaded from: /home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/eslint/lib/api.js
+Uncaught exception received.
+Error: spawn /usr/lib/electron9/electron ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+Uncaught exception received.
+Error: spawn /usr/lib/electron9/electron ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Info  - 11:53:18] Failed to load config "react-app" to extend from. Referenced from: /home/glaulher/Documentos/javascript/bootcamp/github.search/package.json
+(node:10189) UnhandledPromiseRejectionWarning: Error: Failed to load config "react-app" to extend from.
+Referenced from: /home/glaulher/Documentos/javascript/bootcamp/github.search/package.json
+    at configMissingError (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:289:9)
+    at ConfigArrayFactory._loadExtendedShareableConfig (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:877:23)
+    at ConfigArrayFactory._loadExtends (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:780:25)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:719:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:664:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+    at ConfigArrayFactory.loadInDirectory (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:510:28)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:378:46)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:397:20)
+(node:10189) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:10189) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:10189) UnhandledPromiseRejectionWarning: Error: Failed to load config "react-app" to extend from.
+Referenced from: /home/glaulher/Documentos/javascript/bootcamp/github.search/package.json
+    at configMissingError (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:289:9)
+    at ConfigArrayFactory._loadExtendedShareableConfig (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:877:23)
+    at ConfigArrayFactory._loadExtends (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:780:25)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:719:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:664:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+    at ConfigArrayFactory.loadInDirectory (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:510:28)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:378:46)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:397:20)
+(node:10189) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:10189) UnhandledPromiseRejectionWarning: Error: Failed to load config "react-app" to extend from.
+Referenced from: /home/glaulher/Documentos/javascript/bootcamp/github.search/package.json
+    at configMissingError (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:289:9)
+    at ConfigArrayFactory._loadExtendedShareableConfig (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:877:23)
+    at ConfigArrayFactory._loadExtends (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:780:25)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:719:25)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:664:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+    at ConfigArrayFactory.loadInDirectory (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/config-array-factory.js:510:28)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:378:46)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (/home/glaulher/Documentos/javascript/bootcamp/github.search/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:397:20)
+(node:10189) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+[Info  - 16:18:23] Cannot read property 'type' of null Occurred while linting /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/index.tsx:14
+[Info  - 16:39:14] name.split is not a function Occurred while linting /home/glaulher/Documentos/javascript/bootcamp/github.search/src/pages/Dashboard/styles.ts:2
+[Info  - 17:44:26] ESLint server stopped.

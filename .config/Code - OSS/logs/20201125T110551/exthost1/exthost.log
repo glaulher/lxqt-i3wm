@@ -1,0 +1,51 @@
+[2020-11-25 11:06:06.144] [exthost] [info] extension host started
+[2020-11-25 11:06:06.501] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescriptreact"}
+[2020-11-25 11:06:06.502] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2020-11-25 11:06:06.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-25 11:06:06.655] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-11-25 11:06:06.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-25 11:06:06.729] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-25 11:06:06.901] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-25 11:06:06.901] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/git/dist/main
+[2020-11-25 11:06:07.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-25 11:06:07.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-25 11:06:07.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-25 11:06:07.170] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/search-result/dist/extension.js
+[2020-11-25 11:06:07.197] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-11-25 11:06:07.197] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-11-25 11:06:07.299] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2020-11-25 11:06:07.299] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/editorconfig.editorconfig-0.15.5/out/editorConfigMain.js
+[2020-11-25 11:06:07.595] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2020-11-25 11:06:07.595] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2020-11-25 11:06:07.645] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2020-11-25 11:06:07.645] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/pkief.material-icon-theme-4.4.0/dist/extension
+[2020-11-25 11:06:07.676] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-11-25 11:06:07.676] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/npm/dist/npmMain
+[2020-11-25 11:06:08.444] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-25 11:06:08.444] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/github/dist/extension.js
+[2020-11-25 11:06:08.839] [exthost] [info] eager extensions activated
+[2020-11-25 11:06:09.000] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-11-25 11:06:09.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-25 11:06:10.255] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2020-11-25 11:06:10.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.13/client/out/extension
+[2020-11-25 11:06:10.440] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2020-11-25 11:06:10.440] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/eamodio.gitlens-11.0.5/dist/gitlens
+[2020-11-25 11:06:10.845] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2020-11-25 11:06:10.846] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/esbenp.prettier-vscode-5.8.0/dist/extension
+[2020-11-25 11:08:23.995] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2020-11-25 11:08:23.995] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-11-25 11:08:24.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2020-11-25 11:08:24.060] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2020-11-25 11:08:24.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2020-11-25 11:08:24.212] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-11-25 11:23:44.041] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-11-25 11:23:44.043] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:60768)
+	at _.handleFailedRequest (/usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:60622)
+	at /usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:23400
+[2020-11-25 12:50:52.828] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-11-25 12:50:52.829] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2020-11-25 12:59:49.141] [exthost] [info] ExtensionService#_doActivateExtension jpoissonnier.vscode-styled-components {"startup":false,"extensionId":{"value":"jpoissonnier.vscode-styled-components","_lower":"jpoissonnier.vscode-styled-components"},"activationEvent":"onLanguage:typescriptreact"}
+[2020-11-25 12:59:49.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/glaulher/.vscode-oss/extensions/jpoissonnier.vscode-styled-components-1.3.0/dist/extension.js
+[2020-11-25 15:11:08.616] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-11-25 15:11:08.617] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-oss/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain

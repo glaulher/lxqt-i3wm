@@ -1,0 +1,9 @@
+[2020-11-26 11:47:21.038] [sharedprocess] [info] main {"machineId":"15ca4dbb3fc2ad93d80e7da0470b5570f213298efdb138ee8a17336fa593b476","windowId":2}
+[2020-11-26 11:47:23.086] [sharedprocess] [info] Deleted from disk editorconfig.editorconfig /home/glaulher/.vscode-oss/extensions/editorconfig.editorconfig-0.15.5
+[2020-11-26 11:47:29.908] [sharedprocess] [info] Installing extension: editorconfig.editorconfig
+[2020-11-26 11:47:30.743] [sharedprocess] [info] Downloaded extension: editorconfig.editorconfig undefined
+[2020-11-26 11:47:31.869] [sharedprocess] [info] Extracted extension to /home/glaulher/.vscode-oss/extensions/.editorconfig.editorconfig-0.16.3: editorconfig.editorconfig
+[2020-11-26 11:47:31.871] [sharedprocess] [info] Renamed to /home/glaulher/.vscode-oss/extensions/editorconfig.editorconfig-0.16.3
+[2020-11-26 11:47:31.872] [sharedprocess] [info] Installation completed. editorconfig.editorconfig
+[2020-11-26 11:47:32.058] [sharedprocess] [info] Extensions installed successfully: editorconfig.editorconfig
+[2020-11-26 11:48:01.114] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,0 +1,625 @@
+INFO 06/11/2020 20:21:31  luanchFromDiffVersion, pre version is undefined
+INFO 06/11/2020 20:21:32  overwriteThemeFolder
+INFO 06/11/2020 20:21:32  ------------------start------------------
+INFO 06/11/2020 20:21:32  typora version: 0.9.96
+DEBUG 06/11/2020 20:21:32  [ '/home/glaulher/Typora-linux-x64/Typora' ]
+INFO 06/11/2020 20:21:32  [Raven] instanceKey = 4b4353ec-236e-457d-b14e-a51c47f1d35c
+INFO 06/11/2020 20:21:32  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+DEBUG 06/11/2020 20:21:32  app.openFile
+INFO 06/11/2020 20:21:33  [focus] 1
+INFO 06/11/2020 20:21:36  ----------------before-quit-----------------
+INFO 06/11/2020 20:21:36  ------------------will-quit------------------
+INFO 06/11/2020 20:21:47  ------------------start------------------
+INFO 06/11/2020 20:21:47  typora version: 0.9.96
+DEBUG 06/11/2020 20:21:47  [ '/home/glaulher/Typora-linux-x64/Typora' ]
+INFO 06/11/2020 20:21:47  [Raven] instanceKey = 671ac40c-35b4-4671-8b0e-d01a5e51f2bb
+DEBUG 06/11/2020 20:21:47  app.openFile
+INFO 06/11/2020 20:21:47  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 06/11/2020 20:21:47  [focus] 1
+INFO 06/11/2020 20:21:49  ----------------before-quit-----------------
+INFO 06/11/2020 20:21:49  ------------------will-quit------------------
+INFO 06/11/2020 20:48:51  ------------------start------------------
+INFO 06/11/2020 20:48:52  typora version: 0.9.96
+DEBUG 06/11/2020 20:48:52  [ '/home/glaulher/Typora-linux-x64/Typora' ]
+INFO 06/11/2020 20:48:52  [Raven] instanceKey = 939ba52e-6615-41d6-9742-fa8ade6ec26a
+INFO 06/11/2020 20:48:52  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+DEBUG 06/11/2020 20:48:52  app.openFile
+INFO 06/11/2020 20:48:53  [focus] 1
+INFO 06/11/2020 20:48:54  [blur] 1
+INFO 06/11/2020 20:48:57  [focus] 1
+INFO 06/11/2020 20:49:01  [blur] 1
+INFO 06/11/2020 20:51:00  [focus] 1
+INFO 06/11/2020 20:51:01  [blur] 1
+INFO 06/11/2020 20:51:03  [focus] 1
+INFO 06/11/2020 20:51:17  updateTheme
+INFO 06/11/2020 20:51:38  File.option.prettyIndent = true;
+INFO 06/11/2020 20:51:39  File.option.prettyIndent = false;
+INFO 06/11/2020 20:52:22  [blur] 1
+INFO 06/11/2020 21:22:01  [focus] 1
+INFO 06/11/2020 21:22:01  [blur] 1
+INFO 06/11/2020 21:22:01  ----------------before-quit-----------------
+INFO 08/11/2020 13:01:43  ------------------start------------------
+INFO 08/11/2020 13:01:44  typora version: 0.9.96
+DEBUG 08/11/2020 13:01:44  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/glaulher.github.io/_posts/2020-09-27-jekyll.md'
+]
+DEBUG 08/11/2020 13:01:44  app.openFile
+INFO 08/11/2020 13:01:44  addRecentDocument
+INFO 08/11/2020 13:01:45  [Raven] instanceKey = 00a2989f-9a26-44eb-afaa-5ea8239c8017
+INFO 08/11/2020 13:01:45  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 08/11/2020 13:01:45  [focus] 1
+INFO 08/11/2020 13:05:06  [blur] 1
+INFO 08/11/2020 13:05:12  [focus] 1
+INFO 08/11/2020 13:05:15  [blur] 1
+INFO 08/11/2020 13:05:39  [focus] 1
+INFO 08/11/2020 13:06:05  [blur] 1
+INFO 08/11/2020 13:06:17  [focus] 1
+INFO 08/11/2020 13:07:12  [blur] 1
+INFO 08/11/2020 13:07:26  [focus] 1
+INFO 08/11/2020 13:11:02  [blur] 1
+INFO 08/11/2020 13:12:02  [focus] 1
+INFO 08/11/2020 13:12:02  [blur] 1
+INFO 08/11/2020 13:12:05  [focus] 1
+INFO 08/11/2020 13:12:08  [blur] 1
+INFO 08/11/2020 13:27:34  [focus] 1
+INFO 08/11/2020 13:27:48  switchDocument
+INFO 08/11/2020 13:27:48  addRecentDocument
+INFO 08/11/2020 13:27:58  [blur] 1
+INFO 08/11/2020 13:28:46  [focus] 1
+INFO 08/11/2020 13:28:46  ----------------before-quit-----------------
+INFO 08/11/2020 13:28:46  ------------------will-quit------------------
+INFO 08/11/2020 13:28:56  ------------------start------------------
+INFO 08/11/2020 13:28:56  typora version: 0.9.96
+DEBUG 08/11/2020 13:28:56  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/glaulher.github.io/_posts/2020-11-08-React-not-emul.md'
+]
+DEBUG 08/11/2020 13:28:56  app.openFile
+INFO 08/11/2020 13:28:56  addRecentDocument
+INFO 08/11/2020 13:28:56  [Raven] instanceKey = b0c31f37-cb01-4a80-83b9-016bed6bcae1
+INFO 08/11/2020 13:28:56  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 08/11/2020 13:28:56  [focus] 1
+INFO 08/11/2020 13:34:36  [blur] 1
+INFO 08/11/2020 13:35:21  [focus] 1
+INFO 08/11/2020 13:36:03  [blur] 1
+INFO 08/11/2020 13:36:25  [focus] 1
+INFO 08/11/2020 13:37:32  [blur] 1
+INFO 08/11/2020 13:38:11  [focus] 1
+INFO 08/11/2020 13:38:17  [blur] 1
+INFO 08/11/2020 13:38:41  [focus] 1
+INFO 08/11/2020 13:40:22  [blur] 1
+INFO 08/11/2020 13:40:28  [focus] 1
+INFO 08/11/2020 13:40:54  [blur] 1
+INFO 08/11/2020 13:41:11  [focus] 1
+INFO 08/11/2020 13:43:13  [blur] 1
+INFO 08/11/2020 13:43:23  [focus] 1
+INFO 08/11/2020 13:43:28  [blur] 1
+INFO 08/11/2020 13:45:35  [focus] 1
+INFO 08/11/2020 13:45:40  [blur] 1
+INFO 08/11/2020 13:45:44  got argv [/home/glaulher/Typora-linux-x64/Typora /home/glaulher/glaulher.github.io/_posts/2020-10-02-react-native-vector-icons.md] from secondary instance
+DEBUG 08/11/2020 13:45:44  app.openFile
+INFO 08/11/2020 13:45:44  addRecentDocument
+INFO 08/11/2020 13:45:45  [focus] 2
+INFO 08/11/2020 13:45:45  secondary instance would exit
+INFO 08/11/2020 13:45:53  [blur] 2
+INFO 08/11/2020 13:45:53  [focus] 1
+INFO 08/11/2020 13:46:02  [blur] 1
+INFO 08/11/2020 13:46:04  [focus] 1
+INFO 08/11/2020 13:46:13  [blur] 1
+INFO 08/11/2020 13:46:57  [focus] 1
+INFO 08/11/2020 13:46:59  [blur] 1
+INFO 08/11/2020 13:59:16  [focus] 2
+INFO 08/11/2020 13:59:33  [blur] 2
+INFO 08/11/2020 14:45:37  [focus] 2
+INFO 08/11/2020 14:45:39  [blur] 2
+INFO 08/11/2020 14:45:39  [focus] 2
+INFO 08/11/2020 14:45:41  [blur] 2
+INFO 08/11/2020 14:46:01  [focus] 2
+INFO 08/11/2020 14:46:05  [focus] 1
+INFO 08/11/2020 14:46:06  ----------------before-quit-----------------
+INFO 08/11/2020 14:46:06  ------------------will-quit------------------
+INFO 08/11/2020 16:28:45  ------------------start------------------
+INFO 08/11/2020 16:28:45  typora version: 0.9.96
+DEBUG 08/11/2020 16:28:45  [ '/home/glaulher/Typora-linux-x64/Typora' ]
+INFO 08/11/2020 16:28:45  [Raven] instanceKey = 6544f800-bc68-4929-8347-6d57e228c4b9
+DEBUG 08/11/2020 16:28:45  app.openFile
+INFO 08/11/2020 16:28:46  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 08/11/2020 16:28:46  [focus] 1
+INFO 08/11/2020 16:28:48  [blur] 1
+INFO 08/11/2020 16:28:49  [focus] 1
+INFO 08/11/2020 16:28:58  [blur] 1
+INFO 08/11/2020 16:29:02  [focus] 1
+INFO 08/11/2020 16:29:02  [blur] 1
+INFO 08/11/2020 16:29:02  [focus] 1
+INFO 08/11/2020 16:29:02  [blur] 1
+INFO 08/11/2020 16:29:02  [focus] 1
+DEBUG 08/11/2020 16:29:02  true
+INFO 08/11/2020 16:29:02  addRecentFolder
+INFO 08/11/2020 16:29:27  [blur] 1
+INFO 08/11/2020 16:29:39  [focus] 1
+INFO 08/11/2020 16:29:39  [blur] 1
+INFO 08/11/2020 16:29:40  [focus] 1
+INFO 08/11/2020 16:29:57  [blur] 1
+INFO 08/11/2020 16:29:58  [focus] 1
+INFO 08/11/2020 16:30:10  switchDocument
+INFO 08/11/2020 16:30:10  addRecentDocument
+INFO 08/11/2020 16:30:25  addRecentDocument
+INFO 08/11/2020 16:30:40  [blur] 1
+INFO 08/11/2020 16:30:53  [focus] 1
+INFO 08/11/2020 16:30:54  [blur] 1
+INFO 08/11/2020 16:31:00  [focus] 1
+INFO 08/11/2020 16:31:19  [blur] 1
+INFO 08/11/2020 16:31:21  [focus] 1
+INFO 08/11/2020 16:32:23  [blur] 1
+INFO 08/11/2020 16:32:30  [focus] 1
+INFO 08/11/2020 16:33:26  [blur] 1
+INFO 08/11/2020 16:33:27  [focus] 1
+INFO 08/11/2020 16:33:54  [blur] 1
+INFO 08/11/2020 16:33:55  [focus] 1
+INFO 08/11/2020 16:33:56  [blur] 1
+INFO 08/11/2020 16:34:02  [focus] 1
+INFO 08/11/2020 16:35:06  [blur] 1
+INFO 08/11/2020 16:35:10  [focus] 1
+INFO 08/11/2020 16:35:56  [blur] 1
+INFO 08/11/2020 16:36:28  [focus] 1
+INFO 08/11/2020 16:36:38  [blur] 1
+INFO 08/11/2020 16:36:51  [focus] 1
+INFO 08/11/2020 16:37:07  [blur] 1
+INFO 08/11/2020 16:37:11  [focus] 1
+INFO 08/11/2020 16:37:12  [blur] 1
+INFO 08/11/2020 16:37:37  [focus] 1
+INFO 08/11/2020 16:41:30  [blur] 1
+INFO 08/11/2020 16:41:49  [focus] 1
+INFO 08/11/2020 16:42:43  [blur] 1
+INFO 08/11/2020 16:43:59  [focus] 1
+INFO 08/11/2020 16:45:37  [blur] 1
+INFO 08/11/2020 16:47:01  [focus] 1
+INFO 08/11/2020 16:47:41  [blur] 1
+INFO 08/11/2020 16:47:54  [focus] 1
+INFO 08/11/2020 16:48:10  [blur] 1
+INFO 08/11/2020 16:50:09  [focus] 1
+INFO 08/11/2020 16:51:40  [blur] 1
+INFO 08/11/2020 16:59:06  [focus] 1
+INFO 08/11/2020 16:59:11  [blur] 1
+INFO 08/11/2020 17:18:22  [focus] 1
+INFO 08/11/2020 17:18:34  ----------------before-quit-----------------
+INFO 08/11/2020 17:18:34  ------------------will-quit------------------
+INFO 11/11/2020 21:13:16  ------------------start------------------
+INFO 11/11/2020 21:13:16  typora version: 0.9.96
+DEBUG 11/11/2020 21:13:17  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/planilha/sheetjs/demos/README.md'
+]
+DEBUG 11/11/2020 21:13:17  app.openFile
+INFO 11/11/2020 21:13:17  addRecentDocument
+INFO 11/11/2020 21:13:18  [Raven] instanceKey = bb5d8522-abb1-4bf3-96a6-86477572af5d
+INFO 11/11/2020 21:13:18  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 11/11/2020 21:13:18  [focus] 1
+INFO 11/11/2020 21:13:26  [blur] 1
+INFO 11/11/2020 21:13:26  [focus] 1
+INFO 11/11/2020 21:13:59  ----------------before-quit-----------------
+INFO 11/11/2020 21:13:59  ------------------will-quit------------------
+INFO 12/11/2020 13:40:32  ------------------start------------------
+INFO 12/11/2020 13:40:32  typora version: 0.9.96
+DEBUG 12/11/2020 13:40:32  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/typescipt/CriarProjeto.md'
+]
+DEBUG 12/11/2020 13:40:32  app.openFile
+INFO 12/11/2020 13:40:32  addRecentDocument
+INFO 12/11/2020 13:40:37  [Raven] instanceKey = a904ec33-9cd1-4022-a210-f53bbd26b02a
+INFO 12/11/2020 13:40:37  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 12/11/2020 13:40:38  [focus] 1
+INFO 12/11/2020 13:40:38  [blur] 1
+INFO 12/11/2020 13:40:38  [focus] 1
+INFO 12/11/2020 13:40:41  [blur] 1
+INFO 12/11/2020 13:40:46  [focus] 1
+INFO 12/11/2020 13:41:39  [blur] 1
+INFO 12/11/2020 13:41:41  [focus] 1
+INFO 12/11/2020 13:41:43  [blur] 1
+INFO 12/11/2020 13:42:09  [focus] 1
+INFO 12/11/2020 13:42:41  [blur] 1
+INFO 12/11/2020 13:42:51  [focus] 1
+INFO 12/11/2020 13:42:57  [blur] 1
+INFO 12/11/2020 13:43:11  [focus] 1
+INFO 12/11/2020 13:43:25  [blur] 1
+INFO 12/11/2020 13:43:56  [focus] 1
+INFO 12/11/2020 13:44:06  [blur] 1
+INFO 12/11/2020 13:44:19  [focus] 1
+INFO 12/11/2020 13:44:23  [blur] 1
+INFO 12/11/2020 13:46:44  [focus] 1
+INFO 12/11/2020 13:46:56  [blur] 1
+INFO 12/11/2020 13:47:01  [focus] 1
+INFO 12/11/2020 13:47:50  [blur] 1
+INFO 12/11/2020 13:48:15  [focus] 1
+INFO 12/11/2020 13:48:43  [blur] 1
+INFO 12/11/2020 13:58:43  [focus] 1
+INFO 12/11/2020 13:59:20  [blur] 1
+INFO 12/11/2020 13:59:33  [focus] 1
+INFO 12/11/2020 14:01:15  [blur] 1
+INFO 12/11/2020 14:01:44  [focus] 1
+INFO 12/11/2020 14:02:18  [blur] 1
+INFO 12/11/2020 14:02:20  [focus] 1
+INFO 12/11/2020 14:02:21  [blur] 1
+INFO 12/11/2020 14:06:03  [focus] 1
+INFO 12/11/2020 14:06:40  [blur] 1
+INFO 12/11/2020 14:06:54  [focus] 1
+INFO 12/11/2020 14:07:07  [blur] 1
+INFO 12/11/2020 14:09:09  [focus] 1
+INFO 12/11/2020 14:09:53  [blur] 1
+INFO 12/11/2020 14:16:55  [focus] 1
+INFO 12/11/2020 14:17:05  [blur] 1
+INFO 12/11/2020 14:21:34  [focus] 1
+INFO 12/11/2020 14:21:49  [blur] 1
+INFO 12/11/2020 15:17:36  [focus] 1
+INFO 12/11/2020 15:17:39  [blur] 1
+INFO 12/11/2020 15:50:05  [focus] 1
+INFO 12/11/2020 15:50:06  [blur] 1
+INFO 12/11/2020 16:08:46  [focus] 1
+INFO 12/11/2020 16:09:57  [blur] 1
+INFO 12/11/2020 16:19:08  [focus] 1
+INFO 12/11/2020 16:19:09  [blur] 1
+INFO 12/11/2020 16:19:11  [focus] 1
+INFO 12/11/2020 16:19:23  [blur] 1
+INFO 12/11/2020 16:22:45  [focus] 1
+INFO 12/11/2020 16:22:49  ----------------before-quit-----------------
+INFO 12/11/2020 16:22:49  ------------------will-quit------------------
+INFO 12/11/2020 19:02:32  ------------------start------------------
+INFO 12/11/2020 19:02:33  typora version: 0.9.96
+DEBUG 12/11/2020 19:02:33  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/typescipt/CriarProjeto.md'
+]
+DEBUG 12/11/2020 19:02:33  app.openFile
+INFO 12/11/2020 19:02:33  addRecentDocument
+INFO 12/11/2020 19:02:34  [Raven] instanceKey = aa94a48c-8076-43d7-b6b1-758c3bb83b3c
+INFO 12/11/2020 19:02:34  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 12/11/2020 19:02:34  [focus] 1
+INFO 12/11/2020 19:03:23  [blur] 1
+INFO 12/11/2020 19:07:42  [focus] 1
+INFO 12/11/2020 19:07:42  [blur] 1
+INFO 12/11/2020 19:07:43  [focus] 1
+INFO 12/11/2020 19:07:45  [blur] 1
+INFO 12/11/2020 19:19:30  [focus] 1
+INFO 12/11/2020 19:19:32  [blur] 1
+INFO 12/11/2020 19:19:34  [focus] 1
+INFO 12/11/2020 19:19:35  [blur] 1
+INFO 12/11/2020 20:33:19  [focus] 1
+INFO 12/11/2020 20:33:21  [blur] 1
+INFO 12/11/2020 22:14:35  [focus] 1
+INFO 12/11/2020 22:14:38  ----------------before-quit-----------------
+INFO 12/11/2020 22:14:38  ------------------will-quit------------------
+INFO 15/11/2020 11:00:19  ------------------start------------------
+INFO 15/11/2020 11:00:19  typora version: 0.9.96
+DEBUG 15/11/2020 11:00:20  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/Docker/Docker.md'
+]
+DEBUG 15/11/2020 11:00:20  app.openFile
+INFO 15/11/2020 11:00:20  addRecentDocument
+INFO 15/11/2020 11:00:21  [Raven] instanceKey = 2b25cb2f-e5f9-4a1f-aadc-a50956f0ff8d
+INFO 15/11/2020 11:00:21  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 15/11/2020 11:00:21  [focus] 1
+INFO 15/11/2020 11:00:31  [blur] 1
+INFO 15/11/2020 11:00:31  [focus] 1
+INFO 15/11/2020 11:00:33  [blur] 1
+INFO 15/11/2020 11:00:33  [focus] 1
+INFO 15/11/2020 11:00:33  [blur] 1
+INFO 15/11/2020 11:00:38  [focus] 1
+INFO 15/11/2020 11:00:42  [blur] 1
+INFO 15/11/2020 11:00:42  [focus] 1
+INFO 15/11/2020 11:00:57  [blur] 1
+INFO 15/11/2020 11:01:00  [focus] 1
+INFO 15/11/2020 11:01:11  [blur] 1
+INFO 15/11/2020 11:02:13  [focus] 1
+INFO 15/11/2020 11:02:19  [blur] 1
+INFO 15/11/2020 11:02:45  [focus] 1
+INFO 15/11/2020 11:02:51  [blur] 1
+INFO 15/11/2020 11:02:53  [focus] 1
+INFO 15/11/2020 11:02:59  [blur] 1
+INFO 15/11/2020 11:03:01  [focus] 1
+INFO 15/11/2020 11:03:28  [blur] 1
+INFO 15/11/2020 11:03:53  [focus] 1
+INFO 15/11/2020 11:04:12  [blur] 1
+INFO 15/11/2020 11:04:18  [focus] 1
+INFO 15/11/2020 11:04:31  [blur] 1
+INFO 15/11/2020 11:04:38  [focus] 1
+INFO 15/11/2020 11:04:38  [blur] 1
+INFO 15/11/2020 11:13:17  [focus] 1
+INFO 15/11/2020 11:14:02  [blur] 1
+INFO 15/11/2020 11:14:06  [focus] 1
+INFO 15/11/2020 11:14:07  [blur] 1
+INFO 15/11/2020 11:14:09  [focus] 1
+INFO 15/11/2020 11:14:29  [blur] 1
+INFO 15/11/2020 11:14:53  [focus] 1
+INFO 15/11/2020 11:15:01  [blur] 1
+INFO 15/11/2020 11:15:03  [focus] 1
+INFO 15/11/2020 11:15:05  [blur] 1
+INFO 15/11/2020 11:15:43  [focus] 1
+INFO 15/11/2020 11:15:58  [blur] 1
+INFO 15/11/2020 11:16:04  [focus] 1
+INFO 15/11/2020 11:16:27  [blur] 1
+INFO 15/11/2020 11:30:21  [focus] 1
+INFO 15/11/2020 11:30:22  [blur] 1
+INFO 15/11/2020 11:30:23  [focus] 1
+INFO 15/11/2020 11:30:26  [blur] 1
+INFO 15/11/2020 11:30:31  [focus] 1
+INFO 15/11/2020 11:30:32  [blur] 1
+INFO 15/11/2020 11:31:20  [focus] 1
+INFO 15/11/2020 11:31:33  [blur] 1
+INFO 15/11/2020 11:31:34  [focus] 1
+INFO 15/11/2020 11:31:34  [blur] 1
+INFO 15/11/2020 11:31:41  [focus] 1
+INFO 15/11/2020 11:32:35  [blur] 1
+INFO 15/11/2020 11:51:14  [focus] 1
+INFO 15/11/2020 11:51:15  [blur] 1
+INFO 15/11/2020 11:51:15  [focus] 1
+INFO 15/11/2020 11:51:15  [blur] 1
+INFO 15/11/2020 11:51:15  [focus] 1
+INFO 15/11/2020 11:51:39  ----------------before-quit-----------------
+INFO 15/11/2020 11:51:39  ------------------will-quit------------------
+INFO 15/11/2020 17:18:52  ------------------start------------------
+INFO 15/11/2020 17:18:53  typora version: 0.9.96
+DEBUG 15/11/2020 17:18:53  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/Docker/Docker.md'
+]
+DEBUG 15/11/2020 17:18:53  app.openFile
+INFO 15/11/2020 17:18:53  addRecentDocument
+INFO 15/11/2020 17:18:54  [Raven] instanceKey = c22de381-b8c7-4a29-8603-02d9c067fc35
+INFO 15/11/2020 17:18:54  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 15/11/2020 17:18:54  [focus] 1
+INFO 15/11/2020 17:19:16  [blur] 1
+INFO 15/11/2020 17:20:47  [focus] 1
+INFO 15/11/2020 17:21:09  [blur] 1
+INFO 15/11/2020 17:21:15  [focus] 1
+INFO 15/11/2020 17:21:20  [blur] 1
+INFO 15/11/2020 17:21:45  [focus] 1
+INFO 15/11/2020 17:21:58  [blur] 1
+INFO 15/11/2020 17:26:13  [focus] 1
+INFO 15/11/2020 17:26:14  [blur] 1
+INFO 15/11/2020 17:26:15  [focus] 1
+INFO 15/11/2020 17:26:39  [blur] 1
+INFO 15/11/2020 17:27:58  [focus] 1
+INFO 15/11/2020 17:28:00  [blur] 1
+INFO 15/11/2020 19:07:01  [focus] 1
+INFO 15/11/2020 19:07:01  [blur] 1
+INFO 15/11/2020 19:07:01  [focus] 1
+INFO 15/11/2020 19:07:01  [blur] 1
+INFO 15/11/2020 19:07:01  [focus] 1
+INFO 15/11/2020 19:07:15  ----------------before-quit-----------------
+INFO 15/11/2020 19:07:15  ------------------will-quit------------------
+INFO 16/11/2020 11:26:10  ------------------start------------------
+INFO 16/11/2020 11:26:10  typora version: 0.9.96
+DEBUG 16/11/2020 11:26:10  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/typeorm/typeorm.md'
+]
+DEBUG 16/11/2020 11:26:10  app.openFile
+INFO 16/11/2020 11:26:10  addRecentDocument
+INFO 16/11/2020 11:26:11  [Raven] instanceKey = 2725948e-600d-4012-967a-afe68c61279a
+INFO 16/11/2020 11:26:11  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 16/11/2020 11:26:11  [focus] 1
+INFO 16/11/2020 11:27:22  [blur] 1
+INFO 16/11/2020 11:27:38  [focus] 1
+INFO 16/11/2020 11:28:40  [blur] 1
+INFO 16/11/2020 11:29:52  [focus] 1
+INFO 16/11/2020 11:30:06  [blur] 1
+INFO 16/11/2020 11:31:09  [focus] 1
+INFO 16/11/2020 11:31:11  [blur] 1
+INFO 16/11/2020 11:40:06  [focus] 1
+INFO 16/11/2020 11:40:08  [blur] 1
+INFO 16/11/2020 11:59:16  [focus] 1
+INFO 16/11/2020 11:59:18  [blur] 1
+INFO 16/11/2020 12:29:41  [focus] 1
+INFO 16/11/2020 12:30:17  [blur] 1
+INFO 16/11/2020 12:30:28  [focus] 1
+INFO 16/11/2020 12:30:35  [blur] 1
+INFO 16/11/2020 12:31:21  [focus] 1
+INFO 16/11/2020 12:32:03  [blur] 1
+INFO 16/11/2020 12:38:21  [focus] 1
+INFO 16/11/2020 12:38:22  [blur] 1
+INFO 16/11/2020 12:59:51  [focus] 1
+INFO 16/11/2020 12:59:53  [blur] 1
+INFO 17/11/2020 20:37:50  ------------------start------------------
+INFO 17/11/2020 20:37:51  typora version: 0.9.96
+DEBUG 17/11/2020 20:37:51  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/Nodejs/Criando_projeto/criandoOprojeto.md'
+]
+DEBUG 17/11/2020 20:37:51  app.openFile
+INFO 17/11/2020 20:37:51  addRecentDocument
+INFO 17/11/2020 20:37:52  [Raven] instanceKey = 60c9bf38-98d2-4472-8dad-e76658695989
+INFO 17/11/2020 20:37:52  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 17/11/2020 20:37:52  [focus] 1
+INFO 17/11/2020 20:38:32  ----------------before-quit-----------------
+INFO 17/11/2020 20:38:32  ------------------will-quit------------------
+INFO 22/11/2020 20:50:46  ------------------start------------------
+INFO 22/11/2020 20:50:46  typora version: 0.9.96
+DEBUG 22/11/2020 20:50:47  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/usr/share/doc/zsh-history-substring-search/README.md'
+]
+DEBUG 22/11/2020 20:50:47  app.openFile
+INFO 22/11/2020 20:50:47  addRecentDocument
+INFO 22/11/2020 20:50:48  [Raven] instanceKey = 69857618-0cc7-419d-acde-dbf75db85593
+INFO 22/11/2020 20:50:48  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 22/11/2020 20:50:48  [focus] 1
+INFO 22/11/2020 20:51:54  ----------------before-quit-----------------
+INFO 22/11/2020 20:51:54  ------------------will-quit------------------
+INFO 25/11/2020 10:29:21  ------------------start------------------
+INFO 25/11/2020 10:29:21  typora version: 0.9.96
+DEBUG 25/11/2020 10:29:22  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/git.md'
+]
+DEBUG 25/11/2020 10:29:22  app.openFile
+INFO 25/11/2020 10:29:22  addRecentDocument
+INFO 25/11/2020 10:29:23  [Raven] instanceKey = 6aaa8be6-ad89-4795-9f05-3f29f6fd81fd
+INFO 25/11/2020 10:29:23  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 25/11/2020 10:29:23  [focus] 1
+INFO 25/11/2020 10:31:47  ----------------before-quit-----------------
+INFO 25/11/2020 10:31:47  ------------------will-quit------------------
+INFO 25/11/2020 12:44:53  ------------------start------------------
+INFO 25/11/2020 12:44:53  typora version: 0.9.96
+DEBUG 25/11/2020 12:44:54  [ '/home/glaulher/Typora-linux-x64/Typora' ]
+INFO 25/11/2020 12:44:54  [Raven] instanceKey = 79fcbfef-25bb-4b78-a349-e1fb5c02be6c
+DEBUG 25/11/2020 12:44:54  app.openFile
+INFO 25/11/2020 12:44:54  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 25/11/2020 12:44:54  [focus] 1
+INFO 25/11/2020 12:45:06  [blur] 1
+INFO 25/11/2020 12:45:09  [focus] 1
+INFO 25/11/2020 12:46:13  [blur] 1
+INFO 25/11/2020 12:46:13  [focus] 1
+INFO 25/11/2020 12:46:14  [blur] 1
+INFO 25/11/2020 12:46:27  [focus] 1
+INFO 25/11/2020 12:46:28  [blur] 1
+INFO 25/11/2020 12:46:28  [focus] 1
+INFO 25/11/2020 12:46:29  [blur] 1
+INFO 25/11/2020 12:47:05  [focus] 1
+INFO 25/11/2020 12:47:12  [blur] 1
+INFO 25/11/2020 12:47:12  [focus] 1
+INFO 25/11/2020 12:47:45  [blur] 1
+INFO 25/11/2020 12:47:45  [focus] 1
+INFO 25/11/2020 12:48:37  [blur] 1
+INFO 25/11/2020 12:48:39  [focus] 1
+INFO 25/11/2020 12:48:40  [blur] 1
+INFO 25/11/2020 12:51:45  [focus] 1
+INFO 25/11/2020 12:51:45  [blur] 1
+INFO 25/11/2020 12:52:26  [focus] 1
+INFO 25/11/2020 12:52:26  [blur] 1
+INFO 25/11/2020 12:52:27  [focus] 1
+INFO 25/11/2020 12:52:27  [blur] 1
+INFO 25/11/2020 12:53:09  [focus] 1
+INFO 25/11/2020 12:53:10  [blur] 1
+INFO 25/11/2020 12:53:13  [focus] 1
+INFO 25/11/2020 12:53:13  [blur] 1
+INFO 25/11/2020 12:53:31  [focus] 1
+INFO 25/11/2020 12:53:32  [blur] 1
+INFO 25/11/2020 12:53:37  [focus] 1
+INFO 25/11/2020 12:53:38  [blur] 1
+INFO 25/11/2020 13:00:51  [focus] 1
+INFO 25/11/2020 13:00:51  [blur] 1
+INFO 25/11/2020 13:02:46  [focus] 1
+INFO 25/11/2020 13:02:46  [blur] 1
+INFO 25/11/2020 13:13:57  [focus] 1
+INFO 25/11/2020 13:13:58  [blur] 1
+INFO 25/11/2020 13:15:34  [focus] 1
+INFO 25/11/2020 13:15:34  [blur] 1
+INFO 25/11/2020 13:16:32  [focus] 1
+INFO 25/11/2020 13:16:33  [blur] 1
+INFO 25/11/2020 13:19:14  [focus] 1
+INFO 25/11/2020 14:27:57  [blur] 1
+INFO 25/11/2020 14:28:00  [focus] 1
+INFO 25/11/2020 14:28:01  [blur] 1
+INFO 25/11/2020 15:00:30  [focus] 1
+INFO 25/11/2020 15:00:31  [blur] 1
+INFO 25/11/2020 15:00:35  [focus] 1
+INFO 25/11/2020 15:00:35  [blur] 1
+INFO 25/11/2020 15:01:40  [focus] 1
+INFO 25/11/2020 15:01:42  [blur] 1
+INFO 25/11/2020 15:03:19  [focus] 1
+INFO 25/11/2020 15:03:19  [blur] 1
+INFO 25/11/2020 15:03:20  [focus] 1
+INFO 25/11/2020 15:03:20  [blur] 1
+INFO 25/11/2020 15:03:34  [focus] 1
+INFO 25/11/2020 15:03:42  [blur] 1
+INFO 25/11/2020 15:04:33  [focus] 1
+INFO 25/11/2020 15:04:35  [blur] 1
+INFO 25/11/2020 15:06:16  [focus] 1
+INFO 25/11/2020 15:06:16  [blur] 1
+INFO 25/11/2020 15:06:33  [focus] 1
+INFO 25/11/2020 15:06:34  [blur] 1
+INFO 25/11/2020 15:07:11  [focus] 1
+INFO 25/11/2020 15:07:11  [blur] 1
+INFO 25/11/2020 15:17:48  [focus] 1
+INFO 25/11/2020 15:17:48  [blur] 1
+INFO 25/11/2020 15:26:47  [focus] 1
+INFO 25/11/2020 15:26:47  [blur] 1
+INFO 25/11/2020 15:27:25  [focus] 1
+INFO 25/11/2020 15:27:25  [blur] 1
+INFO 25/11/2020 15:27:26  [focus] 1
+INFO 25/11/2020 15:27:51  [blur] 1
+INFO 25/11/2020 15:27:52  [focus] 1
+INFO 25/11/2020 15:27:52  [blur] 1
+INFO 25/11/2020 16:19:13  [focus] 1
+INFO 25/11/2020 16:19:16  [blur] 1
+INFO 25/11/2020 16:37:08  [focus] 1
+INFO 25/11/2020 16:38:36  [blur] 1
+INFO 25/11/2020 16:38:36  [focus] 1
+INFO 25/11/2020 16:38:58  [blur] 1
+INFO 25/11/2020 16:45:44  [focus] 1
+INFO 25/11/2020 16:45:45  [blur] 1
+INFO 25/11/2020 16:54:20  [focus] 1
+INFO 25/11/2020 16:54:21  [blur] 1
+INFO 25/11/2020 17:02:16  [focus] 1
+INFO 25/11/2020 17:02:16  [blur] 1
+INFO 25/11/2020 17:06:34  [focus] 1
+INFO 25/11/2020 17:06:34  [blur] 1
+INFO 25/11/2020 17:07:42  [focus] 1
+INFO 25/11/2020 17:07:42  [blur] 1
+INFO 25/11/2020 17:07:43  [focus] 1
+INFO 25/11/2020 17:07:47  [blur] 1
+INFO 25/11/2020 17:07:50  [focus] 1
+INFO 25/11/2020 17:07:52  [blur] 1
+INFO 25/11/2020 17:08:10  [focus] 1
+INFO 25/11/2020 17:08:14  [blur] 1
+INFO 25/11/2020 17:09:14  [focus] 1
+INFO 25/11/2020 17:09:17  [blur] 1
+INFO 25/11/2020 17:39:01  [focus] 1
+INFO 25/11/2020 17:39:04  [blur] 1
+INFO 25/11/2020 17:39:06  [focus] 1
+INFO 25/11/2020 17:39:07  [blur] 1
+INFO 25/11/2020 17:41:54  [focus] 1
+INFO 25/11/2020 17:41:57  [blur] 1
+INFO 25/11/2020 19:13:59  [focus] 1
+INFO 25/11/2020 19:14:04  [blur] 1
+INFO 25/11/2020 19:14:15  [focus] 1
+INFO 25/11/2020 19:14:15  [blur] 1
+INFO 25/11/2020 19:14:15  [focus] 1
+INFO 25/11/2020 19:14:15  [blur] 1
+INFO 25/11/2020 19:14:15  [focus] 1
+INFO 25/11/2020 19:14:15  addRecentDocument
+INFO 25/11/2020 19:14:18  ----------------before-quit-----------------
+INFO 25/11/2020 19:14:18  ------------------will-quit------------------
+INFO 25/11/2020 19:14:27  ------------------start------------------
+INFO 25/11/2020 19:14:27  typora version: 0.9.96
+DEBUG 25/11/2020 19:14:27  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/git.md'
+]
+DEBUG 25/11/2020 19:14:27  app.openFile
+INFO 25/11/2020 19:14:27  addRecentDocument
+INFO 25/11/2020 19:14:27  [Raven] instanceKey = e0cfbeca-9562-4437-93d8-4ec4ec413683
+INFO 25/11/2020 19:14:27  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 25/11/2020 19:14:27  [focus] 1
+INFO 25/11/2020 19:14:39  ----------------before-quit-----------------
+INFO 25/11/2020 19:14:39  ------------------will-quit------------------
+INFO 27/11/2020 13:02:22  ------------------start------------------
+INFO 27/11/2020 13:02:22  typora version: 0.9.96
+DEBUG 27/11/2020 13:02:23  [
+  '/home/glaulher/Typora-linux-x64/Typora',
+  '/home/glaulher/Documentos/javascript/Cronograma/notas.md'
+]
+DEBUG 27/11/2020 13:02:23  app.openFile
+INFO 27/11/2020 13:02:23  addRecentDocument
+INFO 27/11/2020 13:02:24  [Raven] instanceKey = d2001e0a-54e0-416f-bffc-ae9bbbf2dc77
+INFO 27/11/2020 13:02:24  [Raven] userId = e14f096c-b0a6-4de2-8256-4fd7513abe13
+INFO 27/11/2020 13:02:24  [focus] 1
+INFO 27/11/2020 13:04:12  [blur] 1
+INFO 27/11/2020 13:04:18  [focus] 1
+INFO 27/11/2020 13:04:19  [blur] 1
+INFO 27/11/2020 13:34:21  [focus] 1
+INFO 27/11/2020 13:36:56  [blur] 1
+INFO 27/11/2020 13:37:25  [focus] 1
+INFO 27/11/2020 13:40:10  [blur] 1
+INFO 27/11/2020 13:40:42  [focus] 1
+INFO 27/11/2020 13:59:32  [blur] 1
+INFO 27/11/2020 14:07:29  [focus] 1
+INFO 27/11/2020 14:07:30  [blur] 1
+INFO 27/11/2020 14:19:47  [focus] 1
+INFO 27/11/2020 14:19:48  [blur] 1
+INFO 27/11/2020 14:37:17  [focus] 1
+INFO 27/11/2020 14:37:20  [blur] 1
+INFO 27/11/2020 14:45:41  ----------------before-quit-----------------

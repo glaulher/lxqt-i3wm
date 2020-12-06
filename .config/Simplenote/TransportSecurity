@@ -1,0 +1,8 @@
+{
+   "v5pJjjpLYVObYfHQ+/N0ElUS3EfXUs1jLMKNx1fG/5M=": {
+      "expiry": 1636240501.65003,
+      "mode": "force-https",
+      "sts_include_subdomains": false,
+      "sts_observed": 1604704501.650035
+   }
+}

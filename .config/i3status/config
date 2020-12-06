@@ -57,9 +57,9 @@ disk "/" {
 #        format = "<span foreground='#a1d569'>  %free Free </span>"
 #}
 
-ethernet enp3s0 {
-        format_up = "<span foreground='#88c0d0'>  %ip </span>"
-        format_down = "<span foreground='#a0a0a0'>  Disconnected </span>"
+ethernet enp1s0 {
+        format_up = "<span foreground='#88c0d0'>  %ip </span>"
+        format_down = "<span foreground='#a0a0a0'></span>"
 }
 
 wireless wlp2s0 {

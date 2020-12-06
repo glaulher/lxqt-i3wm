@@ -1,0 +1,149 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/glaulher/Documentos/javascript/test
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :tsconfig.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/tsconfig.json
+> git cat-file -s a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d
+> git show --textconv :package.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/package.json
+> git cat-file -s 5c68720d9bd3fae0a9fdffc5b1124555733db471
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/App.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/src/App.tsx
+> git cat-file -s a53698aab3c66049c61980112dd0109dd2cd0845
+> git show --textconv :.eslintcache
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/.eslintcache
+> git show --textconv :tsconfig.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/tsconfig.json
+> git cat-file -s a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d
+> git show --textconv :package.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/package.json
+> git cat-file -s 5c68720d9bd3fae0a9fdffc5b1124555733db471
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/package.json
+> git rev-parse master
+> git cat-file -s 5c68720d9bd3fae0a9fdffc5b1124555733db471
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :package.json
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/index.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/src/index.tsx
+> git cat-file -s ef2edf8ea3fc42258464231e29140c8723458c1e
+> git show --textconv :tsconfig.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/tsconfig.json
+> git cat-file -s a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/tsconfig.json
+> git cat-file -s a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d
+> git show --textconv :tsconfig.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/App.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/src/App.tsx
+> git cat-file -s a53698aab3c66049c61980112dd0109dd2cd0845
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :tsconfig.json
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/tsconfig.json
+> git cat-file -s a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/App.tsx
+> git ls-files --stage -- /home/glaulher/Documentos/javascript/test/src/App.tsx
+> git cat-file -s a53698aab3c66049c61980112dd0109dd2cd0845

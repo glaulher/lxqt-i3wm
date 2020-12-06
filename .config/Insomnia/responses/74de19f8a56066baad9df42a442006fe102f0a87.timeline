@@ -1,0 +1,142 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3333/users/avatar",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-20T18:01:02.069Z",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1605895262069
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1605895262074
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (3620 seconds), disconnect it\n",
+		"timestamp": 1605895262095
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 16 seems to be dead!\n",
+		"timestamp": 1605895262095
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 16\n",
+		"timestamp": 1605895262095
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3333...\n",
+		"timestamp": 1605895262096
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3333 (#17)\n",
+		"timestamp": 1605895262097
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "PATCH /users/avatar HTTP/1.1\r\nHost: localhost:3333\r\nUser-Agent: insomnia/2020.4.2\r\nContent-Type: multipart/form-data; boundary=X-INSOMNIA-BOUNDARY\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDU4OTA1MDgsImV4cCI6MTYwNTk3NjkwOCwic3ViIjoiM2FlMjJmYjgtN2E3YS00NTg5LThjZjYtMjgzYTQ2M2UxZDJkIn0.NLKPGVydQR5wRbvXS4vW67r9F1J4sc7VG1tpe7i8ksY\r\nAccept: */*\r\nContent-Length: 6918\r\n\r\n",
+		"timestamp": 1605895262097
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "--X-INSOMNIA-BOUNDARY\r\nContent-Disposition: form-data; name=\"avatar\"; filename=\"2be6d422b0f51.png\"\r\nContent-Type: image/png\r\n\r\n�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000M\u0000\u0000\u0000<\b\u0002\u0000\u0000\u0000�\u0015��\u0000\u0000\u0000\u0004gAMA\u0000\u0000��\u000b�a\u0005\u0000\u0000\u0000\u0001sRGB\u0000��\u001c�\u0000\u0000\u0000 cHRM\u0000\u0000z&\u0000\u0000��\u0000\u0000�\u0000\u0000\u0000��\u0000\u0000u0\u0000\u0000�`\u0000\u0000:�\u0000\u0000\u0017p��Q<\u0000\u0000\u0000\u0006bKGD\u0000�\u0000�\u0000�����\u0000\u0000\u0000\tpHYs\u0000\u0000\u000b\u0013\u0000\u0000\u000b\u0013\u0001\u0000��\u0018\u0000\u0000\u0019aIDATh��{y�UՕ���9�;�\\PL\u0002\u0005\u000e@\n%�I�\u0010m\bj��\"�E�Q�n�!�6�$��I'j4�hb�_��\u0018į\u0000�bx\u0018@\u0001\t\u0011\u0019d������{o��L{����rS�\fUj���?.Up�����Z��[k_\b\"7��RJ�9�\u0014\u0000R�Ԟ={v�ܹ{��#G�tww�����y\u0000�F���奥��^ziMMͤI�jjjb�\u0018\u0000 ����a�I��A�,�J)\u0000 �\u0010B���������6o���ޮ�>\u0012�ض]TTd�6!$�����8���d�\u001e\u0006\f\u00180cƌ�o�yΜ9�x\\�\u001a��\u0010��\u0005N����1F)=|��ҥK_}��d2I\b\u00191bDuu��!CJJJ\"��a\u0018�\u0010J)\"*��g.�K�ӧN�:z��cǄ\u0010������w\u0016/^<t�P��R�1�\u0005�~Q�RJ!�eY���O>���/��������N�:r��X,F)��H)�Z�S�\u0010�10�\u0018c�l���q���G�\u001e�m{�?�я��ʴ\u001b\u0011�_\b��+D��o��\u001f�8�J]|�ŵ��C�\fQJ\t!�\u0010�X�t�\u001d\u0010�m�}>\u0014\n\u0001@gg�-[v��]QQ���{��q�#���\f��0������o�ڵ���s��\u0019:t(!��<Dԡ�����\u001a�eY�a�>}����nhh��[�-[VQQ!�����é�{��n������)S�L�>�s�y\u001e��t}\u001f\u001a�mی������#F�X�r����?\u001f�σ��}�4W�Z5o�<���̙3~��\\.�\tC[\u0012�x�N3�9��S�B\b�m�ԩS����m�+W���k>\u0007�~��k����v�m���s�VWW���\u0002%\u0012B�\u0010A\u0010\u0000@(\u0014B� \b��:����zH)m�nmm]�b\u0005clժU�^{�f��)�\u001a�\r\u001bn��\u0006��fϞ}�e���y��R���<���|���UUU�H�R���;;;O�:���@\b1\f�_A�׵m���m�ʕ�PhÆ\r�&M�U��S�{�ȑ�ӧ���O�8q��ɹ\\N[�\u0010������\u001a7n\\4\u001aՂF�/����'N�غukSSS8\u001c.�\n=�~�St���$��z���u��\r\u001d:t۶m�\u0006\rRJ�����S?&�����}�ݪ��ٳg�Pԟ���z�Æ\r����^��-\b\u0002�T&�Y�f͞={�ᰔ�0�vB��\u000bi�1f�f��5T˲6o�|�С�s���[��u��\u001e}��\u000b>��!����\u001f_�|�a\u0018S�LI$\u0012Z�ꀴm����袋\f��-_\n�Ԣ�4͋/��������0\f�9u\f;��\u001d~�ȑ\u0015\u0015\u0015\u0000��d\u001c��\u000b!\n����������\u0003��œ'O�<�/j�O�� w��=u�T�u�\u000e\u001dZ[[��~�g|ߟ7oޕW^�Y��;((!Ƙ뺭��K�.u]W+!�uKJJf͚5f̘X,�\u0018�q~�ĉ�\u001b7\u001e9r$\u001c\u000e\u0017�?\u0012��ܹs���EEE;w�\u001c5jT_��O�Ԟ�p�>��R:v�آ�� \b�ھ�\u000f\u001f>��\u001bo\f�Bz=�k�F���R�H$2�́\u0003\u0007\f���r�\u0007\u000f�?��q�\"�HA\u0006��9p�����T*���\u001f\u001b���\\)e\u0018FSSS6�M��7�t�N`�p� �Y�w�Y�z5\u0000��YRR⺮vfM0�_~y4\u001a՚[{W�!�ԇ��P'L�\u0010\n�\\׍�b�����\u000e\u001dڛu\n�\u001d�D�����\\.G)\u0015B��\u001b�ǣ�(\u0000�����\u000f8�\u0017L�}�������\u000f%%%�ey���S+����L�=��q���8\"��\u0019�ǕR��WUUUTTtww��֎\u001a5�����Ղ�R�\u0013U,\u0016���\u00101����UJ���j�_�t)�b�ωS���Ç׮]�}C�.A�RA\u0010���D\"q�\u0013UJ�������3�<��CK�,����,�\u0010bYV\"�0MSK9�Xqqq��ѧ�W�}��у\u0006\r�f��;t�j`uuu�O�f�\u0015����\u0002yV��z�j�uM��}߲� \b�\u0010ڵ\n�����������\u000e\u001d:�w�nݺ���\u0007\u001ex��}\u0000H$\u0012���a\u001c;v����4�믿~��\u0001�����/\u0016�UVV\u001e:tH�S�\r\u001dD�dr͚5������,d�5k�@�T.{\r](��{�3���uuu��\u001e�4����z饗\u001a\u001b\u001b#�H*�b�E��Ç\u000f���/���e�\u0016-Z��֦Ӳ^Q\u0013\u0004���}-!��\u000b[z뭷�B��\u0005p2�\u001a\u001a\u001a>��C8�\u0019ы��R\u001b������ݲ,�\f�RJ\u000f\u001c8�J������dGGG:�noo����<���1�Jiٿ�\u000e��[��_����X[R\u0007\u000b\"��i�khwо�cǎ��N��yLz>�\u001a��ݻ3�LAI���{=)e&�ٵk�Ʃ)D\u000f��^���\\.���r���nJ�\u0011#���������u�����b��:::Z[[=ϋ�b��u��,+�J\u001d<x�0\f-�� �G�=���}߾}�\r�\u001b�\u001eژ�Y�٬�W`#۶�~����N۶)���0M3��~�[ߺ�+\u001c�ѡ\u0005\u0000�\u0017/\u001e<x��\u0015+�_,_���{�8q���믻n���ij\u0013����_����A��^=���]i�����\u001b�u�����\u001d9r��\u0014�lV똂os�[ZZ^|���\u001e{�����\n�R&\u0012�իW?�˧7��)�H̻s���\u000b׭]��M�\"�(\u0002֯];yҤ\u001d;v���qüz�L$�\u0010A\u0011�R\u0015\u0015\u0015\u001f~���/�\u001c�Dt�B�x2��Ճ\u0007\u000f~Q�'O�,@\u0002\u0000�qzzzb�X�I�R�h���^\u001b1b��w߭��\u0005��}����g���򔳐e�u���>�\u0004r\u0016\u0004�!\u000b��O��������{\u0000A����\r1N\u0000(������$��k=���q\u001c�\u0004.pUCC��m�Oa9��+�j�����v�N\n�t,\u0016�d[P<��\u001b7\n!�M�\u0016\u000e�\u000b\r\u0004B�Bt�\u0017��&7�Y������L\u000f3���Gs�\u0012K�6�oع�]@i\u001b�\nD�����]�x��g�y^��1�}^����J&�\u0005N&�����<yr���UUU���i�o��S��o\u0016���lv���ǎ\u001d��䓘����ڲ�\u0002��\u0019\u0006J�R555���wkkk\u0013�DaZ?\b����ꫯԭ^\u0011\t[&\u001a\n��LJ\u0003\b���\b8�\u0013HόDK�X�<���l'/N�\n,D������Ǐ{�׻5���9�9s�E��Ν�c[�R��p�n�;����?��{��Պ��̈�H$���>U+\u0003\u0000�,��Q\n�\r\u001dt�ec\u0006T\r\"@��;>>p���\u001cǏ%JP�A\u001d�\u0004;$#Q�\b����\f�*[\f�K;��\u0019Ƈ��9�e{�\u0015�|\u0000ҋ\u000b:::t��Ӟ�Xa��ƍ����o������O4s!�\u000bm�l6�ꫯ>��s:�{�l8�!�R\u0003\u0007\u000e���\fN\u0004 ��s\"d��#��\u001a2�,��\u0018\u0015q>�,28�W�S\u00151���LD��\u0018I�A8d�v��J���P\t�9��Λ�*\u001f�K�\t��lB���\u0018c��477�G�j�Հ+++���\u0005\u000b\u0016�\u001a5�����d2�|���{����/\b�:#����*\u0014\ni!\u0006\u0010\u0000����\\i)�p�Q\u0011&#�AE\"S\\D�hذ#<\u0014�BQ\u001e�3^B̘2�\b�K\u001a'\f�sIJ\b�\u0006�����}\u000f�`w�I�\u001c\u0004\tJ|�P{fKKK�@=��\r\r��\f�x�'��x\u001d\u001d\u001d/���o~���f]�kv9�\\J������2�0!\u00121 ��0��]]-f��f\u0006\\\u0015����D�!B��6RC\u0010*�\u0004$H���*��\u00142\u0015\u0015�;�)���+*Z��*�R�R��D��\u0006A���\u0011\u0004A_:��š�\u001a>|�#�<r�-��}�����\u000b���J&��}\r���2�\u000e���\"˲�\n(a\u0000\f \bT`I���Д�%\u001d\u0017}��ZT\bI(�RD\u00022*MJ�����z\u001e1\b���]����ڠ��\u0013P\u0012��I�W�a$�yN:�����A�\u0002\u001d\u0000�\u0010�h��\u0007\u001f\\�dIii)\"򖖖���X,���B/�p�u�I\u000b��d2\u0019��M�\u0010(\u0000\u0004\"P��H�~�_iv�Ϯp.�%4nHDB\u00009!>�.\u0000 �\u0000H@0\u001a��o���\u0006�UF\u0010�̆�2�|E��f�\b;?H�A\u00100�n��֧�zj��х��Oz��|~ǎ\u001d�֭۰a�޽{\u000b\u001e���P@�� m;l��1�HQ\u0011����#��\u001f懪/\u000eC�$4\f#0(�\u001e�H%\u0002Q@\u0015P\u000e�#\u0013\u001d[��w-�����M$\u0006a\f\u0002\u0019����zW'�]ZS�V\b_���~������ޚ�A��Q��\b\u0000R�C�\u000e��������/I��p&7�߼p�\u0013�\u0018��@\u0001���y6�\u0002�?hT�F�\u0001�\f\u0010f���#2$\n� PF� s��\u001eznm�'��J�-)\u0002�������sD�J)5jԨ���'����\fT�u>9�B'�ж(`nnn޲e˦M�֮]���|����6�\u001c\fj��h��WSFx�_b�\u001bEA�`\t��]�\u0003\u0000��\u0004����G�\u001a�}�.\u001c*\\\u0006�TR��\u0005�RJ\r\u00180������\u0005\u000b�Ѩ~볺�,z��K�30ƶo�>u��>\u0012\u001d\"\u0002\u0010�fH���\bۢ'?gl�O\u000fR��T�E\u0000�!8E��b\\9�c�'7�\u0012�\u001cKG\f��\u0014�A���B�Ў\u001d;jjj�\r�u�O?�2c�pe��B�)S�̜9�p\u0011v�q� ��\u0000�KB���\f��gn��1�cu51�Q�\u0007�\u001c\u0013^�nb�<�f��gDL\u000f�b_���f���Ꚛ� \b4\u000f���p�}\u0017�\u0018\u0000\u0016,X\u0000g����\u001b�A)x\u0018\u0004�P.�\r{Ԩ���i\u001f�[}����\u0004\u000e���-�ԉ��o�)\u0002ꈜ+\u0002�P\u0018�q�\u000b��6\u0016-Zt\u001e3������uXO�6mǎ\u001d�\u0016�< 5�\u0001��ѣgϞ=cƌq��\u000e\u001a:�\u000e�)`׮g�;\u001eNXQ��,�3C����\u0007�h����������-[�twwk\u00169\u0017��>����gϮ�����\u0019�a����o��&�-�?\u0005�\u0010���_���\u001d��5�r��\u0004\u000eb�cۿ6>M�\u0017�|\u0006z�=!\u0011�\u0014\u0005\"lkk[�t�%�\\r\u001e+\u0015�t���:\\\u0010B�p�(EĻ��\\Pu�qذa�\u001aK��'=$!Q*���*P�(��|�S���,)�B��I�^^�d\u001f{�1M\u0013�\u0011?���ŋ\u000b\u001b��p��>}��E\u0017]\u0004��,ҿN�0���\t\u0011]��<��\u0016\u0014B\u0004>�Aࠋ~����9�5@t�׻�\u0016\u0004�~W{�.�{/��ޘ1czzz\n\u001b����=�Ϲ�iß�|��\u0014\u0010�D(\u0001�\u0010�P����m۶�\u001c92�J���3�\u0007\u0004\u0000@����TH�)D9�\u0013A|\u0004�\u0019�D��{\u00051\b����\u0017���\u0005\u000b\r\u0016��W��A\u0004b�y��\u0019�W\u0003)�������^a�\u000b#d,]��\u0007�៸���\u0004�`�\u0013��OO��S-�-��yv.\u0000$@\u0000\b�\u0004����:�3ġ\u0014�lV[;s��\u0003�R\u0005HITB��W��;�\b���F\u001f��ҟom 1\f��E�����\u0013�<�8�\u0012�R\u0000p�ec:�;<�닎�\u00045\\`�BJ�(\u001aU=j��\u0003��(���_-�s�\u001d3z\u0010�L\u0012�\u0000}�gpR\u0000�\u0013\b;�z���DD��'�\u001d\f\u001b(\u0005/�p�\u0010\"���b�\u000b#9�(p��\"���Z{\u0000\bU@�������9���𵿠#��\nI�n���-\u001c\u0005� X�����~\u0014�sп����\u0000\u0000o�iō߸�u=D�R�^\b�\u0005\u0000k�H\u0000\u0010� EP\b��\u0017��c��]�\u0001�\u0010\u0004����{o\u001a��\u0016v�;�5��ӎ�}�G�\b}��B�S�C\u0005'ĐN��o�;w��r�������:֖\u0006�y������p>�S�O j\u0010 �\u000b*\u0005\u0003�ι\u0015$\u0004\b1���$%\u0002\b\u0006�\u0001b�hW&�����уG&\f*��M�hf2y��ld^��d���k\u0007c�7�K�I\u0014!���� \u000f�0�u�y!�iI�\u00157\u000b��f��.�߬��[\u001fHP�̝��E��ʤ�\u0006Rpi\"5%�\u0004�sm\u0001\tPB�\u0002D�(ri�\r�\u0016�\u000f�~�oO�����߸���*.]�\u0013#��\u0012\u001a���<�\"�V޵1\u001c)\u0017�\u0014\b=�\u0013�\u0003�B)\t\u001a�w��aJ\u0012#��\bRT��\u0012fXol;��??ز���d�m߾�\u0019ӊ��\u0018��s��ș�o�ߍk�\"\u0000\u0002Z԰̰E�s���O+7�[_w��#\u000b.��X�=B\u0011f�2\u0012R\f\u0014��v��������U�ʯx@)\t\u0014�9�\u001f8\u0011\u0003B\f�:��ǚĐY���*�r��\"\u000bA�\nGz\\���c�^߻�@*\u001e.�<��+&M\u001c>|@<�9\u000fS�\u0002\u0011�p\"��R�\u0010�8�\u0012��{�����C�������c�\u0006\u000f�1��+\u0007����B�T�i��c4\u0006� \u000b+�\u001bF&��y\u0018~_�u�G%���\u0014\u0019��!\"9�l@�\u0010!�\t'\" �O\u0019e\u0011�,��\u0018d�]\u001d��kv�I��#\u001bv����՜G\u0007\u000e\u00180x��ʁ�\u0015e�!;\u0016\n��\u0002)e\u0010�LO���tk{��\u000e7�R\u001e�Y\u0013�~yǐ�ƕ2p�9��\"�)�$a\u0006S!EMJ<\u0003\\¢R2!��\\\u0001@@2d�!���-\u000b\u0014DL�T�E~��*�\u0000(\t�\u0004)U��J\n�Iy\u0014��ƨ��;�C\u000e\u001cϾ�?�s��\u0013\r\u001f�\n�\u0002��<P\u0000\b�pf��iy�\u001f^a�8#:�+�㇕���<�r2i \u0011n\u0012J$A@$\u0004)\u0012\u0016P\u0012F)���i&\u001b�\u0010~�\u0018\n��!�\u0003�sA�N0%8f(\u0011\u001evs�����\b��h%�uM�\u0002E\u0011�Q�H�S2�m�ͨ�f���͕i�r��\u0019/h�:\r\u0013\u001e.\u001d�Mf�X(QQ\u00129����=�#4�.�Dg��@+B\u0019p.\u0019(@A���H9R���!�B1\t�l�~��T\u000e�\t\u0000\u0014l �K�'A\u0002�\u0007(\u001b?��ǫ2'�(\u001e>��\f���E\u000fU(\b!�@�\u0012�,� �w}�\u0011P��V0�X�E_�5��%@#:[\u0002!�.�)�F=��)�8vB��\t\u0012\u0000@�\u0007\u0001\u0002H\u0010\u0000\tB��\u0003#j��cg�yO����\n(\u0018@\u0004\u0000?W�����I��S��ґ���*�Iv\u001d�7E2�9\u0001K\u0001\u0001D@ПDX\u0012�9#����\u0007<r�ϵE��k�UbDHO)\u000f\u0015����7��|��\u0007�In\u0000�\u0002�\u0002 �\u0002@�HP�'�e\u00149gF�o��~p\u001b\u001b9�l�bI�\u0012\u0006����~}�\u0016A\u0012�\"P�`�s��\rO��}���l�ŋI�\u00132P �� p\u0015\u0006L�|Z:^�˅�j\u0012�{�l����\b\u0001\u0005�\u0000\u0000�\u0004�0gך��\u000f��)\u001a��h�A)�q` \u0019g<B(#�\"\u0011��%�~��tG��\u0011��\u0019n�\t�MeR�(b~9y�!F$����˜Coکv�8�PN,�\u0013�\u0004�K�J(��*.K�b�����o�1\u0010\u0015R���\bA*\u0005���{��_;��\u001a�9�C\u0006)�\u0019\u0018\u0004(\u0005�\u0011~�u�JX����߉\u000e�^�(���^@K����+�\u0012Ɓ�l[��7��Ͳ�P8{�8휠\f\u000fN&.6+j�C&ۃ�s^�\u0002�\f9U\u0004\u0010��uf\u0012\u0010\u0015��P\u000eN���6n�t�\"]ǍL�p�������%��I|ԬP�X�\u0004�@\u0014\u0000'}�\u0014�/\n�)�N�Q:\u0000\u0000\u0000%tEXtdate:create\u00002018-09-27T13:59:09-03:00�O��\u0000\u0000\u0000%tEXtdate:modify\u00002018-09-27T13:59:09-03:00�\u00127\f\u0000\u0000\u0000\u0000IEND�B`�\r\n--X-INSOMNIA-BOUNDARY--\r\n",
+		"timestamp": 1605895262098
+	},
+	{
+		"name": "TEXT",
+		"value": "We are completely uploaded and fine\n",
+		"timestamp": 1605895262098
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1605895262157
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1605895262157
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1605895262157
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1605895262157
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 11\r\n",
+		"timestamp": 1605895262157
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"b-Ai2R8hgEarLmHKwesT1qcY913ys\"\r\n",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Fri, 20 Nov 2020 18:01:02 GMT\r\n",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 11 B chunk",
+		"timestamp": 1605895262158
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #17 to host localhost left intact\n",
+		"timestamp": 1605895262158
+	}
+]
