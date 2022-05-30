@@ -32,3 +32,7 @@ $ xlocate bin/gpg
 about acpilight
 
 https://gitlab.com/guimmp92/acpilight
+
+## xev
+
+ver os nomes das teclas
